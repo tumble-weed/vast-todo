@@ -1,7 +1,8 @@
 TODO:
+- fileorder
 - use_donefilelist
+- continue filelist
 - ?benchmark
-- dataset.images in continue
 - spearman correlation
 - try moving to second vast system
 - variants
@@ -10,6 +11,7 @@ TODO:
 - elp convert download scripts to python
 .......................................
 - cam_benchmark read imagenet
+- dataset.images in continue
 - get_transform
 - get_dataset
 - get_model
@@ -20,11 +22,9 @@ TODO:
 - sharpness annealing
 - run_on_single_image_backend
 - rn_on_single_image 2
-- patch_sampler
 - metricsdatahandler
 - gp saliency
 - summary
-- continue filelist
 - hack for visualization
 - deletion game
 --------------------------------------------------------------------------
@@ -55,11 +55,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 ------------------------------------------------------------------------
 LATER:
 - $VUTILS
-- create run scripts
 - elp scripts
-- elp convert upload scripts to python
 - elp vast-scripts
-- correct classes of saved resutls
 - copy download voc to cam_benchmark as well
 - coco class images in torchray
 - add as_class_names etc to coco
@@ -74,6 +71,10 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- correct classes of saved resutls
+- elp convert upload scripts to python
+- patch_sampler
+- create run scripts
 -_oct17
 - explore results
 - change location of compiled in multithresh
