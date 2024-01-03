@@ -1,7 +1,5 @@
 TODO:
 - add file name to dutils hack, note
-- continue_ start and end
-- add optional saving to attribution_benchmark
 .......................................
 - install rclone
 - add scripts for rclone
@@ -10,8 +8,6 @@ TODO:
 - copy git files to gdrive
 - copy files at frequent interval
 - make service to list all directories with .git in them and copy those files
-.......................................
-- pascal class images etc in torchray
 .......................................
 - elp run-scripts
 - elp vast-scripts
@@ -43,8 +39,12 @@ TODO:
 -------------------------------------------------------------------------
 LATER:
 - copy download voc to cam_benchmark as well
+- coco class images in torchray
+- add as_class_names etc to coco
+
 -------------------------------------------------------------------------
 RECHECK:
+- add optional saving to attribution_benchmark
 - fix voc error
 - download pascal dataset
 - cam_benchmark models
@@ -56,6 +56,9 @@ RECHECK:
 - init_mask_logit_mag
 -------------------------------------------------------------------------
 DONE:
+- continue_ start and end
+- pascal class images etc in torchray
+- add tensor_to_numpy to dutils
 - who copies the git aliases
 - perturbation to opts
 curl -fsSL https://code-server.dev/install.sh | sh
