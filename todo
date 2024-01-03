@@ -1,6 +1,12 @@
 TODO:
 - use_donefilelist
+- check if continue works when start,end and some images are present
 - dataset.images in continue
+- return from extremal_perturbation
+- correct classes of saved resutls
+- compiled model in attribution_benchmark
+- spearman correlation
+-try second system
 .......................................
 - elp run-scripts
 - elp vast-scripts
@@ -10,6 +16,9 @@ TODO:
 - elp scripts
 .......................................
 - cam_benchmark read imagenet
+- get_transform
+- get_dataset
+- get_model
 - wrapper for multi
 - imagenet localization parser: https://github.com/tumble-weed/GPNN-CAM/blob/1e1801b4a61e288971180a7102687efaf805a1b4/imagenet_localization_parser.py
 - imagenet 5000
