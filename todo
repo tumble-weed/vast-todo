@@ -1,4 +1,6 @@
 TODO:
+- use_donefilelist
+- dataset.images in continue
 .......................................
 - elp run-scripts
 - elp vast-scripts
@@ -15,7 +17,6 @@ TODO:
 - sharpness annealing
 - run_on_single_image_backend
 - rn_on_single_image 2
-- explore results
 -_oct17
 - $VUTILS
 - patch_sampler
@@ -42,6 +43,7 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- explore results
 - resultsdatahandler
 - add optional saving to attribution_benchmark
 - fix voc error
