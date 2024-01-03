@@ -1,5 +1,6 @@
 TODO:
 - use_donefilelist
+- benchmark
 - check if continue works when start,end and some images are present
 - dataset.images in continue
 - return from extremal_perturbation
