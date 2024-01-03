@@ -1,13 +1,10 @@
 TODO:
 - use_donefilelist
-- create run scripts
 - ?benchmark
 - dataset.images in continue
 - spearman correlation
 - try moving to second vast system
 - variants
-- rng
-- remove keys from vutils
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
@@ -23,8 +20,6 @@ TODO:
 - sharpness annealing
 - run_on_single_image_backend
 - rn_on_single_image 2
--_oct17
-- $VUTILS
 - patch_sampler
 - metricsdatahandler
 - gp saliency
@@ -32,41 +27,10 @@ TODO:
 - continue filelist
 - hack for visualization
 - deletion game
--------------------------------------------------------------------------
-LATER:
-- elp scripts
-- elp convert upload scripts to python
-- elp vast-scripts
-- correct classes of saved resutls
-- copy download voc to cam_benchmark as well
-- coco class images in torchray
-- add as_class_names etc to coco
-.......................................
-- install rclone
-- add scripts for rclone
-.......................................
-- list files in directory using git
-- copy git files to gdrive
-- copy files at frequent interval
-- make service to list all directories with .git in them and copy those files
-
--------------------------------------------------------------------------
-RECHECK:
-- explore results
-- change location of compiled in multithresh
-- resultsdatahandler
-- add optional saving to attribution_benchmark
-- fix voc error
-- download pascal dataset
-- cam_benchmark models
-- librecam models
--saver
--change tracker
-- abspath in dutils
-- 3 step softmax fixed window sizes
-- init_mask_logit_mag
--------------------------------------------------------------------------
+--------------------------------------------------------------------------
 DONE:
+- rng
+- remove keys from vutils
 - computation of point in variants vs attribution-benchmark
 - return from extremal_perturbation
 - compiled model in attribution_benchmark
@@ -88,4 +52,40 @@ scikit-image
 matplotlib
 ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
+------------------------------------------------------------------------
+LATER:
+- $VUTILS
+- create run scripts
+- elp scripts
+- elp convert upload scripts to python
+- elp vast-scripts
+- correct classes of saved resutls
+- copy download voc to cam_benchmark as well
+- coco class images in torchray
+- add as_class_names etc to coco
+.......................................
+- install rclone
+- add scripts for rclone
+.......................................
+- list files in directory using git
+- copy git files to gdrive
+- copy files at frequent interval
+- make service to list all directories with .git in them and copy those files
+
+-------------------------------------------------------------------------
+RECHECK:
+-_oct17
+- explore results
+- change location of compiled in multithresh
+- resultsdatahandler
+- add optional saving to attribution_benchmark
+- fix voc error
+- download pascal dataset
+- cam_benchmark models
+- librecam models
+-saver
+-change tracker
+- abspath in dutils
+- 3 step softmax fixed window sizes
+- init_mask_logit_mag
 
