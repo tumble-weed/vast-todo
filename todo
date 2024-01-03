@@ -1,5 +1,6 @@
 TODO:
 - cam-benchmark
+- crop sampling
 - visualize gp
 - spearman correlation
 - try moving to second vast system
@@ -40,10 +41,7 @@ DONE:
 - add tensor_to_numpy to dutils
 - who copies the git aliases
 - perturbation to opts
-curl -fsSL https://code-server.dev/install.sh | sh
 - create environment
-conda create -n gpnnenv python=3.8
-conda install -c anaconda pip 
 - install dutils
 conda clean --all
 - dutils:
@@ -54,6 +52,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 ------------------------------------------------------------------------
 LATER:
 - $VUTILS
+- equalized sampling
 - elp scripts
 - elp vast-scripts
 - copy download voc to cam_benchmark as well
