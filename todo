@@ -1,13 +1,4 @@
 TODO:
-- add file name to dutils hack, note
-.......................................
-- install rclone
-- add scripts for rclone
-.......................................
-- list files in directory using git
-- copy git files to gdrive
-- copy files at frequent interval
-- make service to list all directories with .git in them and copy those files
 .......................................
 - elp run-scripts
 - elp vast-scripts
@@ -41,6 +32,14 @@ LATER:
 - copy download voc to cam_benchmark as well
 - coco class images in torchray
 - add as_class_names etc to coco
+.......................................
+- install rclone
+- add scripts for rclone
+.......................................
+- list files in directory using git
+- copy git files to gdrive
+- copy files at frequent interval
+- make service to list all directories with .git in them and copy those files
 
 -------------------------------------------------------------------------
 RECHECK:
@@ -56,6 +55,7 @@ RECHECK:
 - init_mask_logit_mag
 -------------------------------------------------------------------------
 DONE:
+- add file name to dutils hack, note
 - continue_ start and end
 - pascal class images etc in torchray
 - add tensor_to_numpy to dutils
