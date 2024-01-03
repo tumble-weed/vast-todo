@@ -19,7 +19,6 @@ TODO:
 -_oct17
 - $VUTILS
 - patch_sampler
-- resultsdatahandler
 - metricsdatahandler
 - variants
 - gp saliency
@@ -43,6 +42,7 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- resultsdatahandler
 - add optional saving to attribution_benchmark
 - fix voc error
 - download pascal dataset
