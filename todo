@@ -1,5 +1,5 @@
 TODO:
-- ?benchmark
+- cam-benchmark
 - spearman correlation
 - try moving to second vast system
 - variants
@@ -12,7 +12,6 @@ TODO:
 - get_transform
 - get_dataset
 - get_model
-- wrapper for multi
 - imagenet localization parser: https://github.com/tumble-weed/GPNN-CAM/blob/1e1801b4a61e288971180a7102687efaf805a1b4/imagenet_localization_parser.py
 - imagenet 5000
 .......................................
@@ -21,7 +20,6 @@ TODO:
 - rn_on_single_image 2
 - metricsdatahandler
 - gp saliency
-- summary
 - hack for visualization
 - deletion game
 --------------------------------------------------------------------------
@@ -71,6 +69,8 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- wrapper for multi
+- summary
 - correct classes of saved resutls
 - elp convert upload scripts to python
 - patch_sampler
