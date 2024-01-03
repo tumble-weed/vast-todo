@@ -1,6 +1,5 @@
 TODO:
 - cam-benchmark
-- kill third machine before sleeping
 - visualize gp
 - spearman correlation
 - try moving to second vast system
@@ -26,6 +25,7 @@ TODO:
 - deletion game
 --------------------------------------------------------------------------
 DONE:
+- kill third machine before sleeping
 - use_donefilelist
 - continue filelist
 - fileorder
