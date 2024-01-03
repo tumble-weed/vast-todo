@@ -1,5 +1,4 @@
 TODO:
-- sanity checks
 - cam-benchmark
 - kill third machine before sleeping
 - visualize gp
@@ -52,6 +51,7 @@ ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ------------------------------------------------------------------------
 LATER:
+- sanity checks
 - $VUTILS
 - equalized sampling
 - elp scripts
