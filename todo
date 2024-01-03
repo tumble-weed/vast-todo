@@ -1,22 +1,24 @@
 TODO:
-- wrapper for multi
-- run-scripts
-- vast-scripts
-- convert upload scripts to python
-- convert download scripts to python
-- scripts
-- cam_benchmark read imagenet
-- imagenet localization parser: https://github.com/tumble-weed/GPNN-CAM/blob/1e1801b4a61e288971180a7102687efaf805a1b4/imagenet_localization_parser.py
 - pascal class images etc in torchray
+.......................................
+- elp run-scripts
+- elp vast-scripts
+- elp convert upload scripts to python
+- elp convert download scripts to python
+.......................................
+- elp scripts
+.......................................
+- cam_benchmark read imagenet
+- wrapper for multi
+- imagenet localization parser: https://github.com/tumble-weed/GPNN-CAM/blob/1e1801b4a61e288971180a7102687efaf805a1b4/imagenet_localization_parser.py
 - imagenet 5000
+.......................................
 - sharpness annealing
 - run_on_single_image_backend
 - rn_on_single_image 2
-- download pascal dataset
 - explore results
 -_oct17
 - $VUTILS
-- who copies the git aliases
 - patch_sampler
 - resultsdatahandler
 - metricsdatahandler
@@ -27,7 +29,11 @@ TODO:
 - hack for visualization
 - deletion game
 -------------------------------------------------------------------------
+LATER:
+- copy download voc to cam_benchmark as well
+-------------------------------------------------------------------------
 RECHECK:
+- download pascal dataset
 - cam_benchmark models
 - librecam models
 -saver
@@ -37,6 +43,7 @@ RECHECK:
 - init_mask_logit_mag
 -------------------------------------------------------------------------
 DONE:
+- who copies the git aliases
 - perturbation to opts
 curl -fsSL https://code-server.dev/install.sh | sh
 - create environment
