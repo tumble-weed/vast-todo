@@ -1,4 +1,16 @@
 TODO:
+- add file name to dutils hack, note
+- continue_ start and end
+- add optional saving to attribution_benchmark
+.......................................
+- install rclone
+- add scripts for rclone
+.......................................
+- list files in directory using git
+- copy git files to gdrive
+- copy files at frequent interval
+- make service to list all directories with .git in them and copy those files
+.......................................
 - pascal class images etc in torchray
 .......................................
 - elp run-scripts
