@@ -1,5 +1,4 @@
 TODO:
-- fix voc error
 - add file name to dutils hack, note
 - continue_ start and end
 - add optional saving to attribution_benchmark
@@ -46,6 +45,7 @@ LATER:
 - copy download voc to cam_benchmark as well
 -------------------------------------------------------------------------
 RECHECK:
+- fix voc error
 - download pascal dataset
 - cam_benchmark models
 - librecam models
