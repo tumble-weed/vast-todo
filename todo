@@ -7,6 +7,8 @@ TODO:
 - compiled model in attribution_benchmark
 - spearman correlation
 -try second system
+- variants
+-rng
 .......................................
 - elp run-scripts
 - elp vast-scripts
@@ -30,7 +32,6 @@ TODO:
 - $VUTILS
 - patch_sampler
 - metricsdatahandler
-- variants
 - gp saliency
 - summary
 - continue filelist
