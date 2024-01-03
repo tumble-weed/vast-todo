@@ -1,6 +1,6 @@
 TODO:
+- sanity checks
 - cam-benchmark
-- crop sampling: limits should be int or floor or ceil?
 - kill third machine before sleeping
 - visualize gp
 - spearman correlation
@@ -70,6 +70,9 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- crop sampling: limits should be int or floor or ceil?
+- replace areas_torch with areas_scipy everywhere
+- multi save
 - wrapper for multi
 - summary
 - correct classes of saved resutls
