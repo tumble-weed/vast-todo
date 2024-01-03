@@ -1,5 +1,4 @@
 TODO:
-- fileorder
 - use_donefilelist
 - continue filelist
 - ?benchmark
@@ -29,6 +28,7 @@ TODO:
 - deletion game
 --------------------------------------------------------------------------
 DONE:
+- fileorder
 - rng
 - remove keys from vutils
 - computation of point in variants vs attribution-benchmark
