@@ -1,6 +1,4 @@
 TODO:
-- use_donefilelist
-- continue filelist
 - ?benchmark
 - spearman correlation
 - try moving to second vast system
@@ -28,6 +26,8 @@ TODO:
 - deletion game
 --------------------------------------------------------------------------
 DONE:
+- use_donefilelist
+- continue filelist
 - fileorder
 - rng
 - remove keys from vutils
