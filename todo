@@ -1,19 +1,15 @@
 TODO:
 - use_donefilelist
-- computation of point in variants vs attribution-benchmark
 - ?benchmark
 - dataset.images in continue
 - spearman correlation
 - try moving to second vast system
 - variants
--rng
+- rng
+- remove keys from vutils
 .......................................
 - elp run-scripts
-- elp vast-scripts
-- elp convert upload scripts to python
 - elp convert download scripts to python
-.......................................
-- elp scripts
 .......................................
 - cam_benchmark read imagenet
 - get_transform
@@ -37,6 +33,9 @@ TODO:
 - deletion game
 -------------------------------------------------------------------------
 LATER:
+- elp scripts
+- elp convert upload scripts to python
+- elp vast-scripts
 - correct classes of saved resutls
 - copy download voc to cam_benchmark as well
 - coco class images in torchray
@@ -67,6 +66,7 @@ RECHECK:
 - init_mask_logit_mag
 -------------------------------------------------------------------------
 DONE:
+- computation of point in variants vs attribution-benchmark
 - return from extremal_perturbation
 - compiled model in attribution_benchmark
 - check if continue works when start,end and some images are present
