@@ -1,7 +1,6 @@
 TODO:
 - use_donefilelist
 - benchmark
-- check if continue works when start,end and some images are present
 - dataset.images in continue
 - return from extremal_perturbation
 - correct classes of saved resutls
@@ -67,6 +66,7 @@ RECHECK:
 - init_mask_logit_mag
 -------------------------------------------------------------------------
 DONE:
+- check if continue works when start,end and some images are present
 - add file name to dutils hack, note
 - continue_ start and end
 - pascal class images etc in torchray
