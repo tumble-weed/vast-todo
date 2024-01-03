@@ -1,6 +1,7 @@
 TODO:
 - cam-benchmark
-- crop sampling
+- crop sampling: limits should be int or floor or ceil?
+- kill third machine before sleeping
 - visualize gp
 - spearman correlation
 - try moving to second vast system
