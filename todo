@@ -29,6 +29,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- verify unw and normalized samplers produce same traces
 - verify effect of rng patchsampler
 - vim utoindent
 - rclone scripts for downloading cam-benchmark stuff 
