@@ -1,5 +1,6 @@
 TODO:
 - run sanity
+- vim syntax highlighting
 - why is rank corr negative
 - write about spearman corr/read up on it
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
