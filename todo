@@ -1,24 +1,31 @@
 TODO:
-- cam-benchmark
+- load saved results using results data handler
+.......................................
 - center did not get saved
+.......................................
 - visualize gp
 - hack for visualization
+.......................................
 - spearman correlation
-- try moving to second vast system
 - variants
-- gp saliency gradient based
-- gp saliency meshgrid
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
 .......................................
 - sharpness annealing
+--------------------------------------------------------------------------
 - run_on_single_image_backend
 - rn_on_single_image 2
-- metricsdatahandler
-- gp saliency
-- deletion game
 --------------------------------------------------------------------------
+- gp saliency
+- gp saliency gradient based
+- gp saliency meshgrid
+--------------------------------------------------------------------------
+- cam-benchmark
+- deletion game
+- metricsdatahandler
+--------------------------------------------------------------------------
+- try moving to second vast system
 DONE:
 - dutils hack early loop
 - dutils glob
@@ -74,6 +81,7 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- move results datahandler to cam-benchmark <only after you've figured out loading of results etc..>
 - reload in dutils
 - rng in savename
 - sanity checks
