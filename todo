@@ -2,7 +2,6 @@ TODO:
 - run sanity
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
 - verify effect of rng gpsampler
-- check if weights are normalized correctly in normalized
 .......................................
 - variants
 .......................................
@@ -30,6 +29,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- check if weights are normalized correctly in normalized
 - verify unw and normalized samplers produce same traces
 - verify effect of rng patchsampler
 - vim utoindent
