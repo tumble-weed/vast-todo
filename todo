@@ -4,7 +4,7 @@ TODO:
 - spearman correlation
 - try moving to second vast system
 - variants
-- gp saliency consolidated
+- gp saliency gradient based
 - gp saliency meshgrid
 .......................................
 - elp run-scripts
