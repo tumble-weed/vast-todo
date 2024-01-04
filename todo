@@ -1,10 +1,6 @@
 TODO:
 - run sanity
-- vim syntax highlighting
-- why is rank corr negative
-- write about spearman corr/read up on it
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
-- save sanity checks and rankcorr to metrics dir
 .......................................
 - variants
 .......................................
@@ -32,6 +28,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- vim utoindent
 - rclone scripts for downloading cam-benchmark stuff 
 - rclone scripts foruploading torchray
 - install rclone
@@ -73,6 +70,8 @@ MAYBE:
 - visualize multi max of smooth and gradient side by side
 ------------------------------------------------------------------------
 LATER:
+- write about spearman corr/read up on it
+- vim syntax highlighting
 - lsxz,readxz
 - cifar and minst in torchray
 - $VUTILS
@@ -92,6 +91,9 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- vmin and vmax in dutils
+- save sanity checks and rankcorr to metrics dir
+- why is rank corr negative: check when running on multiple seeds
 - load results according to explore_results for spearman
 - spearman correlation
 - load saved results using results data handler
