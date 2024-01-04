@@ -53,7 +53,7 @@ ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ------------------------------------------------------------------------
 LATER:
-- sanity checks
+- cifar and minst in torchray
 - $VUTILS
 - equalized sampling
 - elp scripts
@@ -72,6 +72,8 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- rng in savename
+- sanity checks
 - crop sampling: limits should be int or floor or ceil?
 - replace areas_torch with areas_scipy everywhere
 - multi save
