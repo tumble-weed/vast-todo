@@ -2,12 +2,6 @@ TODO:
 - run sanity
 - why is rank corr negative
 .......................................
-- visualize gp modeled prob
-- visualiz gp scatter
-- visualize some crops
-- visualize attribution at the end of elp
-- hack for visualization
-.......................................
 - spearman correlation
 - load results according to explore_results for spearman
 .......................................
@@ -24,6 +18,13 @@ TODO:
 - gp saliency
 - gp saliency gradient based
 - gp saliency meshgrid
+.......................................
+- visualize gp modeled prob
+- visualiz gp scatter
+- visualize some crops
+- visualize attribution at the end of elp
+- hack for visualization
+
 --------------------------------------------------------------------------
 - cam-benchmark
 - deletion game
