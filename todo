@@ -1,9 +1,15 @@
 TODO:
 - load saved results using results data handler
+- load results according to explore_results for spearman
+- rclone scripts foruploading torchray
+- rclone scripts for downloading cam-benchmark stuff 
 .......................................
 - center did not get saved
 .......................................
-- visualize gp
+- visualize gp modeled prob
+- visualiz gp scatter
+- visualize some crops
+- visualize attribution at the end of elp
 - hack for visualization
 .......................................
 - spearman correlation
