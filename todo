@@ -2,6 +2,7 @@ TODO:
 - run sanity
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
 - verify effect of rng gpsampler
+- sampling density for gaussian process windows
 .......................................
 - variants
 .......................................
