@@ -1,5 +1,9 @@
 TODO:
 - cam-benchmark
+- center did not get saved
+- reload in dutils
+- dutils hack early loop
+- dutils glob
 - visualize gp
 - hack for visualization
 - spearman correlation
