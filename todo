@@ -1,5 +1,6 @@
 TODO:
 - load saved results using results data handler
+- lsxz,readxz
 - load results according to explore_results for spearman
 - rclone scripts foruploading torchray
 - rclone scripts for downloading cam-benchmark stuff 
