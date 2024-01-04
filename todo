@@ -1,6 +1,7 @@
 TODO:
 - cam-benchmark
 - visualize gp
+- hack for visualization
 - spearman correlation
 - try moving to second vast system
 - variants
@@ -10,22 +11,20 @@ TODO:
 - elp run-scripts
 - elp convert download scripts to python
 .......................................
-- cam_benchmark read imagenet
-- dataset.images in continue
-- get_transform
-- get_dataset
-- get_model
-- imagenet 5000
-.......................................
 - sharpness annealing
 - run_on_single_image_backend
 - rn_on_single_image 2
 - metricsdatahandler
 - gp saliency
-- hack for visualization
 - deletion game
 --------------------------------------------------------------------------
 DONE:
+- get_model
+- cam_benchmark read imagenet
+- imagenet 5000
+- get_dataset
+- get_transform
+- dataset.images in continue
 - imagenet localization parser: https://github.com/tumble-weed/GPNN-CAM/blob/1e1801b4a61e288971180a7102687efaf805a1b4/imagenet_localization_parser.py
 - kill third machine before sleeping
 - use_donefilelist
