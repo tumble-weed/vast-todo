@@ -1,9 +1,7 @@
 TODO:
 - run sanity
 - why is rank corr negative
-.......................................
-- spearman correlation
-- load results according to explore_results for spearman
+- write about spearman corr/read up on it
 .......................................
 - variants
 .......................................
@@ -24,7 +22,6 @@ TODO:
 - visualize some crops
 - visualize attribution at the end of elp
 - hack for visualization
-
 --------------------------------------------------------------------------
 - cam-benchmark
 - deletion game
@@ -69,7 +66,11 @@ matplotlib
 ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 ------------------------------------------------------------------------
+MAYBE:
+- visualize multi max of smooth and gradient side by side
+------------------------------------------------------------------------
 LATER:
+- lsxz,readxz
 - cifar and minst in torchray
 - $VUTILS
 - equalized sampling
@@ -88,9 +89,10 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- load results according to explore_results for spearman
+- spearman correlation
 - load saved results using results data handler
 - center did not get saved
-- lsxz,readxz
 - move results datahandler to cam-benchmark <only after you've figured out loading of results etc..>
 - reload in dutils
 - rng in savename
