@@ -1,7 +1,7 @@
 TODO:
 - run sanity
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
-- verify effect of rng
+- verify effect of rng gpsampler
 .......................................
 - variants
 .......................................
@@ -29,6 +29,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- verify effect of rng patchsampler
 - vim utoindent
 - rclone scripts for downloading cam-benchmark stuff 
 - rclone scripts foruploading torchray
