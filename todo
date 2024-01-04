@@ -1,23 +1,20 @@
 TODO:
 - run sanity
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
-- verify effect of rng gpsampler
 - sampling density for gaussian process windows
-- deletion inference mode
+- visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
+- run on other methods shown in the elp paper (grad_cam etc)
 .......................................
 - variants
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
 .......................................
-- sharpness annealing
+- MULTI:sharpness annealing
 --------------------------------------------------------------------------
 - run_on_single_image_backend
 - rn_on_single_image 2
 --------------------------------------------------------------------------
-- gp saliency
-- gp saliency gradient based
-- gp saliency meshgrid
 .......................................
 - visualize gp modeled prob
 - visualiz gp scatter
@@ -31,6 +28,10 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- deletion inference mode
+- gp saliency
+- gp saliency gradient based
+- gp saliency meshgrid
 - check if weights are normalized correctly in normalized
 - verify unw and normalized samplers produce same traces
 - verify effect of rng patchsampler
@@ -100,6 +101,7 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- verify effect of rng gpsampler
 - vmin and vmax in dutils
 - save sanity checks and rankcorr to metrics dir
 - why is rank corr negative: check when running on multiple seeds
