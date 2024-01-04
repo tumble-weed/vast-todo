@@ -1,6 +1,5 @@
 TODO:
 - run sanity
-- rclone scripts for downloading cam-benchmark stuff 
 .......................................
 - visualize gp modeled prob
 - visualiz gp scatter
@@ -31,6 +30,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- rclone scripts for downloading cam-benchmark stuff 
 - rclone scripts foruploading torchray
 - install rclone
 - dutils hack early loop
