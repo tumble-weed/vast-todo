@@ -70,6 +70,9 @@ MAYBE:
 - visualize multi max of smooth and gradient side by side
 ------------------------------------------------------------------------
 LATER:
+- window sampling density
+- mask history
+
 - write about spearman corr/read up on it
 - vim syntax highlighting
 - lsxz,readxz
