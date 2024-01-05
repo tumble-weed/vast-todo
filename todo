@@ -9,11 +9,12 @@ TODO:
 - how to copy stuff to vast-112-original? lets use vast copy instead of any scripts
 - erick pipeline
 - commit everything in 112b before shifting
+- average deletion
+- separate insertion and deletion percentages
 - what were the percentages for gpnn deletion evaluation, or do i run everything again?
-- add insertion t deletion
 - we will havetorerun deletion on all methods on2 datasets and 2 arch
-- average or not in deletion? ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
-- should also store areas in deletion
+- average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
+- ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
 .......................................
 On Vast-112-original
 - elp run-scripts
@@ -33,6 +34,7 @@ On 112b
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- add insertion t deletion
 - deletion getmodel etc
 - vast upload benchmark directory
 - how to send instance info 
