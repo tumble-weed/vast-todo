@@ -1,12 +1,10 @@
-TODO:
+1>TODO:
 .......................................
 - RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient, guided, grad cam,rise
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
-- jupyter password not workin: restarting workds
-- code server password not working
 .......................................
 On Vast-112-original
 - elp run-scripts
@@ -25,7 +23,9 @@ On 112b
 - metricsdatahandler
 --------------------------------------------------------------------------
 - try moving to second vast system
-DONE:
+2>DONE:
+- jupyter password not workin: restarting workds
+- code server password not working: fixed by copying config yaml
 - vast copy syntax
 - add insertion t deletion
 - deletion getmodel etc
@@ -77,7 +77,7 @@ matplotlib
 ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 --------------------------------------------------------------------------
-DELETION
+6>DELETION
 - elp masking to deletion
 - we will havetorerun deletion on all methods on2 datasets and 2 arch
 - average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
@@ -85,15 +85,12 @@ DELETION
 - average deletion
 - separate insertion and deletion percentages
 - what were the percentages for gpnn deletion evaluation, or do i run everything again?
-------------------------------------------------------------------------
-MAYBE:
-- visualize multi max of smooth and gradient side by side
 --------------------------------------------------------------------------
-CHATGPT
+7>CHATGPT
 - vim_and_commit: write a bash function vim_and_commit that takes a filename as input, cd into the containing directory for that file, opens the file with vim. upon closing, it adds and commits the file using the basename of the file as the commit message.
 - python: given a module name modulename, import it from a directory called wrappers_for_torchray if a file called f"{modulename}.py" exists in wrappers_for_torchray
 ------------------------------------------------------------------------
-LATER:
+4>LATER:
 - wrappers for benchmark in torchray
 - training cifar and mnist, emnist networks
 - reading gpnn attribution files and running deletion metric on them 
@@ -121,7 +118,7 @@ LATER:
 - make service to list all directories with .git in them and copy those files
 
 -------------------------------------------------------------------------
-RECHECK:
+3>RECHECK:
 - commit everything in 112b before shifting
 - onstart vast-utils in workspace and final vast-utils
 - copy stuff to vast-112-original
@@ -168,4 +165,7 @@ RECHECK:
 - abspath in dutils
 - 3 step softmax fixed window sizes
 - init_mask_logit_mag
+------------------------------------------------------------------------
+5>MAYBE:
+- visualize multi max of smooth and gradient side by side
 
