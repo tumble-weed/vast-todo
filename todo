@@ -97,6 +97,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - vim_and_commit: write a bash function vim_and_commit that takes a filename as input, cd into the containing directory for that file, opens the file with vim. upon closing, it adds and commits the file using the basename of the file as the commit message.
 - python: given a module name modulename, import it from a directory called wrappers_for_torchray if a file called f"{modulename}.py" exists in wrappers_for_torchray
 - subclass ipdb so that set_trace can take an enabled flag and an environment variable name. if the enabled flag is true or the environment variable is set the breakpoint is set
+- how to unload an alias
 ------------------------------------------------------------------------
 4>LATER:
 - after
