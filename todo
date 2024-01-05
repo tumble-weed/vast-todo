@@ -4,8 +4,9 @@ TODO:
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - run on other methods shown in the elp paper (grad_cam etc)
 - SESS and CAMERAS to attribution benchmark
-- deletion getmodel etc
 - elp masking to deletion
+- onstart vast-utils and final vast-utils
+- how to copy stuff to vast-112-original?
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
@@ -22,6 +23,7 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- deletion getmodel etc
 - vast upload benchmark directory
 - how to send instance info 
 - upload vutils
