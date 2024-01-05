@@ -11,7 +11,7 @@
 - elp convert download scripts to python
 --------------------------------------------------------------------------
 - variants
-- run_on_single_image_backend: should be to choose the image, while keeping the front end clean
+- run_on_single_image_backend: should be to choose the image, while keeping the front end clean. should go through variants rather than directly calling oct17
 - rn_on_single_image 2
 - where to attach visualizer ( in run_image file)
 --------------------------------------------------------------------------
