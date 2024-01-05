@@ -6,6 +6,8 @@
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient, guided, grad cam,rise
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
+- see if gradcam and rise results can be read by explore_results
+- replace ovt17 by variants in run_on_image2
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
