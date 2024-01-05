@@ -8,6 +8,8 @@ TODO:
 - copy stuff to vast-112-original
 - erick pipeline
 - commit everything in 112b before shifting
+- try unw on 112
+- set label of instance in prompt as well as in title
 .......................................
 On Vast-112-original
 - elp run-scripts
