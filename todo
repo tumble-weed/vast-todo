@@ -1,5 +1,5 @@
 1>TODO:
-- elp convert download scripts to python
+- elp convert download scripts to python: create alias
 - see if gradcam and rise results can be read by explore_results
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 .......................................
@@ -7,13 +7,10 @@
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
-- replace oct17 by variants in run_on_image2
 - run method on a chosen list of imroots
-- after
-.......................................
-- elp run-scripts
 --------------------------------------------------------------------------
 - variants
+- replace oct17 by variants in run_on_image2
 - run_on_single_image_backend: should be to choose the image, while keeping the front end clean. should go through variants rather than directly calling oct17
 - rn_on_single_image 2
 - where to attach visualizer ( in run_image file)
@@ -21,12 +18,12 @@
 - cam-benchmark
 - deletion game
 - metricsdatahandler
---------------------------------------------------------------------------
-- try moving to second vast system
 .......................................
 - MULTI:sharpness annealing
 .......................................
 2>DONE:
+- try moving to second vast system
+- elp run-scripts
 - function to check all uploads to a host: write a bash function that takes an identifier string called instance_name as input and then echos it
 - script to login to all instances and check their tmux sessions
 - in generate scripts add save_detailed_results
@@ -102,6 +99,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - subclass ipdb so that set_trace can take an enabled flag and an environment variable name. if the enabled flag is true or the environment variable is set the breakpoint is set
 ------------------------------------------------------------------------
 4>LATER:
+- after
 - wrappers for benchmark in torchray
 - training cifar and mnist, emnist networks
 - reading gpnn attribution files and running deletion metric on them 
