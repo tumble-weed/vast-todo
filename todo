@@ -1,5 +1,4 @@
 1>TODO:
-- elp convert download scripts to python: create alias
 - see if gradcam and rise results can be read by explore_results
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - message saumya
@@ -23,6 +22,7 @@
 - MULTI:sharpness annealing
 .......................................
 2>DONE:
+- elp convert download scripts to python: create alias
 - try moving to second vast system
 - elp run-scripts
 - function to check all uploads to a host: write a bash function that takes an identifier string called instance_name as input and then echos it
