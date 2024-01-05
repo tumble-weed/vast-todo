@@ -2,8 +2,6 @@
 - elp convert download scripts to python
 - see if gradcam and rise results can be read by explore_results
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
-- function to check all uploads to a host
-- script to login to all instances and check their tmux sessions: write a bash function that takes an identifier string called instance_name as input and then echos it
 .......................................
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
@@ -12,7 +10,6 @@
 - replace oct17 by variants in run_on_image2
 - run method on a chosen list of imroots
 - after
-- save complete tree of directory to file
 .......................................
 - elp run-scripts
 --------------------------------------------------------------------------
@@ -30,6 +27,8 @@
 - MULTI:sharpness annealing
 .......................................
 2>DONE:
+- function to check all uploads to a host: write a bash function that takes an identifier string called instance_name as input and then echos it
+- script to login to all instances and check their tmux sessions
 - in generate scripts add save_detailed_results
 - after backup kill 112b
 - instead of running per method, meker per instance files
