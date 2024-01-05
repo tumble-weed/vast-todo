@@ -17,7 +17,7 @@ TODO:
 - ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
 - wrappers for benchmark in torchray
 - vim_and_commit
-
+- vast copy syntax
 .......................................
 On Vast-112-original
 - elp run-scripts
