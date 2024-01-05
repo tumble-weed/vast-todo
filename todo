@@ -24,6 +24,7 @@
 - try moving to second vast system
 .......................................
 - MULTI:sharpness annealing
+.......................................
 2>DONE:
 - jupyter password not workin: restarting workds
 - code server password not working: fixed by copying config yaml
