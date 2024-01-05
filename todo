@@ -100,6 +100,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - python: given a module name modulename, import it from a directory called wrappers_for_torchray if a file called f"{modulename}.py" exists in wrappers_for_torchray
 - subclass ipdb so that set_trace can take an enabled flag and an environment variable name. if the enabled flag is true or the environment variable is set the breakpoint is set
 - how to unload an alias
+- multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
 - after
