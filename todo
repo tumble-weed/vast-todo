@@ -7,7 +7,7 @@
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
 - see if gradcam and rise results can be read by explore_results
-- replace ovt17 by variants in run_on_image2
+- replace oct17 by variants in run_on_image2
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
