@@ -1,19 +1,20 @@
 1>TODO:
-.......................................
-- RUNS: elp,elp_with_scales_normalized,gp,with gp, unweighted,multiple seeds
-- generate run scrips for elp 50 , and run
+- instead of running per method, meker per instance files
+- elp convert download scripts to python
+- see if gradcam and rise results can be read by explore_results
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
-- run on other methods shown in the elp paper (grad_cam etc): EP, gradient, guided, grad cam,rise
+- function to check all uploads to a host
+.......................................
+- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+- run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
-- see if gradcam and rise results can be read by explore_results
 - replace oct17 by variants in run_on_image2
 - run method on a chosen list of imroots
 - after
-- check benchmark,and deterministic
+- save complete tree of directory to file
 .......................................
 - elp run-scripts
-- elp convert download scripts to python
 --------------------------------------------------------------------------
 - variants
 - run_on_single_image_backend: should be to choose the image, while keeping the front end clean. should go through variants rather than directly calling oct17
@@ -29,6 +30,8 @@
 - MULTI:sharpness annealing
 .......................................
 2>DONE:
+- check benchmark,and deterministic
+- generate run scrips for elp 50 , and run
 - jupyter password not workin: restarting workds
 - code server password not working: fixed by copying config yaml
 - vast copy syntax
