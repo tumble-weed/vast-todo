@@ -1,6 +1,4 @@
 1>TODO:
-- after backup kill 112b
-- instead of running per method, meker per instance files
 - elp convert download scripts to python
 - see if gradcam and rise results can be read by explore_results
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
@@ -33,6 +31,8 @@
 - MULTI:sharpness annealing
 .......................................
 2>DONE:
+- after backup kill 112b
+- instead of running per method, meker per instance files
 - check benchmark,and deterministic
 - generate run scrips for elp 50 , and run
 - jupyter password not workin: restarting workds
