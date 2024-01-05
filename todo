@@ -8,6 +8,7 @@
 - erick pipeline
 - see if gradcam and rise results can be read by explore_results
 - replace oct17 by variants in run_on_image2
+- run method on a chosen list of imroots
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
