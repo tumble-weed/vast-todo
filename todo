@@ -6,8 +6,7 @@ TODO:
 - SESS and CAMERAS to attribution benchmark
 - elp masking to deletion
 - onstart vast-utils in workspace and final vast-utils
-- how to copy stuff to vast-112-original? lets use vast copy instead of any scripts
-- vast copy syntax
+- copy stuff to vast-112-original
 - erick pipeline
 - commit everything in 112b before shifting
 .......................................
@@ -29,6 +28,7 @@ On 112b
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- vast copy syntax
 - add insertion t deletion
 - deletion getmodel etc
 - vast upload benchmark directory
