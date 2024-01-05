@@ -10,6 +10,7 @@
 - replace oct17 by variants in run_on_image2
 - run method on a chosen list of imroots
 - after
+- check benchmark,and deterministic
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
