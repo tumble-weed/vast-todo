@@ -6,13 +6,9 @@
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
 .......................................
-On Vast-112-original
 - elp run-scripts
 - elp convert download scripts to python
-.......................................
-- MULTI:sharpness annealing
 --------------------------------------------------------------------------
-On 112b
 - variants
 - run_on_single_image_backend: should be to choose the image, while keeping the front end clean
 - rn_on_single_image 2
@@ -23,6 +19,9 @@ On 112b
 - metricsdatahandler
 --------------------------------------------------------------------------
 - try moving to second vast system
+.......................................
+- MULTI:sharpness annealing
+
 2>DONE:
 - jupyter password not workin: restarting workds
 - code server password not working: fixed by copying config yaml
@@ -168,4 +167,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 ------------------------------------------------------------------------
 5>MAYBE:
 - visualize multi max of smooth and gradient side by side
-
+------------------------------------------------------------------------
+7>DANGERS:
+gp saliency ight be bettwer
+unw or normalized miht be better
+elp-gp might not show improvements
+the correlation might not be high enough
