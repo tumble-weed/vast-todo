@@ -1,4 +1,5 @@
 1>TODO:
+- after backup kill 112b
 - instead of running per method, meker per instance files
 - elp convert download scripts to python
 - see if gradcam and rise results can be read by explore_results
