@@ -4,10 +4,9 @@ TODO:
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient, guided, grad cam,rise
 - !SESS and CAMERAS to attribution benchmark
-- onstart vast-utils in workspace and final vast-utils
-- copy stuff to vast-112-original
 - erick pipeline
-- commit everything in 112b before shifting
+- jupyter password not workin
+- code server password not working
 .......................................
 On Vast-112-original
 - elp run-scripts
@@ -123,6 +122,9 @@ LATER:
 
 -------------------------------------------------------------------------
 RECHECK:
+- commit everything in 112b before shifting
+- onstart vast-utils in workspace and final vast-utils
+- copy stuff to vast-112-original
 - run sanity
 #- visualize attribution at the end of elp
 #- visualize some crops
