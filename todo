@@ -6,16 +6,26 @@ TODO:
 - SESS and CAMERAS to attribution benchmark
 - elp masking to deletion
 - onstart vast-utils and final vast-utils
-- how to copy stuff to vast-112-original?
+- how to copy stuff to vast-112-original? lets use vast copy instead of any scripts
+- erick pipeline
+- commit everything in 112b before shifting
+- what were the percentages for gpnn deletion evaluation, or do i run everything again?
+- add insertion t deletion
+- we will havetorerun deletion on all methods on2 datasets and 2 arch
+- average or not in deletion? ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
+- should also store areas in deletion
 .......................................
+On Vast-112-original
 - elp run-scripts
 - elp convert download scripts to python
 .......................................
 - MULTI:sharpness annealing
 --------------------------------------------------------------------------
+On 112b
 - variants
-- run_on_single_image_backend
+- run_on_single_image_backend: should be to choose the image, while keeping the front end clean
 - rn_on_single_image 2
+- where to attach visualizer ( in run_image file)
 --------------------------------------------------------------------------
 - cam-benchmark
 - deletion game
