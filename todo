@@ -4,7 +4,6 @@ TODO:
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - run on other methods shown in the elp paper (grad_cam etc)
 - SESS and CAMERAS to attribution benchmark
-- vast upload benchmark directory
 .......................................
 - elp run-scripts
 - elp convert download scripts to python
@@ -21,6 +20,9 @@ TODO:
 --------------------------------------------------------------------------
 - try moving to second vast system
 DONE:
+- vast upload benchmark directory
+- how to send instance info 
+- upload vutils
 - deletion inference mode
 - gp saliency
 - gp saliency gradient based
