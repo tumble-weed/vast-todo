@@ -5,7 +5,7 @@ TODO:
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient, guided, grad cam,rise
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline
-- jupyter password not workin
+- jupyter password not workin: restarting workds
 - code server password not working
 .......................................
 On Vast-112-original
