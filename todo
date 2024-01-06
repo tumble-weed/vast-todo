@@ -1,17 +1,16 @@
 1>TODO:
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
-- !SESS and CAMERAS to attribution benchmark
 - !run summary on finished results: it is still giving same answer for difficult and non difficult
 - erick pipeline diagram
-- finish deletion
 - check if the visualizers are working correctly: gp, unweighted
-- remove axis from scatter plot
 - automatically create table from finished results
-- report per class?
+- remove axis from scatter plot
 - generate sanity of gp
+- report per class?
 - keep an eye out for negative correlation 
-- fix opencv error  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
+- !SESS and CAMERAS to attribution benchmark
+- finish deletion
 --------------------------------------------------------------------------
 - MULTI:sharpness annealing
 - mnist for detection or small datasets for detection. 
@@ -20,6 +19,7 @@
 
 --------------------------------------------------------------------------
 2>DONE:
+- fix opencv error  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 - generate sanity for extremal perturbation
 - lsxz,readxz
 - spearman rank corr on rise data
