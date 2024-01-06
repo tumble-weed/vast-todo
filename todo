@@ -7,6 +7,7 @@
 - erick pipeline diagram
 --------------------------------------------------------------------------
 - MULTI:sharpness annealing
+- mnist for detection or small datasets for detection
 --------------------------------------------------------------------------
 2>DONE:
 - run method on a chosen list of imroots
