@@ -7,7 +7,6 @@
 - erick pipeline diagram
 - check if the visualizers are working correctly: gp, unweighted
 - automatically create table from finished results
-- remove axis from scatter plot
 - generate sanity of gp
 - report per class?
 - keep an eye out for negative correlation 
@@ -21,6 +20,7 @@
 
 --------------------------------------------------------------------------
 2>DONE:
+- remove axis from scatter plot
 - fix opencv error  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 - generate sanity for extremal perturbation
 - lsxz,readxz
