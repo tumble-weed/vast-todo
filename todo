@@ -5,7 +5,7 @@
 - run summary on finished results: it is still giving same answer for difficult and non difficult
 - erick pipeline diagram
 - finish deletion
-- check if the visualizers are working correctly
+- check if the visualizers are working correctly: gp, unweighted
 - remove axis from scatter plot
 - automatically create table from finished results
 - report per class?
@@ -21,6 +21,7 @@
 
 --------------------------------------------------------------------------
 2>DONE:
+- lsxz,readxz
 - spearman rank corr on rise data
 - check_n_done
 - message saumya
@@ -121,7 +122,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 - write about spearman corr/read up on it
 - vim syntax highlighting
-- lsxz,readxz
 - cifar and minst in torchray
 - $VUTILS
 - equalized sampling
