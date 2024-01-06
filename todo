@@ -9,7 +9,6 @@
 - remove axis from scatter plot
 - automatically create table from finished results
 - report per class?
-- compare results with compiled model
 - generate sanity for extremal perturbation
 - keep an eye out for negative correlation 
 - fix opencv error  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
@@ -109,6 +108,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- compare results with compiled model
 - cam-benchmark
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
 - check if libracam model results compatible with torchray
