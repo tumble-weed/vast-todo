@@ -9,7 +9,7 @@
 - remove axis from scatter plot
 - automatically create table from finished results
 - report per class?
-- generate sanity for extremal perturbation
+- generate sanity of gp
 - keep an eye out for negative correlation 
 - fix opencv error  apt-get update && apt-get install ffmpeg libsm6 libxext6  -y
 --------------------------------------------------------------------------
@@ -20,6 +20,7 @@
 
 --------------------------------------------------------------------------
 2>DONE:
+- generate sanity for extremal perturbation
 - lsxz,readxz
 - spearman rank corr on rise data
 - check_n_done
