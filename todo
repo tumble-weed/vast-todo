@@ -1,4 +1,5 @@
 1>TODO: 
+- tight in dutils img_save
 - automatically creatae a folder with the image whose attribution we require and attributions produced by all methods
 - automatically create table from finished results
 - erick pipeline diagram
