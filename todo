@@ -1,4 +1,4 @@
-1>TODO:
+1>TODO: 
 - create new 114,116 scripts to run the same metod in parallel
 - create done lists
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
