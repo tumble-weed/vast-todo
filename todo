@@ -1,10 +1,10 @@
 1>TODO: 
-- create new 114,116 scripts to run the same metod in parallel
-- create done lists
+- rerun gradcam on initial
+- correct all resutls
+- imagenet results
+- erick pipeline diagram
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
-- run summary on finished results: it is still giving same answer for difficult and non difficult: !might mess things up --> run it on the cheapest method (gradcam)
-- erick pipeline diagram
 - automatically create table from finished results
 - generate sanity of gp
 - report per class?
@@ -18,6 +18,9 @@
 - cifar in torchray. dont run pointing
 --------------------------------------------------------------------------
 2>DONE:
+- run summary on finished results: it is still giving same answer for difficult and non difficult: !might mess things up --> run it on the cheapest method (gradcam)
+- create done lists
+- create new 114,116 scripts to run the same metod in parallel
 - add download to setup 
 - compare results with compiled model
 - check methodname for save?
