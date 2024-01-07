@@ -1,17 +1,15 @@
 1>TODO: 
-- automatically create table from finished results
-- report per class?
+- !SESS and CAMERAS to attribution benchmark
 - erick pipeline diagram
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - keep an eye out for negative correlation 
-- !SESS and CAMERAS to attribution benchmark
 --------------------------------------------------------------------------
 - MULTI:sharpness annealing
-- mnist for detection or small datasets for detection. 
-- svhn in torchray. run pointing
-- cifar in torchray. dont run pointing
+- svhn in torchray. run pointing. find pretrained
 - finish deletion
+- mnist for detection or small datasets for detection. 
+- cifar in torchray. dont run pointing
 ---------------------------------------------------------------------------
 PAPER LINKS
 - ijcai primary seconday, abstract
@@ -159,6 +157,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- automatically create table from finished results
+- report per class?
 - correct extremal variants
 - sumarize all methods
 - imagenet results
