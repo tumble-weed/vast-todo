@@ -1,21 +1,26 @@
 1>TODO: 
+- erick pipeline diagram
+- run imagenet on elp paper methods
+- run elp+gp on 117,118
+- rclone scripts for syncing to remote
+- automatically creatae a folder with the image whose attribution we require and attributions produced by all methods
+- make a workflow file for the steps required
+- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+- run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - correct extremal variants
 - sumarize all methods
 - imagenet results
-- erick pipeline diagram
-- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-- run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - automatically create table from finished results
 - generate sanity of gp
 - report per class?
 - keep an eye out for negative correlation 
 - !SESS and CAMERAS to attribution benchmark
-- finish deletion
 --------------------------------------------------------------------------
 - MULTI:sharpness annealing
 - mnist for detection or small datasets for detection. 
 - svhn in torchray. run pointing
 - cifar in torchray. dont run pointing
+- finish deletion
 --------------------------------------------------------------------------
 2>DONE:
 - correct all resutls
