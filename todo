@@ -1,6 +1,6 @@
 1>TODO: 
-- rerun gradcam on initial
-- correct all resutls
+- correct extremal variants
+- sumarize all methods
 - imagenet results
 - erick pipeline diagram
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
@@ -18,6 +18,8 @@
 - cifar in torchray. dont run pointing
 --------------------------------------------------------------------------
 2>DONE:
+- correct all resutls
+- rerun gradcam on initial
 - run summary on finished results: it is still giving same answer for difficult and non difficult: !might mess things up --> run it on the cheapest method (gradcam)
 - create done lists
 - create new 114,116 scripts to run the same metod in parallel
