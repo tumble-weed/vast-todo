@@ -1,5 +1,6 @@
 1>TODO: 
 - !SESS and CAMERAS to attribution benchmark
+- how to modify a run file to add more stuff?
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - create 'older versions' and identify which images are needed.
 - check if we have all the images for the pipeline image
@@ -25,6 +26,11 @@
         - finish deletion
         - mnist for detection or small datasets for detection. 
         - cifar in torchray. dont run pointing
+        - deletion and insertion game in optimization
+        - from igospape: ebp, mp,ep, gradcam,rise, integrated grads
+        - ABLATIONS: number of thresholds, elp based masking, and my masking?
+        - run all evaluations on compiled models!
+        - run everything vgg_bn?
 ---------------------------------------------------------------------------
 PAPER LINKS
 - ijcai primary seconday, abstract
