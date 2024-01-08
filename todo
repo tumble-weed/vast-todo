@@ -1,5 +1,6 @@
 1>TODO: 
-- !SESS and CAMERAS to attribution benchmark
+- GP saliency doesnt work!
+- CAMERAS to attribution benchmark
 - how to modify a run file to add more stuff?
 - create 'older versions' and identify which images are needed.
 - check if we have all the images for the pipeline image
@@ -43,6 +44,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- SESS
 - DONE gradient 2, guided 2, grad cam 2,rise 2
 - add vgg16_bn option to torchray
 - check if vgg16_bn is available via pytorch
