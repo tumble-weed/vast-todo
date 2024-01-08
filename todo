@@ -1,9 +1,8 @@
 1>TODO: 
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - add vast money
-- check running
 - summarize elp-gp ( was it really 70%)
-- push paper to github, pull into overleaf and compile
+- push latex to github, pull into overleaf and compile
 - create 'older versions' and identify which images are needed.
 - check if self-citation + no citation errors.
 - check if we have all the images for the pipeline image
@@ -170,6 +169,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- check running
 
 - automatically create table from finished results
 
