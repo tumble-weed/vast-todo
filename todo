@@ -31,6 +31,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------
 2>DONE:
+- commit everything in 112b before shifting
 - pause only if certain debugging flags are set
 - make a workflow file for the steps required
 - automatically creatae a folder with the image whose attribution we require and attributions produced by all methods
@@ -171,7 +172,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - run_on_single_image 2
 - where to attach visualizer ( in run_image file)
 
-- commit everything in 112b before shifting
 - onstart vast-utils in workspace and final vast-utils
 - copy stuff to vast-112-original
 - run sanity
@@ -212,8 +212,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - download pascal dataset
 - cam_benchmark models
 - librecam models
--saver
--change tracker
+- saver
+- change tracker
 - abspath in dutils
 - 3 step softmax fixed window sizes
 - init_mask_logit_mag
