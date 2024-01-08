@@ -1,4 +1,13 @@
 1>TODO: 
+- run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
+- add vast money
+- check running
+- summarize elp-gp ( was it really 70%)
+- push paper to github, pull into overleaf and compile
+- create 'older versions' and identify which images are needed.
+- check if self-citation + no citation errors.
+- check if we have all the images for the pipeline image
+- more results: sanity, per class, stochasticity, window selection density
 - check if libracam model results compatible with torchray
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline diagram
@@ -32,6 +41,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------
 2>DONE:
+- rerun gradcam from unaltered torchray: resnet 90.1, vgg 86.5, this is the same fro my torchray, indicating some variatin
 - commit everything in 112b before shifting
 - pause only if certain debugging flags are set
 - make a workflow file for the steps required
@@ -162,7 +172,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 3>RECHECK:
 
 - automatically create table from finished results
-- report per class?
 
 - sumarize all methods
 - imagenet results
