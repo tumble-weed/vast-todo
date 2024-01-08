@@ -1,4 +1,5 @@
 1>TODO: 
+- check if libracam model results compatible with torchray
 - !SESS and CAMERAS to attribution benchmark
 - erick pipeline diagram
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
@@ -126,11 +127,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- reload in dutils
 - tight in dutils img_save
 - run imagenet on elp paper methods (!might not be better than eelp)
 - cam-benchmark
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
-- check if libracam model results compatible with torchray
 - after
 - wrappers for benchmark in torchray
 - training cifar and mnist, emnist networks
@@ -159,22 +160,24 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
-- resize for imagenet
+
 - automatically create table from finished results
 - report per class?
-- correct extremal variants
+
 - sumarize all methods
 - imagenet results
-- generate sanity of gp
+>> Errors
+- resize for imagenet
+- correct extremal variants
+>> Backend
 - run_on_single_image_backend: should be to choose the image, while keeping the front end clean. should go through variants rather than directly calling oct17
 - variants
 - replace oct17 by variants in run_on_image2
 - run_on_single_image 2
 - where to attach visualizer ( in run_image file)
-
+>> Others
 - onstart vast-utils in workspace and final vast-utils
 - copy stuff to vast-112-original
-- run sanity
 #- visualize attribution at the end of elp
 #- visualize some crops
 #- hack for visualization
@@ -184,20 +187,27 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 - verify effect of rng gpsampler
 - vmin and vmax in dutils
+>> Rank Corr
 - save sanity checks and rankcorr to metrics dir
 - why is rank corr negative: check when running on multiple seeds
 - load results according to explore_results for spearman
 - spearman correlation
+>> Sanity
+- sanity checks
+- generate sanity of gp
+- run sanity
+
 - load saved results using results data handler
 - center did not get saved
 - move results datahandler to cam-benchmark <only after you've figured out loading of results etc..>
-- reload in dutils
 - rng in savename
-- sanity checks
 - crop sampling: limits should be int or floor or ceil?
+>> Multi
 - replace areas_torch with areas_scipy everywhere
 - multi save
 - wrapper for multi
+
+
 - summary
 - correct classes of saved resutls
 - elp convert upload scripts to python
