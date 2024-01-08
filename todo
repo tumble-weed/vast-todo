@@ -5,11 +5,22 @@
 - run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
 - keep an eye out for negative correlation 
 --------------------------------------------------------------------------
-- MULTI:sharpness annealing
-- svhn in torchray. run pointing. find pretrained
-- finish deletion
-- mnist for detection or small datasets for detection. 
-- cifar in torchray. dont run pointing
+    6>DELETION
+    - deletion game
+    - metricsdatahandler
+    - elp masking to deletion
+    - we will havetorerun deletion on all methods on2 datasets and 2 arch
+    - average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
+    - ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
+    - average deletion
+    - separate insertion and deletion percentages
+    - what were the percentages for gpnn deletion evaluation, or do i run everything again?
+--------------------------------------------------------------------------
+        - MULTI:sharpness annealing
+        - svhn in torchray. run pointing. find pretrained
+        - finish deletion
+        - mnist for detection or small datasets for detection. 
+        - cifar in torchray. dont run pointing
 ---------------------------------------------------------------------------
 PAPER LINKS
 - ijcai primary seconday, abstract
@@ -20,6 +31,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 -------------------------------------------------------------------------
 2>DONE:
+- pause only if certain debugging flags are set
 - make a workflow file for the steps required
 - automatically creatae a folder with the image whose attribution we require and attributions produced by all methods
 - rclone scripts for syncing to remote
@@ -105,17 +117,6 @@ matplotlib
 ipdb
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 --------------------------------------------------------------------------
-6>DELETION
-- deletion game
-- metricsdatahandler
-- elp masking to deletion
-- we will havetorerun deletion on all methods on2 datasets and 2 arch
-- average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
-- ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
-- average deletion
-- separate insertion and deletion percentages
-- what were the percentages for gpnn deletion evaluation, or do i run everything again?
---------------------------------------------------------------------------
 7>CHATGPT
 - vim_and_commit: write a bash function vim_and_commit that takes a filename as input, cd into the containing directory for that file, opens the file with vim. upon closing, it adds and commits the file using the basename of the file as the commit message.
 - python: given a module name modulename, import it from a directory called wrappers_for_torchray if a file called f"{modulename}.py" exists in wrappers_for_torchray
@@ -157,6 +158,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- resize for imagenet
 - automatically create table from finished results
 - report per class?
 - correct extremal variants
