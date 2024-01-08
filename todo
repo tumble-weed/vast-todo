@@ -1,17 +1,12 @@
 1>TODO: 
+- !SESS and CAMERAS to attribution benchmark
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
-- add vast money
-- summarize elp-gp ( was it really 70%)
-- push latex to github, pull into overleaf and compile
 - create 'older versions' and identify which images are needed.
-- check if self-citation + no citation errors.
 - check if we have all the images for the pipeline image
 - more results: sanity, per class, stochasticity, window selection density
-- check if libracam model results compatible with torchray
-- !SESS and CAMERAS to attribution benchmark
 - erick pipeline diagram
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-- run on other methods shown in the elp paper (grad_cam etc): EP, gradient 2, guided 2, grad cam 2,rise 2 = 8
+- run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - keep an eye out for negative correlation 
 --------------------------------------------------------------------------
     6>DELETION
@@ -38,8 +33,19 @@ PAPER LINKS
 https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
+<<DOING>>
+- summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- DONE gradient 2, guided 2, grad cam 2,rise 2
+- add vgg16_bn option to torchray
+- check if vgg16_bn is available via pytorch
+- add imagenet citation to experiments: elp with scales does not run any imagenet experiments
+- decide if you want to use vgg_16bn or not?
+-  remove coco
+- push latex to github, pull into overleaf and compile
+- check if libracam model results compatible with torchray
+- add vast money
 - rerun gradcam from unaltered torchray: resnet 90.1, vgg 86.5, this is the same fro my torchray, indicating some variatin
 - commit everything in 112b before shifting
 - pause only if certain debugging flags are set
@@ -169,6 +175,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- check if self-citation + no citation errors.
 - check running
 
 - automatically create table from finished results
