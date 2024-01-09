@@ -1,5 +1,4 @@
 1>TODO: 
-- CAMERAS to attribution benchmark
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 <<LATEX>>
 - create 'older versions' and identify which images are needed.
@@ -39,6 +38,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- CAMERAS to attribution benchmark
 - fix crop density
 - rerun sanity with xavier,
 - GP saliency doesnt work!
