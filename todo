@@ -1,4 +1,5 @@
 1>TODO: 
+- sanity fails completely for elp-gp, when it should fail "slowly"
 - GP saliency doesnt work!
 - CAMERAS to attribution benchmark
 - how to modify a run file to add more stuff?
