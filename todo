@@ -1,13 +1,14 @@
 1>TODO: 
-- sanity fails completely for elp-gp, when it should fail "slowly"
+- rerun sanity with xavier,rerun on the imae
 - GP saliency doesnt work!
 - CAMERAS to attribution benchmark
 - how to modify a run file to add more stuff?
+- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+<<LATEX>>
 - create 'older versions' and identify which images are needed.
 - check if we have all the images for the pipeline image
 - more results: sanity, per class, stochasticity, window selection density
 - erick pipeline diagram
-- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - keep an eye out for negative correlation 
 --------------------------------------------------------------------------
@@ -45,6 +46,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- sanity fails completely for elp-gp, when it should fail "slowly"
 - SESS
 - DONE gradient 2, guided 2, grad cam 2,rise 2
 - add vgg16_bn option to torchray
@@ -151,6 +153,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- fuzzy https://stackoverflow.com/questions/9439121/fuzzy-file-search-in-linux-console
 - reload in dutils
 - tight in dutils img_save
 - run imagenet on elp paper methods (!might not be better than eelp)
