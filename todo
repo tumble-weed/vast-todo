@@ -1,5 +1,5 @@
 1>TODO: 
-- rerun sanity with xavier,rerun on the imae
+- rerun sanity with xavier,
 - GP saliency doesnt work!
 - CAMERAS to attribution benchmark
 - how to modify a run file to add more stuff?
@@ -42,6 +42,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- rerun on the image in adebayo
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
