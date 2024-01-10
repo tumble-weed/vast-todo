@@ -1,5 +1,6 @@
 1>TODO: 
 - check biliner equiations
+- multiple json for generate
 - recheck if step number aligns with text
 - fast predictive variances
 - Search In Scale needs to be renamed
@@ -10,6 +11,7 @@
 - 2 more runs for elp-gp
 - aliases for pgrep
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+- run SESS and CAMERAS
 <<LATEX>>
 - have another look at the algorithm
 - create 'older versions' and identify which images are needed.
