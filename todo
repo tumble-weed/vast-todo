@@ -1,4 +1,6 @@
 1>TODO: 
+- run rng for elp-gp
+- 2 more runs for elp-gp
 - aliases for pgrep
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 <<LATEX>>
