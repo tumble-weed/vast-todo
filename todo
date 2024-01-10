@@ -1,4 +1,5 @@
 1>TODO: 
+- elp with gp with mean scores
 - PPR:check biliner equiations
 - multiple json for generate
 - PPR:recheck if step number aligns with text
@@ -7,11 +8,9 @@
 - PPR:different areas in EP, as well as areas of the window  
 - PPR:RUN TODO (example of object/non-object) yak image
 - vast see balance from system
-- run rng for elp-gp
-- 2 more runs for elp-gp
+- 2 \times (2 networks) more rng runs for elp-gp
 - aliases for pgrep
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-- run SESS and CAMERAS
 <<LATEX>>
 - have another look at the algorithm
 - create 'older versions' and identify which images are needed.
@@ -51,15 +50,16 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- run SESS and CAMERAS
 - CAMERAS to attribution benchmark
-- fix crop density
 - rerun sanity with xavier,
 - GP saliency doesnt work!
-- rerun on the image in adebayo
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- fix crop density
+- rerun on the image in adebayo
     - elp_masking
     - elp masking to deletion
     - separate insertion and deletion percentages
