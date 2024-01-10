@@ -1,11 +1,11 @@
 1>TODO: 
-- check biliner equiations
+- PPR:check biliner equiations
 - multiple json for generate
-- recheck if step number aligns with text
-- fast predictive variances
-- Search In Scale needs to be renamed
-- different areas in EP, as well as areas of the window  
-- RUN TODO (example of object/non-object) yak image
+- PPR:recheck if step number aligns with text
+- PPR:fast predictive variances
+- PPR:Search In Scale needs to be renamed
+- PPR:different areas in EP, as well as areas of the window  
+- PPR:RUN TODO (example of object/non-object) yak image
 - vast see balance from system
 - run rng for elp-gp
 - 2 more runs for elp-gp
@@ -23,17 +23,13 @@
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
-    - elp_masking
-    - getting the model etc
+    - fullgrad deletion curves
     - make deletionbenchmark
-    - deletion game
     - metricsdatahandler
-    - elp masking to deletion
     - we will havetorerun deletion on all methods on2 datasets and 2 arch
     - average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
     - ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
     - average deletion
-    - separate insertion and deletion percentages
     - what were the percentages for gpnn deletion evaluation, or do i run everything again?
 --------------------------------------------------------------------------
         - MULTI:sharpness annealing
@@ -64,6 +60,11 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+    - elp_masking
+    - elp masking to deletion
+    - separate insertion and deletion percentages
+    - deletion game
+    - getting the model etc
 - how to modify a run file to add more stuff?  --> create it with json and modify json
 - sanity fails completely for elp-gp, when it should fail "slowly"
 - SESS
@@ -172,6 +173,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+    - separate insertion and deletion percentages
 - fuzzy https://stackoverflow.com/questions/9439121/fuzzy-file-search-in-linux-console
 - reload in dutils
 - tight in dutils img_save
