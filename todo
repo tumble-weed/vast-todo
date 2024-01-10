@@ -1,4 +1,7 @@
 1>TODO: 
+- remake all todo files from 115,6,7,8
+- because of unweighted remaining we will not be able to run rng for gp
+- is use_donefillis tcorrect for genrun
 - elp with gp with mean scores
 - PPR:check biliner equiations
 - multiple json for generate
