@@ -1,4 +1,5 @@
 1>TODO: 
+- vast see balance from system
 - run rng for elp-gp
 - 2 more runs for elp-gp
 - aliases for pgrep
@@ -12,6 +13,9 @@
 - keep an eye out for negative correlation 
 --------------------------------------------------------------------------
     6>DELETION
+    - elp_masking
+    - getting the model etc
+    - make deletionbenchmark
     - deletion game
     - metricsdatahandler
     - elp masking to deletion
