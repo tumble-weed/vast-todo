@@ -1,10 +1,14 @@
 1>TODO: 
+- Search In Scale needs to be renamed
+- different areas in EP, as well as areas of the window  
+- RUN TODO (example of object/non-object) yak image
 - vast see balance from system
 - run rng for elp-gp
 - 2 more runs for elp-gp
 - aliases for pgrep
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 <<LATEX>>
+- have another look at the algorithm
 - create 'older versions' and identify which images are needed.
 - check if we have all the images for the pipeline image
 - more results: sanity, per class, stochasticity, window selection density
