@@ -13,6 +13,7 @@
 - keep an eye out for negative correlation 
 --------------------------------------------------------------------------
     6>DELETION
+    - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
     - elp_masking
     - getting the model etc
     - make deletionbenchmark
