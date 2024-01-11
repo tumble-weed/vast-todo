@@ -1,6 +1,9 @@
 1>TODO: 
+- add imroot in save of visualization
+- Sarath: insert dummy figures
 - is the introduction strong and convinvcing enough?
-- Add column of references: gradcam++, clrp. Some notable methods include
+- Add column of references: gradcam++, clrp. Some notable methods include. 
+- find (?) in paper
 - add excitation bp to pointing game section. add references for all methods in table --> copy from EP paper with sarath
 - remove imagenet from references?
 - spearman reference: how does adebayo paper talk aout it?
@@ -13,7 +16,8 @@
 - PPR:fast predictive variances
 - PPR:Search In Scale needs to be renamed
 - PPR:different areas in EP, as well as areas of the window  
-- PPR:RUN TODO (example of object/non-object) yak image
+- PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
+- should we do it with an image where the method scores better than simple EP ?
 - vast see balance from system
 - 2 \times (2 networks) more rng runs for elp-gp
 - aliases for pgrep
@@ -182,6 +186,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- play with docker
     - separate insertion and deletion percentages
 - fuzzy https://stackoverflow.com/questions/9439121/fuzzy-file-search-in-linux-console
 - reload in dutils
