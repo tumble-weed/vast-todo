@@ -1,4 +1,5 @@
 1>TODO: 
+- why is CAMERAS not running
 - ICASSP: add self citation
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - PPR is the introduction strong and convinvcing enough?
@@ -8,7 +9,6 @@
 - elp with gp with mean scores
 - PPR:check biliner equations
 - PPR:recheck if step number aligns with text
-- PPR:fast predictive variances
 - PPR:Search In Scale needs to be renamed
 - PPR:different areas in EP, as well as areas of the window  
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
@@ -224,6 +224,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR:fast predictive variances
 - vast-115,115-old,116,116-old has wrong donefilelist
 - PPR spearman reference: how does adebayo paper talk aout it?
 - PPR: find (?)
