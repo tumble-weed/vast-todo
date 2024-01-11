@@ -1,17 +1,12 @@
 1>TODO: 
-- add imroot in save of visualization
-- Sarath: insert dummy figures
-- is the introduction strong and convinvcing enough?
-- Add column of references: gradcam++, clrp. Some notable methods include. 
-- find (?) in paper
-- add excitation bp to pointing game section. add references for all methods in table --> copy from EP paper with sarath
-- remove imagenet from references?
-- spearman reference: how does adebayo paper talk aout it?
+- ICASSP: add self citation
+- run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
+- PPR is the introduction strong and convinvcing enough?
+- PPR Add column of references: gradcam++, clrp. Some notable methods include. 
+- PPR SRT: add references for all methods in table. ( Cnt, Grad,DConv,Guid.,MWP,cMWP,)
 - because of unweighted remaining we will not be able to run rng for gp
-- is use_donefillis tcorrect for genrun
 - elp with gp with mean scores
 - PPR:check biliner equations
-- multiple json for generate
 - PPR:recheck if step number aligns with text
 - PPR:fast predictive variances
 - PPR:Search In Scale needs to be renamed
@@ -20,16 +15,13 @@
 - should we do it with an image where the method scores better than simple EP ?
 - vast see balance from system
 - 2 \times (2 networks) more rng runs for elp-gp
-- aliases for pgrep
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-<<LATEX>>
-- have another look at the algorithm
-- create 'older versions' and identify which images are needed.
-- check if we have all the images for the pipeline image
-- more results: sanity, per class, stochasticity, window selection density
+- PPR:have another look at the algorithm
+- PPR check if we have all the images for the pipeline image
+- PPR more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density
 - erick pipeline diagram
-- run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - keep an eye out for negative correlation 
+- aliases for pgrep
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -61,6 +53,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- SRT: insert dummy figures
 - run SESS and CAMERAS
 - CAMERAS to attribution benchmark
 - rerun sanity with xavier,
@@ -69,6 +62,13 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR single anonymous authors
+- is use_donefiles is tcorrect for genrun
+- create 'older versions' and identify which images are needed.
+- PPR remove imagenet from references?
+add excitation bp to pointing game section.
+check if self-citation 
+- add imroot in save of visualization
 - remake all todo files from 115,6,7,8
 - remake all todo files from 117,118
 - fix crop density
@@ -186,6 +186,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- kata : find if done filelist has the same method as with --method
+- multiple json for generate
 - play with docker
     - separate insertion and deletion percentages
 - fuzzy https://stackoverflow.com/questions/9439121/fuzzy-file-search-in-linux-console
@@ -222,7 +224,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
-- check if self-citation + no citation errors.
+- vast-115,115-old,116,116-old has wrong donefilelist
+- PPR spearman reference: how does adebayo paper talk aout it?
+- PPR: find (?)
+- no citation errors.
 - check running
 
 - automatically create table from finished results
