@@ -1,10 +1,13 @@
 1>TODO: 
-- spearman reference
-- remake all todo files from 115,6,7,8
+- is the introduction strong and convinvcing enough?
+- Add column of references: gradcam++, clrp. Some notable methods include
+- add excitation bp to pointing game section. add references for all methods in table --> copy from EP paper with sarath
+- remove imagenet from references?
+- spearman reference: how does adebayo paper talk aout it?
 - because of unweighted remaining we will not be able to run rng for gp
 - is use_donefillis tcorrect for genrun
 - elp with gp with mean scores
-- PPR:check biliner equiations
+- PPR:check biliner equations
 - multiple json for generate
 - PPR:recheck if step number aligns with text
 - PPR:fast predictive variances
@@ -62,6 +65,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- remake all todo files from 115,6,7,8
 - remake all todo files from 117,118
 - fix crop density
 - rerun on the image in adebayo
