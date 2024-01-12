@@ -1,7 +1,6 @@
 1>TODO: 
 - make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
 - run 116,117,118 again after the genrunscript part is done
-- in resultshandler add threadpoolexectuer from summary2
 - make google service account with eric
 - convert into ijcai format
 - CALENDAR correct times of notifications
@@ -84,6 +83,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- in resultshandler add threadpoolexectuer from summary2
 - how do i make it seamless for a worker to see what has been finished on the parent?
 - how do i make genrunscripts a little auto completish
 - PPR Related: gp related
