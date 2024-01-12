@@ -1,15 +1,14 @@
 1>TODO: 
 - make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
-- in genrunscripts run createdonescripts when use_donefilelist is true
-- make service account with eric
+- run 116,117,118 again after the genrunscript part is done
+- in resultshandler add threadpoolexectuer from summary2
+- make google service account with eric
 - convert into ijcai format
-- IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 - CALENDAR correct times of notifications
 - PPR Abstract
 - PPR Intro: is the introduction strong and convinvcing enough?
 - PPR Elp: does the smooth operator need its own equation?
 - summarize cameras,sess to see if they are actually done
-- how do i make it seamless for a worker to see what has been finished on the parent?
 - PPR SRT: vertical line in table
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
@@ -45,6 +44,7 @@ IMAGES:
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - >>> Morning ICASSP: ask saumya to look over paper
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
+>>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 -mixed reset to f4b3e2c
 --------------------------------------------------------------------------
     6>DELETION
@@ -77,12 +77,14 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- in genrunscripts run createdonescripts when use_donefilelist is true
 - PPR: run rank correlation on normalized rng
 - run SESS and CAMERAS
 - rerun sanity with xavier,
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- how do i make it seamless for a worker to see what has been finished on the parent?
 - how do i make genrunscripts a little auto completish
 - PPR Related: gp related
 gradcam++
