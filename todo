@@ -1,15 +1,12 @@
 1>TODO: 
--mixed reset to f4b3e2c
-- && in a fnction
-- eric- aliases
+- IJCNN time zone
+- PPR Abstract
+- PPR Intro: is the introduction strong and convinvcing enough?
+- PPR Elp: does the smooth operator need its own equation?
 - summarize cameras,sess to see if they are actually done
-- how do i make genrunscripts a little auto completish
--around 12 hours for the other computers to finish i should be gp to them as well?
 - how do i make it seamless for a worker to see what has been finished on the parent?
 - PPR SRT: vertical line in table
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
-- PPR Intro: is the introduction strong and convinvcing enough?
-- PPR Elp: does the smooth operator need its own equation?
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
 - DONE: elp_rng, figure out what to run next 
 - PPR: step 2.2 described nowere
@@ -33,7 +30,6 @@ IMAGES:
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - because of unweighted remaining we will not be able to run rng for gp
 - elp with gp with mean scores
-- PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta)
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - vast see balance from system
 - 2 \times (2 networks) more rng runs for elp-gp
@@ -43,6 +39,8 @@ IMAGES:
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - >>> Morning ICASSP: ask saumya to look over paper
+>>> around 12 hours for the other computers to finish i should be gp to them as well?
+-mixed reset to f4b3e2c
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -80,6 +78,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- how do i make genrunscripts a little auto completish
 - PPR Related: gp related
 gradcam++
 - PPR Related Add column of references: clrp. Some notable methods include. 
@@ -265,6 +264,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta) Multiscale Perturbations
+  Multiscale Perturbations for Improved Optimization based Attribution
+  Search-In-scale , SIS, Search In Scale
+- && in a fnction
 - PPR Related SRT: add references for all methods in table. ( ,MWP,cMWP,)
 Cnt, Grad,DConv,Guid.
 - RUN rank corr on with_gp
