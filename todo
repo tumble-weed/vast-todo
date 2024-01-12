@@ -1,27 +1,45 @@
 1>TODO: 
-- why is CAMERAS not running
-- ICASSP: add self citation
+- PPR: does the smooth operator need its own equation?
+- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
+- PPR: vertical line in table
+- PPR find TOdO
+- Related: bevy
+- PPR Related: gp related
+- PPR Related SRT: add references for all methods in table. ( Cnt, Grad,DConv,Guid.,MWP,cMWP,)
+- PPR Related Add column of references: gradcam++, clrp. Some notable methods include. 
+TODO in experiment
+- PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
+- PPR: failure cases & challenges
+IMAGES:
+>> gaussian process model
+>> scores of sampled crop centers.
+>> comparison of final saliency of some images
+>> pipeline of full method
+>> failure cases
+%>> stochasticity of simple cropping
+%>> non-stochasticity of gaussian process
+>> crops and their scores
+- PPR Approach:recheck if step number aligns with text
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
+- PPR Approach: have saumya look over bilinear interpolation (approach)
+- PPR check if we have all the images for the pipeline image
+- PPR Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density
+- keep an eye out for negative correlation 
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- PPR is the introduction strong and convinvcing enough?
-- PPR Add column of references: gradcam++, clrp. Some notable methods include. 
-- PPR SRT: add references for all methods in table. ( Cnt, Grad,DConv,Guid.,MWP,cMWP,)
+- PPR Intro: is the introduction strong and convinvcing enough?
 - because of unweighted remaining we will not be able to run rng for gp
 - elp with gp with mean scores
 - PPR:check biliner equations
-- PPR:recheck if step number aligns with text
-- PPR:Search In Scale needs to be renamed
-- PPR:different areas in EP, as well as areas of the window  
+- PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta)
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
-- should we do it with an image where the method scores better than simple EP ?
 - vast see balance from system
 - 2 \times (2 networks) more rng runs for elp-gp
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - PPR:have another look at the algorithm
-- PPR check if we have all the images for the pipeline image
-- PPR more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density
 - erick pipeline diagram
-- keep an eye out for negative correlation 
-- aliases for pgrep
+- >>> PPR Related: lime
+- >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
+- >>> Morning ICASSP: ask saumya to look over paper
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -53,15 +71,30 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
-- SRT: insert dummy figures
+- PPR: run rank correlation on normalized rng
 - run SESS and CAMERAS
-- CAMERAS to attribution benchmark
 - rerun sanity with xavier,
-- GP saliency doesnt work!
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
-- summarize gp saliency ( was it really 70%)
 -------------------------------------------------------------------------
 2>DONE:
+- ICASSP: add self citation
+- ICASSP: copy aniket citation to bib from ijcnn mybib
+- ICASSP: modify related work
+- ICASSP: sync github and overleaf paper
+- PPR: nameing assets  in 2 stage sampling 
+- PPR: sampling consistently in crop coordinates ( give this a notation B_A)
+- PPR: bold (i)and (ii) in sampling promising
+- PPR: mention "promising crops" before the subsection
+TODO in related
+- PPR: formatting of step 1.1
+- PPR: bar in step 1.2 is not visible
+- PPR: number sections
+- PPR: abstract starts 1 line below
+- CAMERAS to attribution benchmark
+- SRT: insert dummy figures
+- GP saliency doesnt work!
+- summarize gp saliency ( was it really 70%)
+- why is CAMERAS not running
 - PPR single anonymous authors
 - is use_donefiles is tcorrect for genrun
 - create 'older versions' and identify which images are needed.
@@ -186,6 +219,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- aliases for pgrep
 - kata : find if done filelist has the same method as with --method
 - multiple json for generate
 - play with docker
