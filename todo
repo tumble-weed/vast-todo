@@ -1,5 +1,6 @@
 1>TODO: 
 - make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
+- add methods for deletion game to torchray ( from sess paper)
 - run 116,117,118 again after the genrunscript part is done
 - make google service account with eric
 - convert into ijcai format
