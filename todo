@@ -1,6 +1,8 @@
 1>TODO: 
+- eric- aliases
 - how do i make it seamless for a worker to see what has been finished on the parent?
-- PPR Related SRT: add references for all methods in table. ( Cnt, Grad,DConv,Guid.,MWP,cMWP,)
+- PPR Related SRT: add references for all methods in table. ( ,MWP,cMWP,)
+Cnt, Grad,DConv,Guid.
 - PPR SRT: vertical line in table
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - PPR Intro: is the introduction strong and convinvcing enough?
