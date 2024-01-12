@@ -1,14 +1,16 @@
 1>TODO: 
-- PPR: does the smooth operator need its own equation?
-- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
-- PPR: vertical line in table
-- PPR find TOdO
-- Related: bevy
-- PPR Related: gp related
+- how do i make it seamless for a worker to see what has been finished on the parent?
 - PPR Related SRT: add references for all methods in table. ( Cnt, Grad,DConv,Guid.,MWP,cMWP,)
-- PPR Related Add column of references: gradcam++, clrp. Some notable methods include. 
-TODO in experiment
+- PPR SRT: vertical line in table
+- PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
+- PPR Intro: is the introduction strong and convinvcing enough?
+- PPR Elp: does the smooth operator need its own equation?
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
+- DONE: elp_rng, figure out what to run next 
+- PPR: step 2.2 described nowere
+- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
+- PPR find TOdO
+TODO in experiment
 - PPR: failure cases & challenges
 IMAGES:
 >> gaussian process model
@@ -19,17 +21,13 @@ IMAGES:
 %>> stochasticity of simple cropping
 %>> non-stochasticity of gaussian process
 >> crops and their scores
-- PPR Approach:recheck if step number aligns with text
+- PPR check if we have all the images for the pipeline image
 - PPR Approach,EP:different areas in EP, as well as areas of the window  
 - PPR Approach: have saumya look over bilinear interpolation (approach)
-- PPR check if we have all the images for the pipeline image
-- PPR Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density
 - keep an eye out for negative correlation 
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- PPR Intro: is the introduction strong and convinvcing enough?
 - because of unweighted remaining we will not be able to run rng for gp
 - elp with gp with mean scores
-- PPR:check biliner equations
 - PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta)
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - vast see balance from system
@@ -77,6 +75,10 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR Related: gp related
+gradcam++
+- PPR Related Add column of references: clrp. Some notable methods include. 
+- rank corr gp,resnet: 0.9304595315273418 rank corr scale and crop,resnet:  0.898630472786051
 - ICASSP: add self citation
 - ICASSP: copy aniket citation to bib from ijcnn mybib
 - ICASSP: modify related work
@@ -258,6 +260,12 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- RUN rank corr on with_gp
+- PPR:check biliner equations
+- Related: bevy
+- PPR: q_a and q_A
+- RUN rank corr on scale_normalized 
+- PPR Approach:recheck if step number aligns with text
 - PPR:fast predictive variances
 - vast-115,115-old,116,116-old has wrong donefilelist
 - PPR spearman reference: how does adebayo paper talk aout it?
