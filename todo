@@ -1,11 +1,7 @@
 1>TODO: 
-- MULTI: seems to use cifar10
-PPR: active learning
-PPR: unrelated to class of interest Sampling Promising Crops
-PPR: high frequency edges
-PPR: unlikely pixels differ in importances
-- PPR: for an image x and class of interest c --> image I
-- IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+PPR Approach: unrelated to class of interest Sampling Promising Crops
+PPR ELP: high frequency edges
+PPR ELP: unlikely pixels differ in importances
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ERC: make images on draw.io
 - ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
@@ -55,7 +51,10 @@ IMAGES:
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 -mixed reset to f4b3e2c
 - Eric make google service account with eric
-- Akash add methods for deletion game to torchray ( from sess paper)
+PPR: active learning
+- MULTI: seems to use cifar10
+- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+- MULTI Akash add methods for deletion game to torchray ( from sess paper)
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -95,6 +94,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR: for an image x and class of interest c --> image I
 - run multiple commands in watch -n 
 - PPR check if we have all the images for the pipeline image
 - because of unweighted remaining we will not be able to run rng for gp
