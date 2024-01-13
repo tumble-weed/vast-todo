@@ -1,6 +1,8 @@
 1>TODO: 
 - PPR: teaser image
+- PPR related: reread
 - PPR intro: red part of intro
+- recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them
 - search for [?] and ?? and ? in paper
 - ERC: make images on draw.io
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
@@ -28,12 +30,9 @@ IMAGES:
 %>> non-stochasticity of gaussian process
 >> crops and their scores
 - keep an eye out for negative correlation 
-- run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - elp with gp with mean scores
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - vast see balance from system
-- 2 \times (2 networks) more rng runs for elp-gp
-- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - erick pipeline diagram
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
@@ -81,6 +80,9 @@ PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
 --------------------------------------------------------------------------
 <<DOING>>
+- run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
+- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+- 2 \times (2 networks) more rng runs for elp-gp
 - for upload_torchray also add code for uploading all important directories of the system
 - in genrunscripts run createdonescripts when use_donefilelist is true
 - PPR: run rank correlation on normalized rng
