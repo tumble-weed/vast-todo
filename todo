@@ -1,4 +1,9 @@
 1>TODO: 
+PPR: active learning
+PPR: unrelated to class of interest Sampling Promising Crops
+PPR: high frequency edges
+PPR: unlikely pixels differ in importances
+- PPR: for an image x and class of interest c --> image I
 - IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ERC: make images on draw.io
