@@ -1,4 +1,5 @@
 1>TODO: 
+- MULTI: seems to use cifar10
 PPR: active learning
 PPR: unrelated to class of interest Sampling Promising Crops
 PPR: high frequency edges
