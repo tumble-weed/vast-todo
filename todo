@@ -1,5 +1,5 @@
 1>TODO: 
-- run multiple commands in watch -n 
+- IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ERC: make images on draw.io
 - ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
@@ -16,7 +16,7 @@
 - summarize cameras,sess to see if they are actually done
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
-- DONE: elp_rng, figure out what to run next 
+- done: elp_rng, figure out what to run next 
 - PPR: step 2.2 described nowere
 - PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
 - PPR find TODO
@@ -89,6 +89,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- run multiple commands in watch -n 
 - PPR check if we have all the images for the pipeline image
 - because of unweighted remaining we will not be able to run rng for gp
 - ERC: check_ndonde cameras, elp-gp, sess
