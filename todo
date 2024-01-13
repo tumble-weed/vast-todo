@@ -1,11 +1,8 @@
 1>TODO: 
-PPR Approach: unrelated to class of interest Sampling Promising Crops
-PPR ELP: high frequency edges
-PPR ELP: unlikely pixels differ in importances
-- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
-- ERC: make images on draw.io
-- PPR Abstract
 - PPR Intro: is the introduction strong and convinvcing enough?
+- search for [?] and ?? and ? in paper
+- ERC: make images on draw.io
+- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ? will need to schedule vgg16 run for the gp method
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
@@ -79,7 +76,9 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
+--------------------------------------------------------------------------
 <<DOING>>
 - for upload_torchray also add code for uploading all important directories of the system
 - in genrunscripts run createdonescripts when use_donefilelist is true
@@ -89,6 +88,8 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR \cite{adversarial}
+PPR Approach: unrelated to class of interest Sampling Promising Crops
 - done: elp_rng, figure out what to run next 
 - problem is how do i calculate how much work is left? --> do something while making run scripts using genrunscript
 - SRT: make table from SESS
@@ -291,6 +292,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR Abstract
+PPR ELP: high frequency edges
 TODO in experiment
 - PPR find TODO
 - ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
