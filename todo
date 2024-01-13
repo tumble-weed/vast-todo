@@ -1,6 +1,8 @@
 1>TODO: 
+- problem is how do i calculate how much is left?
+- SRT: make table
+- ERIC alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR Elp: does the smooth operator need its own equation?
-- alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - because of unweighted remaining we will not be able to run rng for gp
 - PPR Abstract
 - PPR Intro: is the introduction strong and convinvcing enough?
