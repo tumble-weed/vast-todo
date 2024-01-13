@@ -1,4 +1,5 @@
 1>TODO: 
+- PPR: can i plan out the images
 - PPR: teaser image
 - PPR related: reread
 - PPR intro: red part of intro
@@ -12,7 +13,7 @@
 - PPR: step 2.2 described nowere
 - PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
 - ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
-- ICASSP: register for IEEE signal processing society
+- ICASSP: register for IEEE signal processing society, use mobile internet
 - convert into ijcai format
 - CALENDAR correct times of notifications
 - summarize cameras,sess to see if they are actually done
@@ -256,6 +257,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
 - ERC: port forwarding
 - aliases for pgrep
 - kata : find if done filelist has the same method as with --method
