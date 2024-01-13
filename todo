@@ -4,26 +4,22 @@ PPR ELP: high frequency edges
 PPR ELP: unlikely pixels differ in importances
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ERC: make images on draw.io
-- ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR Abstract
 - PPR Intro: is the introduction strong and convinvcing enough?
-- PPR SRT: vertical line in table
 - ? will need to schedule vgg16 run for the gp method
-- SRT: make table from SESS
-- problem is how do i calculate how much work is left? --> do something while making run scripts using genrunscript
+- PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
+- PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
+- PPR: step 2.2 described nowere
+- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
 - ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
 - ICASSP: register for IEEE signal processing society
 - convert into ijcai format
 - CALENDAR correct times of notifications
 - summarize cameras,sess to see if they are actually done
-- PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
-- PPR: explore_results should we do it with an image where the method scores better than simple EP ? 
-- done: elp_rng, figure out what to run next 
-- PPR: step 2.2 described nowere
-- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
-- PPR find TODO
-TODO in experiment
 - PPR: failure cases & challenges
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
+- PPR Approach: have saumya look over bilinear interpolation (approach)
+- PPR:have another look at the algorithm
 IMAGES:
 >> gaussian process model
 >> scores of sampled crop centers.
@@ -33,8 +29,6 @@ IMAGES:
 %>> stochasticity of simple cropping
 %>> non-stochasticity of gaussian process
 >> crops and their scores
-- PPR Approach,EP:different areas in EP, as well as areas of the window  
-- PPR Approach: have saumya look over bilinear interpolation (approach)
 - keep an eye out for negative correlation 
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - elp with gp with mean scores
@@ -42,19 +36,18 @@ IMAGES:
 - vast see balance from system
 - 2 \times (2 networks) more rng runs for elp-gp
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-- PPR:have another look at the algorithm
 - erick pipeline diagram
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - >>> Morning ICASSP: ask saumya to look over paper
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
--mixed reset to f4b3e2c
 - Eric make google service account with eric
 PPR: active learning
 - MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)
+- instead of assert, change those statements to pause
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -85,6 +78,8 @@ PAPER LINKS
 https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
+<<NOT DOING>>
+- mixed reset to f4b3e2c
 <<DOING>>
 - for upload_torchray also add code for uploading all important directories of the system
 - in genrunscripts run createdonescripts when use_donefilelist is true
@@ -94,6 +89,10 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- done: elp_rng, figure out what to run next 
+- problem is how do i calculate how much work is left? --> do something while making run scripts using genrunscript
+- SRT: make table from SESS
+- PPR SRT: vertical line in table
 - PPR: for an image x and class of interest c --> image I
 - run multiple commands in watch -n 
 - PPR check if we have all the images for the pipeline image
@@ -292,6 +291,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+TODO in experiment
+- PPR find TODO
+- ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta) Multiscale Perturbations
   Multiscale Perturbations for Improved Optimization based Attribution
   Search-In-scale , SIS, Search In Scale
