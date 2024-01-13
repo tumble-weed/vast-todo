@@ -1,8 +1,6 @@
 1>TODO: 
-- for upload_torchray also add code for uploading all important directories of the system
-- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet)
-- ERC: check_ndonde cameras, elp-gp, sess
-- ERC: port forwarding
+- run multiple commands in watch -n 
+- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ERC: make images on draw.io
 - ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR Abstract
@@ -10,8 +8,7 @@
 - PPR SRT: vertical line in table
 - ? will need to schedule vgg16 run for the gp method
 - SRT: make table from SESS
-- problem is how do i calculate how much is left?
-- because of unweighted remaining we will not be able to run rng for gp
+- problem is how do i calculate how much work is left? --> do something while making run scripts using genrunscript
 - ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
 - ICASSP: register for IEEE signal processing society
 - convert into ijcai format
@@ -22,7 +19,7 @@
 - DONE: elp_rng, figure out what to run next 
 - PPR: step 2.2 described nowere
 - PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
-- PPR find TOdO
+- PPR find TODO
 TODO in experiment
 - PPR: failure cases & challenges
 IMAGES:
@@ -34,7 +31,6 @@ IMAGES:
 %>> stochasticity of simple cropping
 %>> non-stochasticity of gaussian process
 >> crops and their scores
-- PPR check if we have all the images for the pipeline image
 - PPR Approach,EP:different areas in EP, as well as areas of the window  
 - PPR Approach: have saumya look over bilinear interpolation (approach)
 - keep an eye out for negative correlation 
@@ -85,6 +81,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<DOING>>
+- for upload_torchray also add code for uploading all important directories of the system
 - in genrunscripts run createdonescripts when use_donefilelist is true
 - PPR: run rank correlation on normalized rng
 - run SESS and CAMERAS
@@ -92,6 +89,9 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR check if we have all the images for the pipeline image
+- because of unweighted remaining we will not be able to run rng for gp
+- ERC: check_ndonde cameras, elp-gp, sess
 - ERC: filebrowser 
 - PPR Elp: does the smooth operator need its own equation?
 - run 116,117,118 again after the genrunscript part is done
@@ -245,6 +245,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- ERC: port forwarding
 - aliases for pgrep
 - kata : find if done filelist has the same method as with --method
 - multiple json for generate
