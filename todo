@@ -1,14 +1,13 @@
 1>TODO: 
-- icassp travel grant
-- make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
-- add methods for deletion game to torchray ( from sess paper)
-- run 116,117,118 again after the genrunscript part is done
-- make google service account with eric
-- convert into ijcai format
-- CALENDAR correct times of notifications
+- PPR Elp: does the smooth operator need its own equation?
+- alias for quickly running method on particular imroot ( to generate results for images to visualize)
+- because of unweighted remaining we will not be able to run rng for gp
 - PPR Abstract
 - PPR Intro: is the introduction strong and convinvcing enough?
-- PPR Elp: does the smooth operator need its own equation?
+- icassp travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
+- will need to schedule vgg16 run for the gp method
+- convert into ijcai format
+- CALENDAR correct times of notifications
 - summarize cameras,sess to see if they are actually done
 - PPR SRT: vertical line in table
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
@@ -33,7 +32,6 @@ IMAGES:
 - PPR Approach: have saumya look over bilinear interpolation (approach)
 - keep an eye out for negative correlation 
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- because of unweighted remaining we will not be able to run rng for gp
 - elp with gp with mean scores
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - vast see balance from system
@@ -47,6 +45,8 @@ IMAGES:
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 -mixed reset to f4b3e2c
+- Eric make google service account with eric
+- Akash add methods for deletion game to torchray ( from sess paper)
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -85,6 +85,8 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- run 116,117,118 again after the genrunscript part is done
+- make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
 - in resultshandler add threadpoolexectuer from summary2
 - how do i make it seamless for a worker to see what has been finished on the parent?
 - how do i make genrunscripts a little auto completish
