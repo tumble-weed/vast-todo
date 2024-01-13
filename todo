@@ -1,7 +1,8 @@
 1>TODO: 
+- for upload_torchray also add code for uploading all important directories of the system
+- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet)
 - ERC: check_ndonde cameras, elp-gp, sess
 - ERC: port forwarding
-- ERC: filebrowser 
 - ERC: make images on draw.io
 - ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR Abstract
@@ -91,6 +92,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- ERC: filebrowser 
 - PPR Elp: does the smooth operator need its own equation?
 - run 116,117,118 again after the genrunscript part is done
 - make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
