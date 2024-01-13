@@ -1,5 +1,6 @@
 1>TODO: 
-- PPR Intro: is the introduction strong and convinvcing enough?
+- PPR: teaser image
+- PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
 - ERC: make images on draw.io
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
@@ -88,6 +89,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR Intro: is the introduction strong and convinvcing enough?
 - PPR \cite{adversarial}
 PPR Approach: unrelated to class of interest Sampling Promising Crops
 - done: elp_rng, figure out what to run next 
