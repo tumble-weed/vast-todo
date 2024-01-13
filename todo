@@ -1,7 +1,7 @@
 1>TODO: 
-- PPR: can i plan out the images
-- PPR: teaser image
-- PPR related: reread
+- add results to table
+- ! PPR: can i plan out the images
+- ! PPR: teaser image
 - PPR intro: red part of intro
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them
 - search for [?] and ?? and ? in paper
@@ -298,6 +298,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR related: reread
 - PPR Abstract
 PPR ELP: high frequency edges
 TODO in experiment
