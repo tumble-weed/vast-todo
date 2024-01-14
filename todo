@@ -1,6 +1,5 @@
 1>TODO: 
-- you can use python -c for string processing
-- delete 117
+- which ones are doing vgg16 rng2, is there overlap?
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116
 (gp resnet50 rng3 ), (unweighted 16)
 - for visual comparison
@@ -112,6 +111,8 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- delete 117
+- you can use python -c for string processing
     - save filelist and filelist+class_id for select
 add arch, and prefix to slect save
 - have set-title export a $TITLE variable that keeps getting set to get the preious title
@@ -283,6 +284,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- check bash courses on udemy
 - what does $* in bash
 - this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
 - ERC: port forwarding
