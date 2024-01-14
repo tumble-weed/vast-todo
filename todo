@@ -1,18 +1,11 @@
 >TODO: 
-- create aliases for different ways of detecting an image
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
-- runsess SESS is not showing high enough results. 
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
+- create aliases for different ways of detecting an image
 (gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
-    methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
-    (select_) get rows to visualize
-    !(attribution,dofilelist?) run attribution on the images in the list look at trygradcam
-        !make alias to do this in a loop for all methods
     (filebrowser,draw.io) copy images to draw.io
-- for failure:
-    - PPR: select_results failure cases & challenges
     get failure_for for elp_gp and elp for vgg16,resnet50
 - tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR: what if gradcam is better than elp-scales? (it probably is)
@@ -85,6 +78,8 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- for failure:
+    - PPR: select_results failure cases & challenges
 - copy remaining to remaining 14,add unweighted to remainging, remove it from 116, genrunscript run_remaining.json, run remaining., divide resnet50 task from ? with 116
 - CALENDAR correct times of notifications
 - Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
@@ -266,6 +261,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- runsess SESS is not showing high enough results. 
 - instead of assert, change those statements to pause
 - Eric make google service account with eric
 - vast see balance from system
@@ -312,6 +308,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+    methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
+    (select_) get rows to visualize
+    !(attribution,dofilelist?) run attribution on the images in the list look at trygradcam
+        !make alias to do this in a loop for all methods
+
 dolist for gradcam
 dolist for all methods in the paper
 - keep an eye out for negative correlation 
