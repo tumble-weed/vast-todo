@@ -1,4 +1,4 @@
-1>TODO: 
+>TODO: 
 - SESS is not showing high enough results. 
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 (gp resnet50 rng3 ), (unweighted 16)
@@ -47,13 +47,6 @@ https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 PPR: active learning
-- MULTI: seems to use cifar10
-- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
-- MULTI Akash add methods for deletion game to torchray ( from sess paper)
-- instead of assert, change those statements to pause
-- MULTI: find pretrained mnist cifar. lets go with cifar 100
-- MULTI: add inegreted grad to torchray
-- MULTI: smaller_datasets imported within datasets
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -286,6 +279,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- instead of assert, change those statements to pause
 - Eric make google service account with eric
 - vast see balance from system
 - check bash courses on udemy
