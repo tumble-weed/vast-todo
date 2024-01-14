@@ -1,4 +1,5 @@
 1>TODO: 
+- you can use python -c for string processing
 - delete 117
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116
 (gp resnet50 rng3 ), (unweighted 16)
