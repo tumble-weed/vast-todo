@@ -1,0 +1,37 @@
+1- MULTI: seems to use cifar10
+- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+- MULTI Akash add methods for deletion game to torchray ( from sess paper)
+- MULTI: find pretrained mnist cifar. lets go with cifar 100
+- MULTI: add inegreted grad to torchray
+- MULTI: smaller_datasets imported within datasets
+
+- MULTI: seems to use cifar10
+- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+- MULTI Akash add methods for deletion game to torchray ( from sess paper)
+- instead of assert, change those statements to pause
+- MULTI: find pretrained mnist cifar. lets go with cifar 100
+- MULTI: add inegreted grad to torchray
+- MULTI: smaller_datasets imported within datasets
+--------------------------------------------------------------------------
+    6>DELETION
+    - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
+    - fullgrad deletion curves
+    - make deletionbenchmark
+    - metricsdatahandler
+    - we will havetorerun deletion on all methods on2 datasets and 2 arch
+    - average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
+    - ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
+    - average deletion
+    - what were the percentages for gpnn deletion evaluation, or do i run everything again?
+--------------------------------------------------------------------------
+        - MULTI:sharpness annealing
+        - svhn in torchray. run pointing. find pretrained
+        - finish deletion
+        - mnist for detection or small datasets for detection. 
+        - cifar in torchray. dont run pointing
+        - deletion and insertion game in optimization
+        - from igospape: ebp, mp,ep, gradcam,rise, integrated grads
+        - ABLATIONS: number of thresholds, elp based masking, and my masking?
+        - run all evaluations on compiled models!
+        - run everything vgg_bn?
+

@@ -53,28 +53,6 @@ https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 PPR: active learning
 - elp with gp with mean scores
---------------------------------------------------------------------------
-    6>DELETION
-    - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
-    - fullgrad deletion curves
-    - make deletionbenchmark
-    - metricsdatahandler
-    - we will havetorerun deletion on all methods on2 datasets and 2 arch
-    - average across percentages or not in deletion? YES to keep it consistent across number of thresholds, it should be average? should be in icdmpaper
-    - ( pmasked -p) or (p - pmasked): we did see negative scores -> we take difference (was that for deletion?). - should also store areas in deletion
-    - average deletion
-    - what were the percentages for gpnn deletion evaluation, or do i run everything again?
---------------------------------------------------------------------------
-        - MULTI:sharpness annealing
-        - svhn in torchray. run pointing. find pretrained
-        - finish deletion
-        - mnist for detection or small datasets for detection. 
-        - cifar in torchray. dont run pointing
-        - deletion and insertion game in optimization
-        - from igospape: ebp, mp,ep, gradcam,rise, integrated grads
-        - ABLATIONS: number of thresholds, elp based masking, and my masking?
-        - run all evaluations on compiled models!
-        - run everything vgg_bn?
 ---------------------------------------------------------------------------
 PAPER LINKS
 - ijcai primary seconday, abstract
@@ -333,6 +311,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+dolist for gradcam
+dolist for all methods in the paper
 - keep an eye out for negative correlation 
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116?
 - PPR related: reread
