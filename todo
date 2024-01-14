@@ -1,6 +1,8 @@
 1>TODO: 
-- recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116
+- SESS is not showing high enough results. 
+- in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 (gp resnet50 rng3 ), (unweighted 16)
+- PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
     methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
     (select_) get rows to visualize
@@ -8,30 +10,12 @@
         !make alias to do this in a loop for all methods
     (filebrowser,draw.io) copy images to draw.io
 - for failure:
+    - PPR: select_results failure cases & challenges
     get failure_for for elp_gp and elp for vgg16,resnet50
-- Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
-- PPR: select_results explore_results should we do it with an image where the method scores better than simple EP ? 
-- PPR: select_results failure cases & challenges
 - tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
-- ! PPR: teaser image
-- ! PPR: can i plan out the images. what if all the effort on the diagram is wrong
-- (collet_reslts,rng) add results to table
-- PPR intro: red part of intro
-- search for [?] and ?? and ? in paper
-- ? will need to schedule vgg16 run for the gp method
-- PPR: step 2.2 described nowere
-- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
-- ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
-- ICASSP: register for IEEE signal processing society, use mobile internet
-- IJCAI convert into ijcai format
-- CALENDAR correct times of notifications
-- summarize cameras,sess to see if they are actually done
-- PPR Approach,EP:different areas in EP, as well as areas of the window  
-- PPR Approach: have saumya look over bilinear interpolation (approach)
-- PPR:have another look at the algorithm
 IMAGES:
 >> gaussian process model
 >> scores of sampled crop centers.
@@ -39,17 +23,29 @@ IMAGES:
 >> pipeline of full method
 >> failure cases
 >> crops and their scores
-- keep an eye out for negative correlation 
-- elp with gp with mean scores
+- ! PPR: teaser image
+- ! PPR: can i plan out the images. what if all the effort on the diagram is wrong
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
-- vast see balance from system
+- (collet_reslts,rng) add results to table
+- PPR intro: red part of intro
+- search for [?] and ?? and ? in paper
+- PPR: step 2.2 described nowere
+- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
+- ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
+https://signalprocessingsociety.org/events/current-travel-grants
+https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
+- IEEE travelgrant video
+- IJCAI convert into ijcai format
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
+- PPR Approach: have saumya look over bilinear interpolation (approach)
+- PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
+- elp with gp with mean scores
 - erick pipeline diagram
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - >>> Morning ICASSP: ask saumya to look over paper
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
-- Eric make google service account with eric
 PPR: active learning
 - MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
@@ -97,6 +93,8 @@ PPR ELP: unlikely pixels differ in importances
 %>> non-stochasticity of gaussian process
 --------------------------------------------------------------------------
 <<DOING>>
+- ? will need to schedule vgg16 run for the gp method
+- summarize cameras,sess to see if they are actually done
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
 - 2 \times (2 networks) more rng runs for elp-gp
@@ -108,6 +106,10 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- CALENDAR correct times of notifications
+- Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
+diagnose? set pause2 in attribution, FINDCODE SESS incdrunscripts,copy runsess from run_vast_....sh
+- ICASSP: register for IEEE signal processing society, use mobile internet
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - PPR: check why ijcnn changed tracks
 - which ones are doing vgg16 rng2, is there overlap?
@@ -284,6 +286,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- Eric make google service account with eric
+- vast see balance from system
 - check bash courses on udemy
 - what does $* in bash
 - this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
@@ -327,6 +331,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- keep an eye out for negative correlation 
+- recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116?
 - PPR related: reread
 - PPR Abstract
 PPR ELP: high frequency edges
