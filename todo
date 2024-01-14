@@ -1,5 +1,6 @@
 >TODO: 
-- SESS is not showing high enough results. 
+- everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
+- runsess SESS is not showing high enough results. 
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 (gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
@@ -13,8 +14,8 @@
     - PPR: select_results failure cases & challenges
     get failure_for for elp_gp and elp for vgg16,resnet50
 - tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
-- PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
+~~~~~~~~~~~~~
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 IMAGES:
 >> gaussian process model
@@ -26,27 +27,32 @@ IMAGES:
 - ! PPR: teaser image
 - ! PPR: can i plan out the images. what if all the effort on the diagram is wrong
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
-- (collet_reslts,rng) add results to table
+- erick pipeline diagram
+~~~~~~~~~~~~~
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
+- PPR: step 2.2 described nowere
+- PPR Approach: have saumya look over bilinear interpolation (approach)
+- PPR Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
+- PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
+~~~~~~~~~~~~~~
+- PPR: average the results of rngs. not going to write a script for it.
+- (collect_reslts,rng) add results to table: waiting for rng to end so i can average it
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
-- PPR: step 2.2 described nowere
-- PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
+~~~~~~~~~~~~~~
 - ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
 https://signalprocessingsociety.org/events/current-travel-grants
 https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
 - IEEE travelgrant video
+~~~~~~~~~~~~~~
 - IJCAI convert into ijcai format
-- PPR Approach,EP:different areas in EP, as well as areas of the window  
-- PPR Approach: have saumya look over bilinear interpolation (approach)
-- PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
-- elp with gp with mean scores
-- erick pipeline diagram
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - >>> Morning ICASSP: ask saumya to look over paper
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 PPR: active learning
+- elp with gp with mean scores
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -86,6 +92,7 @@ PPR ELP: unlikely pixels differ in importances
 %>> non-stochasticity of gaussian process
 --------------------------------------------------------------------------
 <<DOING>>
+- 115 is also running  a vgg16 part
 - ? will need to schedule vgg16 run for the gp method
 - summarize cameras,sess to see if they are actually done
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
@@ -99,6 +106,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- copy remaining to remaining 14,add unweighted to remainging, remove it from 116, genrunscript run_remaining.json, run remaining., divide resnet50 task from ? with 116
 - CALENDAR correct times of notifications
 - Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
 diagnose? set pause2 in attribution, FINDCODE SESS incdrunscripts,copy runsess from run_vast_....sh
