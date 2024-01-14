@@ -1,5 +1,4 @@
 1>TODO: 
-- which ones are doing vgg16 rng2, is there overlap?
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116
 (gp resnet50 rng3 ), (unweighted 16)
 - for visual comparison
@@ -14,7 +13,6 @@
 - PPR: select_results explore_results should we do it with an image where the method scores better than simple EP ? 
 - PPR: select_results failure cases & challenges
 - tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
-- PPR: check why ijcnn changed tracks
 - PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
@@ -23,7 +21,6 @@
 - (collet_reslts,rng) add results to table
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
-- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ? will need to schedule vgg16 run for the gp method
 - PPR: step 2.2 described nowere
 - PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
@@ -111,6 +108,9 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
+- PPR: check why ijcnn changed tracks
+- which ones are doing vgg16 rng2, is there overlap?
 - delete 117
 - you can use python -c for string processing
     - save filelist and filelist+class_id for select
