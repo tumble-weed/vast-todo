@@ -1,9 +1,11 @@
 1>TODO: 
+- PPR: check why ijcnn changed tracks
+- PPR: sanity get which layers to keep for features ( from elp paper)
 - PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - PPR: explore_results should we do it with an image where the method scores better than simple EP ? select_results
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
-- what if all the effort on the diagram is wrong
+- !what if all the effort on the diagram is wrong
 - save intermediate masks (aroudn 200) and final attribution
 - add results to table
 - code to average together diffferent rng results
