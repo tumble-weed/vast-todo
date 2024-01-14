@@ -1,5 +1,6 @@
 >TODO: 
-- everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
+- create aliases for different ways of detecting an image
+~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - runsess SESS is not showing high enough results. 
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 (gp resnet50 rng3 ), (unweighted 16)
