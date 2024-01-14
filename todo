@@ -7,7 +7,7 @@
 - for visual comparison
     (filebrowser,draw.io) copy images to draw.io
     get failure_for for elp_gp and elp for vgg16,resnet50
-- tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
+- tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 ~~~~~~~~~~~~~
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
