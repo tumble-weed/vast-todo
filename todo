@@ -1,5 +1,4 @@
 1>TODO: 
-- have set-title export a $TITLE variable that keeps getting set to get the preious title
 - Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
 - PPR: select_results explore_results should we do it with an image where the method scores better than simple EP ? 
 - PPR: select_results failure cases & challenges
@@ -103,6 +102,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- have set-title export a $TITLE variable that keeps getting set to get the preious title
 - PPR: sanity get which layers to keep for features ( from elp paper)
 - PPR: gradcam got overwritten
 - dutils if_
