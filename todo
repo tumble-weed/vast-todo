@@ -1,9 +1,9 @@
 1>TODO: 
+(gp resnet50 rng3 ), (unweighted 16)
 - for visual comparison
-    - save filelist and filelist+class_id for select
-    Understanding ELP :get names of methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
+    methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
     (select_) get rows to visualize
-    !(attribution,dofilelist?) run attribution on the images in the list
+    !(attribution,dofilelist?) run attribution on the images in the list look at trygradcam
         !make alias to do this in a loop for all methods
     (filebrowser,draw.io) copy images to draw.io
 - for failure:
@@ -111,6 +111,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+    - save filelist and filelist+class_id for select
 add arch, and prefix to slect save
 - have set-title export a $TITLE variable that keeps getting set to get the preious title
 - PPR: sanity get which layers to keep for features ( from elp paper)
