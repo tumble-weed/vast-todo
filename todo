@@ -1,4 +1,13 @@
 1>TODO: 
+- for visual comparison
+    - save filelist and filelist+class_id for select
+    Understanding ELP :get names of methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
+    (select_) get rows to visualize
+    !(attribution,dofilelist?) run attribution on the images in the list
+        !make alias to do this in a loop for all methods
+    (filebrowser,draw.io) copy images to draw.io
+- for failure:
+    get failure_for for elp_gp and elp for vgg16,resnet50
 - Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
 - PPR: select_results explore_results should we do it with an image where the method scores better than simple EP ? 
 - PPR: select_results failure cases & challenges
@@ -102,6 +111,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+add arch, and prefix to slect save
 - have set-title export a $TITLE variable that keeps getting set to get the preious title
 - PPR: sanity get which layers to keep for features ( from elp paper)
 - PPR: gradcam got overwritten
