@@ -1,12 +1,13 @@
 1>TODO: 
+- Should i start new system? 118_new, setup_instance, remake genrunscript, run in new 118
+- PPR: select_results explore_results should we do it with an image where the method scores better than simple EP ? 
+- PPR: select_results failure cases & challenges
+- tryvisualize,vimvisualize,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR: check why ijcnn changed tracks
-- PPR: sanity get which layers to keep for features ( from elp paper)
 - PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
-- PPR: explore_results should we do it with an image where the method scores better than simple EP ? select_results
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - !what if all the effort on the diagram is wrong
-- save intermediate masks (aroudn 200) and final attribution
 - add results to table
 - code to average together diffferent rng results
 - ! PPR: can i plan out the images
@@ -14,17 +15,15 @@
 - PPR intro: red part of intro
 - recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them
 - search for [?] and ?? and ? in paper
-- ERC: make images on draw.io
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ? will need to schedule vgg16 run for the gp method
 - PPR: step 2.2 described nowere
 - PPR: bilinear text seems to take up more space thn the GP text which is your main contribution
 - ICASSP travel grant: PPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
 - ICASSP: register for IEEE signal processing society, use mobile internet
-- convert into ijcai format
+- IJCAI convert into ijcai format
 - CALENDAR correct times of notifications
 - summarize cameras,sess to see if they are actually done
-- PPR: failure cases & challenges
 - PPR Approach,EP:different areas in EP, as well as areas of the window  
 - PPR Approach: have saumya look over bilinear interpolation (approach)
 - PPR:have another look at the algorithm
@@ -51,6 +50,9 @@ PPR: active learning
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)
 - instead of assert, change those statements to pause
+- MULTI: find pretrained mnist cifar. lets go with cifar 100
+- MULTI: add inegreted grad to torchray
+- MULTI: smaller_datasets imported within datasets
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -82,6 +84,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+- ERC: make images on draw.io
 PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
 %>> stochasticity of simple cropping
@@ -99,6 +102,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- PPR: sanity get which layers to keep for features ( from elp paper)
 - PPR: gradcam got overwritten
 - dutils if_
 - PPR Intro: is the introduction strong and convinvcing enough?
