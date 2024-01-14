@@ -1,4 +1,5 @@
 1>TODO: 
+- recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them: 115,116
 (gp resnet50 rng3 ), (unweighted 16)
 - for visual comparison
     methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
@@ -16,13 +17,10 @@
 - PPR: average the results of rngs. not going to write a script for it.
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
-- !what if all the effort on the diagram is wrong
-- add results to table
-- code to average together diffferent rng results
-- ! PPR: can i plan out the images
 - ! PPR: teaser image
+- ! PPR: can i plan out the images. what if all the effort on the diagram is wrong
+- (collet_reslts,rng) add results to table
 - PPR intro: red part of intro
-- recreate all run.json to remove donefilelist, and then recreate run.sh and rerun them
 - search for [?] and ?? and ? in paper
 - (CAMERAS, resnet50), (SESS, resnet50), (elp-gp rng2 resenet) (elp-gp rng3 resnet), (elp-gp rng2 vgg) (elp-gp rng3 vgg)
 - ? will need to schedule vgg16 run for the gp method
@@ -93,6 +91,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+- code to average together diffferent rng results
 - ERC: make images on draw.io
 PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
@@ -282,6 +281,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- what does $* in bash
 - this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
 - ERC: port forwarding
 - aliases for pgrep
