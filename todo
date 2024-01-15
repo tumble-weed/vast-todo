@@ -1,4 +1,9 @@
 >TODO: 
+resnet50 rng2 4963 (115)
+118
+resnet50 rng3 6152
+vgg16 rng2 6345
+vgg16 rng3 6563
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - 118 will end in 10 hours with resnet50,rng3 what should it take care of next
 (gp resnet50 rng3 ), (unweighted 16)
