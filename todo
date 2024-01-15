@@ -1,9 +1,6 @@
 >TODO: 
-- move resnet50 rng2 from 119 to 115
-- move vgg16 rng2 from 115 to 119
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
-- in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
-- create aliases for different ways of detecting an image
+- create aliases for different ways of detecting an image(visualizing image?)
 (gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
@@ -80,6 +77,8 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- move resnet50 rng2 from 119 to 115
+- move vgg16 rng2 from 115 to 119
 - for failure:
     - PPR: select_results failure cases & challenges
 - copy remaining to remaining 14,add unweighted to remainging, remove it from 116, genrunscript run_remaining.json, run remaining., divide resnet50 task from ? with 116
@@ -263,12 +262,14 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- bash << notation in bash to feed input from file
+- in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 - runsess SESS is not showing high enough results. 
 - instead of assert, change those statements to pause
 - Eric make google service account with eric
 - vast see balance from system
 - check bash courses on udemy
-- what does $* in bash
+- bash what does $* in bash
 - this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
 - ERC: port forwarding
 - aliases for pgrep
