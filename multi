@@ -1,3 +1,5 @@
+- MULTI- how to train on mnist, check from mnist code.
+- add 3 channelmnist and resize to 32 in mnistdataset
 1- MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)

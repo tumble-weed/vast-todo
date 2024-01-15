@@ -1,9 +1,12 @@
 >TODO: 
+- (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 resnet50 rng2 4963 (115)
 118
 resnet50 rng3 6152
 vgg16 rng2 6345
 vgg16 rng3 6563
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - 118 will end in 10 hours with resnet50,rng3 what should it take care of next
 (gp resnet50 rng3 ), (unweighted 16)
@@ -31,7 +34,6 @@ IMAGES:
 - PPR: step 2.2 described nowere
 - PPR Approach: have saumya look over bilinear interpolation (approach)
 - PPR Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
-- PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
 ~~~~~~~~~~~~~~
 - PPR: average the results of rngs. not going to write a script for it.
 - (collect_reslts,rng) add results to table: waiting for rng to end so i can average it
