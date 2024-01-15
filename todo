@@ -1,7 +1,7 @@
 >TODO: 
 - patreon count for https://www.patreon.com/tysam
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
-- create aliases for different ways of detecting an image(visualizing image?)
+- create aliases for different ways of detecting an image(what does this mean:visualizing image?)
 (gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
