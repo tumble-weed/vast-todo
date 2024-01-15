@@ -1,4 +1,6 @@
 >TODO: 
+- move resnet50 rng2 from 119 to 115
+- move vgg16 rng2 from 115 to 119
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 - create aliases for different ways of detecting an image
