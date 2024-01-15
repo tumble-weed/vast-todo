@@ -1,8 +1,6 @@
 >TODO: 
-- marks in vim, macro in vim
-- patreon count for https://www.patreon.com/tysam
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
-- create aliases for different ways of detecting an image(what does this mean:visualizing image?)
+- 118 will end in 10 hours with resnet50,rng3 what should it take care of next
 (gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
@@ -79,6 +77,7 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- patreon count for https://www.patreon.com/tysam
 - move resnet50 rng2 from 119 to 115
 - move vgg16 rng2 from 115 to 119
 - for failure:
@@ -264,6 +263,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- marks in vim, macro in vim
 - bash << notation in bash to feed input from file
 - in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 - runsess SESS is not showing high enough results. 
@@ -313,6 +313,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- create aliases for different ways of detecting an image(what does this mean:visualizing image?)
     methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
     (select_) get rows to visualize
     !(attribution,dofilelist?) run attribution on the images in the list look at trygradcam
