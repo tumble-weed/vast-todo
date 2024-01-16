@@ -1,11 +1,10 @@
 -make the code to save the failure and success again
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >TODO: 
+- in gp inference/input image is left right of image corret? cdpaperimages
 - (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
-- 118 will end in 10 hours with resnet50,rng3 what should it take care of next
-(gp resnet50 rng3 ), (unweighted 16)
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
     (filebrowser,draw.io) copy images to draw.io
@@ -80,6 +79,8 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- 118 will end in 10 hours with resnet50,rng3 what should it take care of next
+(gp resnet50 rng3 ), (unweighted 16)
 - patreon count for https://www.patreon.com/tysam
 - move resnet50 rng2 from 119 to 115
 - move vgg16 rng2 from 115 to 119
