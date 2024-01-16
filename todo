@@ -1,5 +1,11 @@
-- IEEE travelgrant video
-- ICASSP travel grant: APPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
+- anger managerment and fear
+arrows in tables ( higher better lower better)
+per class tables and bold
+download compare_pointing
+reduce space between equations
+teaser is just improved image
+- save initial crops as well for visualization
+- add alias for collect for all images in better than
 - run the code to save the failure and success again
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >TODO: 
@@ -7,7 +13,8 @@
 - in collect add args
 - there should be a while loop in the algorithms for all steps of EP?
 - in gp inference/input image is left right of image corret? cdpaperimages. seems correct
-- (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
     (filebrowser,draw.io) copy images to draw.io
@@ -78,6 +85,9 @@ PPR ELP: unlikely pixels differ in importances
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- IEEE travelgrant video
+- ICASSP travel grant: APPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
+- for rclone run it in loop instead of watch (does it run in background?)
 >>> around 12 hours for the other computers to finish i should be gp to them as well?
 - ! PPR: can i plan out the images. what if all the effort on the diagram is wrong
 PPR check it in github elp and overleadf
