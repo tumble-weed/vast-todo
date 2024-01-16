@@ -1,9 +1,6 @@
->TODO: 
-- rnning resnet rng2 115
-rng3 116
-118 -
-120 rng2
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>TODO: 
 - (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
