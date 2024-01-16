@@ -4,6 +4,7 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >TODO: 
 - all resnet8
+- exact form of u`,v`in paper?
 - in collect add args
 - there should be a while loop in the algorithms for all steps of EP?
 - in gp inference/input image is left right of image corret? cdpaperimages. seems correct
