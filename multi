@@ -1,3 +1,6 @@
+- add training and saving of dataset to cifar-fast-simple
+- add preprocess of mnist to cifar-fast-simple
+- add saving according to dataset name
 - MULTI- how to train on mnist, check from mnist code.
 - add 3 channelmnist and resize to 32 in mnistdataset
 1- MULTI: seems to use cifar10
