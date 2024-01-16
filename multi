@@ -1,3 +1,4 @@
+- all resnet8
 - add training and saving of dataset to cifar-fast-simple
 - add preprocess of mnist to cifar-fast-simple
 - add saving according to dataset name
