@@ -1,19 +1,7 @@
 >TODO: 
+- rnning resnet rng 115
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. check it in github elp and overleadf
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-finishing times at 21:15:
-112:7
-115:30/3 = 10
-117:16
-118:30/3
-119:12
-120:12
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-resnet50 rng2 4963 (115)
-118
-resnet50 rng3 6152
-vgg16 rng2 6345
-vgg16 rng3 6563
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - 118 will end in 10 hours with resnet50,rng3 what should it take care of next
@@ -437,3 +425,4 @@ gp saliency ight be bettwer
 unw or normalized miht be better
 elp-gp might not show improvements
 the correlation might not be high enough
+
