@@ -3,7 +3,6 @@
 - run the code to save the failure and success again
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >TODO: 
-- all resnet8
 - exact form of u`,v`in paper?
 - in collect add args
 - there should be a while loop in the algorithms for all steps of EP?
