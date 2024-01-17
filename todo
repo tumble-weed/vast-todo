@@ -39,9 +39,6 @@ IMAGES:
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~
-https://signalprocessingsociety.org/events/current-travel-grants
-https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
-~~~~~~~~~~~~~~
 - IJCAI convert into ijcai format
 - >>> PPR Related: lime
 - >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
@@ -50,8 +47,6 @@ PPR: active learning
 - elp with gp with mean scores
 ---------------------------------------------------------------------------
 PAPER LINKS
-- ijcai primary seconday, abstract
-- https://cmt3.research.microsoft.com/IJCAI2024/Submission/Index#
 - IJCNN
 https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
@@ -68,11 +63,16 @@ PPR ELP: unlikely pixels differ in importances
 --------------------------------------------------------------------------
 <<DOING>>
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- in genrunscripts run createdonescripts when use_donefilelist is true
 - PPR: run rank correlation on normalized rng
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+~~~~~~~~~~~~~~
+- ijcai primary seconday, abstract
+- https://cmt3.research.microsoft.com/IJCAI2024/Submission/Index#
+https://signalprocessingsociety.org/events/current-travel-grants
+https://www2.securecms.com/SPSTravelGrants/TravelAwardApplication.asp
+- in genrunscripts run createdonescripts when use_donefilelist is true
 - 2 \times (2 networks) more rng runs for elp-gp
 - run SESS and CAMERAS
 - how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
