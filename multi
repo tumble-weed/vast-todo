@@ -1,3 +1,4 @@
+- resnet8 is working with 32 input
 - all resnet8
 - add training and saving of dataset to cifar-fast-simple
 - add preprocess of mnist to cifar-fast-simple
