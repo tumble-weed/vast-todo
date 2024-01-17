@@ -1,19 +1,20 @@
-- add making image row in collect images
+- in gp inference/input image is left right of image corret? cdpaperimages. seems correct
+- TITLE multiscale perturbations for improved attribution
 SRT arrows in tables ( higher better lower better)
 SRT per class tables and bold
-download compare_pointing
-reduce space between equations
-teaser is just improved image
-- save initial crops as well for visualization
-- add alias for collect for all images in better than
+<LOCAL> download compare_pointing
+<LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
+<LOCAL> teaser is just improved image
+SRT reduce space between equations
 - run the code to save the failure and success again
+~~~~~~~~~~~~~
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
+- PPR: step 2.2 described nowere
+- PPR SMY Approach: have saumya look over bilinear interpolation (approach)
+- PPR SMY Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >TODO: 
 - exact form of u`,v`in paper?
-- in collect add args
-- there should be a while loop in the algorithms for all steps of EP?
-- in gp inference/input image is left right of image corret? cdpaperimages. seems correct
-- (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
 - for visual comparison
@@ -33,13 +34,7 @@ IMAGES:
 - ! PPR: teaser image
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - erick pipeline diagram
-~~~~~~~~~~~~~
-- PPR Approach,EP:different areas in EP, as well as areas of the window  
-- PPR: step 2.2 described nowere
-- PPR Approach: have saumya look over bilinear interpolation (approach)
-- PPR Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
 ~~~~~~~~~~~~~~
-- PPR: average the results of rngs. not going to write a script for it.
 - (collect_results,rng) add results to table: waiting for rng to end so i can average it
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
@@ -62,6 +57,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+- run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - >>> Morning ICASSP: ask saumya to look over paper
 - code to average together diffferent rng results
 - ERC: make images on draw.io
@@ -71,20 +67,23 @@ PPR ELP: unlikely pixels differ in importances
 %>> non-stochasticity of gaussian process
 --------------------------------------------------------------------------
 <<DOING>>
-- 115 is also running  a vgg16 part
-- ? will need to schedule vgg16 run for the gp method
-- summarize cameras,sess to see if they are actually done
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
-- 2 \times (2 networks) more rng runs for elp-gp
-- for upload_torchray also add code for uploading all important directories of the system
 - in genrunscripts run createdonescripts when use_donefilelist is true
 - PPR: run rank correlation on normalized rng
-- run SESS and CAMERAS
 - rerun sanity with xavier,
-- run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 -------------------------------------------------------------------------
 2>DONE:
+- 2 \times (2 networks) more rng runs for elp-gp
+- run SESS and CAMERAS
+- how many RUNS: elp 2,elp_with_scales_normalized 2,gp 2,with gp 2, unweighted 2,multiple seeds 3,3,3 = 16
+- 115 is also running  a vgg16 part
+- ? will need to schedule vgg16 run for the gp method
+- PPR: average the results of rngs. not going to write a script for it.
+- there should be a while loop in the algorithms for all steps of EP?
+- add alias for collect for all images in better than
+- add making image row in collect images
+- in collect add args
+- save initial crops as well for visualization
 - IEEE travelgrant video
 - ICASSP travel grant: APPLICATION DEADLINE - Wednesday, 17 January 2024 @ 12:00 PM noon (ET) 
 - for rclone run it in loop instead of watch (does it run in background?)
@@ -330,6 +329,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- for upload_torchray also add code for uploading all important directories of the system
+- summarize cameras,sess to see if they are actually done
+- SMY (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. 
 ~ everytime i change around the order of which things to do , it needs so many changes: json-->sh, then stopping and running scripts on te machines
 - create aliases for different ways of detecting an image(what does this mean:visualizing image?)
     methods to visalize from: EP,Gradient,Guided,GradCAM,RISE
