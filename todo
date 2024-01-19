@@ -1,10 +1,15 @@
 =======
-- have the rank experiments been done?
+- 112: run rank correlation on normalized rng
+<LOCAL> teaser is just improved image
+=======
+- get the scores for unweighted ( remember to put them correctly in the table)
 - mention that in the plots you get the averaged saliency
-- DRAW: CNN
 - DRAW: correct images
 - DRAW: pixel visibility density
 - summarize extremal perturbation and recollect all results ( at least not per class)
+- PPR check if per class table correctly highlighted
+- LTX combine 2 per class tables in to 1 
+- PPR add EP,EP-GP tables
 - SRT insert the 2 images side by side. inset a teaser image. insert the 2 class tables. correct the pointing game table.
 - in gp inference/input image is left right of image corret? cdpaperimages. seems correct
 - TITLE multiscale perturbations for improved attribution
@@ -12,7 +17,6 @@ SRT arrows in tables ( higher better lower better)
 SRT per class tables and bold
 <LOCAL> download compare_pointing
 <LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
-<LOCAL> teaser is just improved image
 SRT reduce space between equations
 - run the code to save the failure and success again
 ~~~~~~~~~~~~~
@@ -71,7 +75,6 @@ PPR ELP: unlikely pixels differ in importances
 --------------------------------------------------------------------------
 <<DOING>>
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- PPR: run rank correlation on normalized rng
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
@@ -337,6 +340,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- DRAW: CNN
 - for upload_torchray also add code for uploading all important directories of the system
 - summarize cameras,sess to see if they are actually done
 - SMY (elp gp, overlef, syc, make pdf) PPR:Approach: have another look at the algorithm. see notation consistent between algo and text. 
