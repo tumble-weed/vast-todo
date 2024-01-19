@@ -1,5 +1,4 @@
 =======
-- dutils numpy verbose mode
 - custom prinout like ic
 - did you add failure cases to the paper ijcnn?
 - the rank correlation isnt good, how to diagnose? remove the section
@@ -299,6 +298,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- img_save img_save all? (with a flag)
+- dutils numpy verbose mode
 - validatepath to dutils
 - marks in vim, macro in vim
 - bash << notation in bash to feed input from file
