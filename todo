@@ -1,32 +1,26 @@
 =======
+SRT reduce space between equations
 - border multiscale perturbation in qualitative results
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - in the images some labels look like plain text, should have specialfont?
 - specify how you tookthe weights for simple scale and crop
 - TODO captions for the figures
 - which images are remaining: teaser
-- summarize_elp might not work because $UNW is wrong (has - at the end)
 - 112: run rank correlation on normalized rng
+- ERC class names in per-class table?
 <LOCAL> teaser is just improved image
 =======
 - confirm the numbers in table are correctly copied
 - get the scores for unweighted ( remember to put them correctly in the table)
+- PPR add EP,EP-GP tables
 - mention that in the plots you get the averaged saliency
 - DRAW: correct images
 - DRAW: pixel visibility density
-- summarize extremal perturbation and recollect all results ( at least not per class)
 - PPR check if per class table correctly highlighted
-- LTX combine 2 per class tables in to 1 
-- PPR add EP,EP-GP tables
-- SRT insert the 2 images side by side. inset a teaser image. insert the 2 class tables. correct the pointing game table.
 - in gp inference/input image is left right of image corret? cdpaperimages. seems correct
-- TITLE multiscale perturbations for improved attribution
 SRT arrows in tables ( higher better lower better)
 SRT per class tables and bold
-<LOCAL> download compare_pointing
 <LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
-SRT reduce space between equations
-- run the code to save the failure and success again
 ~~~~~~~~~~~~~
 - PPR Approach,EP:different areas in EP, as well as areas of the window  
 - PPR: step 2.2 described nowere
@@ -82,11 +76,14 @@ PPR ELP: unlikely pixels differ in importances
 %>> non-stochasticity of gaussian process
 --------------------------------------------------------------------------
 <<DOING>>
+- summarize_elp might not work because $UNW is wrong (has - at the end)
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
-~~~~~~~~~~~~~~
+<LOCAL> download compare_pointing
+- TITLE multiscale perturbations for improved attribution
+- summarize extremal perturbation and recollect all results ( at least not per class)
 - comment out the rank part to see worst case area reducntino
 - make single column sanity ( replace one of the figures by sanity)
 - did you add failure cases text? to the paper ijcnn?
@@ -354,6 +351,9 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- LTX combine 2 per class tables in to 1 
+- run the code to save the failure and success again
+- SRT insert the 2 images side by side. inset a teaser image. insert the 2 class tables. correct the pointing game table.
 - the rank correlation isnt good, how to diagnose? remove the section
 - DRAW: CNN
 - for upload_torchray also add code for uploading all important directories of the system
