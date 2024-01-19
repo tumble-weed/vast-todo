@@ -1,4 +1,6 @@
 =======
+- dutils numpy verbose mode
+- custom prinout like ic
 - did you add failure cases to the paper ijcnn?
 - the rank correlation isnt good, how to diagnose? remove the section
 - TODO captions for the figures
