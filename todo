@@ -2,6 +2,7 @@
 - 112: run rank correlation on normalized rng
 <LOCAL> teaser is just improved image
 =======
+- confirm the numbers in table are correctly copied
 - get the scores for unweighted ( remember to put them correctly in the table)
 - mention that in the plots you get the averaged saliency
 - DRAW: correct images
