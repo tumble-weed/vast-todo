@@ -1,15 +1,10 @@
 =======
 - border multiscale perturbation in qualitative results
-- add arrowns in stage diagrams as well as STAGE I and STAGE II markers
+- add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - in the images some labels look like plain text, should have specialfont?
 - specify how you tookthe weights for simple scale and crop
-- custom prinout like ic
-- did you add failure cases to the paper ijcnn?
-- the rank correlation isnt good, how to diagnose? remove the section
 - TODO captions for the figures
-- which images are remaining: teaser, sanity upload
-- make single column sanity ( replace one of the figures by sanity)
-- comment out the rank part to see worst case area reducntino
+- which images are remaining: teaser
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - 112: run rank correlation on normalized rng
 <LOCAL> teaser is just improved image
@@ -92,6 +87,9 @@ PPR ELP: unlikely pixels differ in importances
 -------------------------------------------------------------------------
 2>DONE:
 ~~~~~~~~~~~~~~
+- comment out the rank part to see worst case area reducntino
+- make single column sanity ( replace one of the figures by sanity)
+- did you add failure cases text? to the paper ijcnn?
 - ijcai primary seconday, abstract
 - https://cmt3.research.microsoft.com/IJCAI2024/Submission/Index#
 https://signalprocessingsociety.org/events/current-travel-grants
@@ -302,6 +300,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- custom prinout like ic
 - img_save img_save all? (with a flag)
 - dutils numpy verbose mode
 - validatepath to dutils
@@ -355,6 +354,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- the rank correlation isnt good, how to diagnose? remove the section
 - DRAW: CNN
 - for upload_torchray also add code for uploading all important directories of the system
 - summarize cameras,sess to see if they are actually done
