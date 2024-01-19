@@ -1,4 +1,8 @@
 =======
+- border multiscale perturbation in qualitative results
+- add arrowns in stage diagrams as well as STAGE I and STAGE II markers
+- in the images some labels look like plain text, should have specialfont?
+- specify how you tookthe weights for simple scale and crop
 - custom prinout like ic
 - did you add failure cases to the paper ijcnn?
 - the rank correlation isnt good, how to diagnose? remove the section
