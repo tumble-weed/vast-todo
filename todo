@@ -1,7 +1,9 @@
 =======
-- the rank correlation isnt good, how to diagnose?
+- the rank correlation isnt good, how to diagnose? remove the section
 - TODO captions for the figures
 - which images are remaining: teaser, sanity upload
+- make single column sanity ( replace one of the figures by sanity)
+- comment out the rank part to see worst case area reducntino
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - 112: run rank correlation on normalized rng
 <LOCAL> teaser is just improved image
