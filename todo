@@ -1,4 +1,5 @@
 =======
+- summarize_elp might not work because $UNW is wrong (has - at the end)
 - 112: run rank correlation on normalized rng
 <LOCAL> teaser is just improved image
 =======
