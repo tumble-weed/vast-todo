@@ -1,8 +1,7 @@
 =======
-- crop density seems unintuitive, refine it in some way?
-- will need to think about how to change experiment conclusion from focusing on stochasticity to something else
+- crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
+- Approach: will need to think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce height of figures while keeping the width constant
-- add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - in the images some labels look like plain text, should have specialfont?
 - specify how you tookthe weights for simple scale and crop
 <LOCAL> teaser is just improved image
@@ -65,6 +64,7 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - get the scores for unweighted ( remember to put them correctly in the table)
 - 112: run rank correlation on normalized rng
