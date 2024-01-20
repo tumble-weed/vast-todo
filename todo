@@ -1,4 +1,5 @@
 =======
+- get the scores for unweighted ( remember to put them correctly in the table)
 - border multiscale perturbation in qualitative results
 - will needto think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce space between equations
@@ -11,7 +12,6 @@ SRT reduce height of figures while keeping the width constant
 <LOCAL> teaser is just improved image
 =======
 - confirm the numbers in table are correctly copied
-- get the scores for unweighted ( remember to put them correctly in the table)
 - PPR add EP,EP-GP tables
 - mention that in the plots/images you get the averaged saliency of the mask areas
 - DRAW: correct images
