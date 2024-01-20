@@ -1,18 +1,8 @@
-- resnet8 is working with 32 input
-- all resnet8
-- add training and saving of dataset to cifar-fast-simple
-- add preprocess of mnist to cifar-fast-simple
-- add saving according to dataset name
-- MULTI- how to train on mnist, check from mnist code.
 - add 3 channelmnist and resize to 32 in mnistdataset
 1- MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)
-- MULTI: find pretrained mnist cifar. lets go with cifar 100
 - MULTI: add inegreted grad to torchray
-- MULTI: smaller_datasets imported within datasets
-
-- MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)
 - instead of assert, change those statements to pause
@@ -42,3 +32,13 @@
         - run all evaluations on compiled models!
         - run everything vgg_bn?
 
+RECHECK
+- resnet8 is working with 32 input
+- all resnet8
+- add training and saving of dataset to cifar-fast-simple
+- add preprocess of mnist to cifar-fast-simple
+- add saving according to dataset name
+- MULTI- how to train on mnist, check from mnist code.
+- MULTI: find pretrained mnist cifar. lets go with cifar 100
+- MULTI: smaller_datasets imported within datasets
+- MULTI: seems to use cifar10
