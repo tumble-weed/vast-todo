@@ -1,6 +1,6 @@
 =======
-- TODO captions for the figures
 - get scores of scale and crop
+- TODO captions for the figures
 - will need to think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce height of figures while keeping the width constant
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
@@ -27,9 +27,6 @@ SRT per class tables and bold
 >TODO: 
 - exact form of u`,v`in paper?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
-~~~~~~~~~~~~~
-- PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 IMAGES:
 >> gaussian process model
 >> scores of sampled crop centers.
@@ -340,6 +337,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
+- PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - border multiscale perturbation in qualitative results
 - (collect_results,rng) add results to table: waiting for rng to end so i can average it
 >> comparison of final saliency of some images
