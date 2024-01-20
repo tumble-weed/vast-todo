@@ -1,14 +1,11 @@
 =======
-- get the scores for unweighted ( remember to put them correctly in the table)
-- border multiscale perturbation in qualitative results
-- will needto think about how to change experiment conclusion from focusing on stochasticity to something else
-SRT reduce space between equations
+- TODO captions for the figures
+- get scores of scale and crop
+- will need to think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce height of figures while keeping the width constant
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - in the images some labels look like plain text, should have specialfont?
 - specify how you tookthe weights for simple scale and crop
-- TODO captions for the figures
-- ERC class names in per-class table?
 <LOCAL> teaser is just improved image
 =======
 - confirm the numbers in table are correctly copied
@@ -30,32 +27,20 @@ SRT per class tables and bold
 >TODO: 
 - exact form of u`,v`in paper?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
-- for visual comparison
-    (filebrowser,draw.io) copy images to draw.io
-    get failure_for for elp_gp and elp for vgg16,resnet50
 - tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
-- PPR: what if gradcam is better than elp-scales? (it probably is)
 ~~~~~~~~~~~~~
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 IMAGES:
 >> gaussian process model
 >> scores of sampled crop centers.
->> comparison of final saliency of some images
->> pipeline of full method
->> failure cases
 >> crops and their scores
-- ! PPR: teaser image
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - erick pipeline diagram
 ~~~~~~~~~~~~~~
-- (collect_results,rng) add results to table: waiting for rng to end so i can average it
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~
-- IJCAI convert into ijcai format
 - >>> PPR Related: lime
-- >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 PPR: active learning
 - elp with gp with mean scores
@@ -66,14 +51,16 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+%>> stochasticity of simple cropping
+%>> non-stochasticity of gaussian process
+- IJCAI convert into ijcai format
+- >>> Morning ICASSP: see if ok with formatting of experiments (vsp)
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - >>> Morning ICASSP: ask saumya to look over paper
 - code to average together diffferent rng results
 - ERC: make images on draw.io
 PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
-%>> stochasticity of simple cropping
-%>> non-stochasticity of gaussian process
 --------------------------------------------------------------------------
 <<DOING>>
 - summarize_elp might not work because $UNW is wrong (has - at the end)
@@ -81,6 +68,8 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- PPR: what if gradcam is better than elp-scales? (it probably is)
+- get the scores for unweighted ( remember to put them correctly in the table)
 - 112: run rank correlation on normalized rng
 <LOCAL> download compare_pointing
 - TITLE multiscale perturbations for improved attribution
@@ -298,6 +287,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- ERC class names in per-class table?
 - custom prinout like ic
 - img_save img_save all? (with a flag)
 - dutils numpy verbose mode
@@ -350,6 +340,18 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- border multiscale perturbation in qualitative results
+- (collect_results,rng) add results to table: waiting for rng to end so i can average it
+>> comparison of final saliency of some images
+>> failure cases
+>> pipeline of full method
+- ! PPR: teaser image
+- PPR: (select_results) explore_results should we do it with an image where the method scores better than simple EP , as well as better than _simple_scale_and_crop_normalized? 
+- for visual comparison
+    (filebrowser,draw.io) copy images to draw.io
+    get failure_for for elp_gp and elp for vgg16,resnet50
+
+SRT reduce space between equations
 - add scripts for rclone
 - which images are remaining: teaser
 - LTX combine 2 per class tables in to 1 
