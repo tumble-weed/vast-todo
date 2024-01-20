@@ -1,7 +1,5 @@
 =======
-- crop map seems unintuitive
-- get scores of scale and crop
-- TODO captions for the figures
+- crop density seems unintuitive, refine it in some way?
 - will need to think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce height of figures while keeping the width constant
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
@@ -61,6 +59,7 @@ PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
 --------------------------------------------------------------------------
 <<DOING>>
+- get scores of scale and crop
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - rerun sanity with xavier,
@@ -338,6 +337,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- TODO captions for the figures
 - tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
 - border multiscale perturbation in qualitative results
