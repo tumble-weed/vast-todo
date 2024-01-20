@@ -1,7 +1,8 @@
 =======
+- border multiscale perturbation in qualitative results
+- will needto think about how to change experiment conclusion from focusing on stochasticity to something else
 SRT reduce space between equations
 SRT reduce height of figures while keeping the width constant
-- border multiscale perturbation in qualitative results
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - in the images some labels look like plain text, should have specialfont?
 - specify how you tookthe weights for simple scale and crop
