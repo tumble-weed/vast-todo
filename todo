@@ -1,12 +1,12 @@
 =======
-- LTX SRT (45min) SRT order of images
-- LTX SRT (15 min) reduce height of figures while keeping the width constant
 - Intro (10 min recheck) crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
-- Approac,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
+- Approach,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
 - Exp (15 min) specify how you took the weights for simple scale and crop
 - Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
 - Appr Remove "non-object" areas from the text
 PPR: active learning
+- LTX SRT/SMY (45min) SRT order of images
+- LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~
 - Exp ERC (20 min) confirm the numbers in table are correctly copied
 - Exp check (20 min) if per class table correctly highlighted
