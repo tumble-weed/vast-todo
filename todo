@@ -1,6 +1,7 @@
-- PPR intro: red part of intro
-- search for [?] and ?? and ? in paper
 - WR Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
+- where does a networklook?
+- beter name for multi-pass
+- search for [?] and ?? and ? in paper
 - WR Appr: pixel visibility density
 - LTX SRT/SMY (45min) SRT order of images
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
@@ -322,6 +323,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR intro: red part of intro
 - WR Appr Remove "non-object" areas from the text
 - WR Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
 - WR Exp (15 min) specify how you took the weights for simple scale and crop
