@@ -1,25 +1,18 @@
-=======
-- Intro (10 min recheck) crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
-- Exp (15 min) specify how you took the weights for simple scale and crop
-- Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
-- Appr Remove "non-object" areas from the text
-PPR: active learning
+- PPR intro: red part of intro
+- search for [?] and ?? and ? in paper
+- WR Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
+- WR Appr: pixel visibility density
 - LTX SRT/SMY (45min) SRT order of images
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~
-- Exp check (20 min) if per class table correctly highlighted
-~~~~~~~~~~~~~
 - DRAW (15 min) in the images some labels look like plain text, should have specialfont?
-- (45 min) DRAW: correct images
-- Appr DRAW: pixel visibility density
+- DRAW: (45 min) correct images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
 >> gaussian process model
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - erick pipeline diagram
 ~~~~~~~~~~~~~~
-- PPR intro: red part of intro
-- search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 ---------------------------------------------------------------------------
@@ -50,6 +43,8 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+2nd way of taking crops? by actually marking density by considering crop center?
+
 - Exp ERC (20 min) confirm the numbers in table are correctly copied
 - PPR add EP,EP-GP tables
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
@@ -327,6 +322,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- WR Appr Remove "non-object" areas from the text
+- WR Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
+- WR Exp (15 min) specify how you took the weights for simple scale and crop
+- Exp check (20 min) if per class table correctly highlighted
 - >>> PPR Related: lime
 >TODO: 
 - exact form of u`,v`in paper?
