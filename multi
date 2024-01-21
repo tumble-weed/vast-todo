@@ -1,4 +1,6 @@
-1- MULTI: seems to use cifar10
+- how to aggregate channels in integrated gradients
+- how many steps in ig?
+- MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
 - MULTI Akash add methods for deletion game to torchray ( from sess paper)
 - MULTI: add inegreted grad to torchray
