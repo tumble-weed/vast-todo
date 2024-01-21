@@ -1,24 +1,19 @@
 =======
-- LTX (45min) SRT order of images
+- LTX SRT (45min) SRT order of images
 - LTX SRT (15 min) reduce height of figures while keeping the width constant
 - Intro (10 min recheck) crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
 - Approac,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
-- DRAW (15 min) in the images some labels look like plain text, should have specialfont?
 - Exp (15 min) specify how you took the weights for simple scale and crop
-=======
-- Exp ERC confirm the numbers in table are correctly copied
-- Exp mention that in the plots/images you get the averaged saliency of the mask areas
-- Appr DRAW: correct images
-- Appr DRAW: pixel visibility density
-- PPR check if per class table correctly highlighted
+- Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
+- Appr Remove "non-object" areas from the text
+PPR: active learning
 ~~~~~~~~~~~~~
-- PPR Approach,EP:different areas in EP, as well as areas of the window  
-- PPR: step 2.2 described nowere
-- PPR SMY Approach: have saumya look over bilinear interpolation (approach)
-- PPR SMY Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
->TODO: 
-- exact form of u`,v`in paper?
+- Exp ERC (20 min) confirm the numbers in table are correctly copied
+- Exp check (20 min) if per class table correctly highlighted
+~~~~~~~~~~~~~
+- DRAW (15 min) in the images some labels look like plain text, should have specialfont?
+- (45 min) DRAW: correct images
+- Appr DRAW: pixel visibility density
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
 >> gaussian process model
@@ -28,10 +23,7 @@ IMAGES:
 - PPR intro: red part of intro
 - search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~
-- >>> PPR Related: lime
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
-PPR: active learning
-- elp with gp with mean scores
 ---------------------------------------------------------------------------
 PAPER LINKS
 - IJCNN
@@ -40,6 +32,7 @@ https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
 SRT arrows in tables ( higher better lower better)
+- elp with gp with mean scores
 %>> stochasticity of simple cropping
 %>> non-stochasticity of gaussian process
 - IJCAI convert into ijcai format
@@ -334,6 +327,13 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- >>> PPR Related: lime
+>TODO: 
+- exact form of u`,v`in paper?
+- PPR: step 2.2 described nowere
+- PPR SMY Approach: have saumya look over bilinear interpolation (approach)
+- PPR SMY Approach: bilinear text seems to take up more space thn the GP text which is your main contribution
+- PPR Approach,EP:different areas in EP, as well as areas of the window  
 SRT per class tables and bold
 <LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
 <LOCAL> teaser is just improved image
