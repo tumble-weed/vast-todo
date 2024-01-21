@@ -1,4 +1,4 @@
-- how to aggregate channels in integrated gradients
+- how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
 - how many steps in ig?
 - MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
