@@ -1,21 +1,16 @@
 =======
-- crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
-- Approach: will need to think about how to change experiment conclusion from focusing on stochasticity to something else
-SRT reduce height of figures while keeping the width constant
-- in the images some labels look like plain text, should have specialfont?
-- specify how you tookthe weights for simple scale and crop
-<LOCAL> teaser is just improved image
+- LTX (45min) SRT order of images
+- LTX SRT (15 min) reduce height of figures while keeping the width constant
+- Intro (10 min recheck) crop density seems unintuitive, refine it in some way? 2nd way of taking crops? by actually marking density by considering crop center?
+- Approac,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
+- DRAW (15 min) in the images some labels look like plain text, should have specialfont?
+- Exp (15 min) specify how you took the weights for simple scale and crop
 =======
-- confirm the numbers in table are correctly copied
-- PPR add EP,EP-GP tables
-- mention that in the plots/images you get the averaged saliency of the mask areas
-- DRAW: correct images
-- DRAW: pixel visibility density
+- Exp ERC confirm the numbers in table are correctly copied
+- Exp mention that in the plots/images you get the averaged saliency of the mask areas
+- Appr DRAW: correct images
+- Appr DRAW: pixel visibility density
 - PPR check if per class table correctly highlighted
-- in gp inference/input image is left right of image corret? cdpaperimages. seems correct
-SRT arrows in tables ( higher better lower better)
-SRT per class tables and bold
-<LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
 ~~~~~~~~~~~~~
 - PPR Approach,EP:different areas in EP, as well as areas of the window  
 - PPR: step 2.2 described nowere
@@ -27,8 +22,6 @@ SRT per class tables and bold
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
 >> gaussian process model
->> scores of sampled crop centers.
->> crops and their scores
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - erick pipeline diagram
 ~~~~~~~~~~~~~~
@@ -46,6 +39,7 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+SRT arrows in tables ( higher better lower better)
 %>> stochasticity of simple cropping
 %>> non-stochasticity of gaussian process
 - IJCAI convert into ijcai format
@@ -64,6 +58,7 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- PPR add EP,EP-GP tables
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - PPR: what if gradcam is better than elp-scales? (it probably is)
 - get the scores for unweighted ( remember to put them correctly in the table)
@@ -284,6 +279,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+>> scores of sampled crop centers.
+>> crops and their scores
 - ERC class names in per-class table?
 - custom prinout like ic
 - img_save img_save all? (with a flag)
@@ -337,6 +334,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+SRT per class tables and bold
+<LOCAL> decide on which images show up in the comparison and in the teaser (4 images). check failures_for etc
+<LOCAL> teaser is just improved image
+- Approach: will need to think about how to change experiment conclusion from focusing on stochasticity to something else
 - TODO captions for the figures
 - tryvisualize,vimvisualization,gp_saliency etc save intermediate masks (aroudn 200) and final attribution
 - PPR (collect_results) Experiments more results: sanity, per class(only if it increases on most classes), stochasticity, window selection density 
