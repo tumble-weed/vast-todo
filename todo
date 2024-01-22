@@ -1,10 +1,12 @@
 SMY todo:
-- shift image 1 to page one lright hand side
+- shift image 1 to page one top right hand side
 - reduce spaces to try and fit the paper within 8 pages ( which is the limit)
-- 
+- shift table 1,2,3 to be near the pointing game section
+- in table 3, the top 2 rows are for vgg and the bottom 2 for resnet. add these network names as the leftmost column with vertical text
+- figures 3,4,5 are coming after the conclusion, any way to have them be nearer to the qualitative comparison section in experiments?
 ~~~~~~~~~~~~~
 - ICASSP travel grant
-- add te new images to the paper
+- add the new images to the paper
 - create TODO for SMY
 - STAGE I and II uniform font
 - square to rounded edges on stage ii
