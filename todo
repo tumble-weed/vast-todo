@@ -1,7 +1,4 @@
 ~~~~~~~~~~~~~
-- WR ERC Intro beter name for multi-pass
-- WR (?) Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
-- WR ERC how to mention the pipeline diagram in the text
 - WR(?) Appr: pixel visibility density
 - WR Intro (?) where does a network look?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13,10 +10,10 @@
 IMAGES:
 >> gaussian process model
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
-- erick pipeline diagram
 ~~~~~~~~~~~~~~
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
----------------------------------------------------------------------------
+====================================================================================
+====================================================================================
 PAPER LINKS
 - IJCNN
 https://edas.info/N31614?c=31614
@@ -45,6 +42,7 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- erick pipeline diagram
 - DRAW:ERC (10 min) make backup of wrong crop images
 2nd way of taking crops? by actually marking density by considering crop center?
 
@@ -325,6 +323,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- WR (?) Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
+- WR mention teaser in text
+- WR Appr ERC how to mention the pipeline diagram in the text
+- WR ERC Intro beter name for multi-pass
 - DRAW:ERC (45 min) correct images
 - DRAW ERC (15 min) in the images some labels look like plain text, should have specialfont?
 - PPR intro: red part of intro
