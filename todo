@@ -1,16 +1,19 @@
-- WR Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
-- where does a networklook?
-- beter name for multi-pass
-- search for [?] and ?? and ? in paper
 - WR Appr: pixel visibility density
+- WR how to mention the pipeline diagram in the text
+- WR Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
+- WR Intro where does a network look?
+- WR Intro beter name for multi-pass
+- WR full search for [?] and ?? and ? in paper
 - LTX SRT/SMY (45min) SRT order of images
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~
 - DRAW (15 min) in the images some labels look like plain text, should have specialfont?
+- DRAW: (10 min) make backup of wrong crop images
 - DRAW: (45 min) correct images
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
 >> gaussian process model
+<<LOCAL>> download flipped model
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - erick pipeline diagram
 ~~~~~~~~~~~~~~
