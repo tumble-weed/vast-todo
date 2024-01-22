@@ -1,3 +1,5 @@
+run all mnist resnet8
+run all cifar-100 resnet8
 SMY todo:
 - shift image 1 to page one top right hand side
 - reduce spaces to try and fit the paper within 8 pages ( which is the limit)
