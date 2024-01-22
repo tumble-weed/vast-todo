@@ -1,3 +1,5 @@
+- Why can't IGOS be added for smaller datasets? because of hyperparams.
+- Why can't ELP be added for smaller datasets? because of hyperparams
 - run all evaluations on compiled models!
 - how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
 - MULTI: seems to use cifar10
