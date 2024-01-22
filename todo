@@ -1,9 +1,10 @@
 ~~~~~~~~~~~~~
+-  WR Appr pipeline, overlayed is the
+- SMY : move fiures to pages
 - WR(?) Appr: pixel visibility density
-- WR Intro (?) where does a network look?
+- WR full search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
-- WR full search for [?] and ?? and ? in paper
 - LTX SRT/SMY (45min) SRT order of images
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -323,6 +324,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- WR Intro (?) where does a network look?
 - WR (?) Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
 - WR mention teaser in text
 - WR Appr ERC how to mention the pipeline diagram in the text
