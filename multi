@@ -1,11 +1,3 @@
-- Why can't IGOS be added for smaller datasets? because of hyperparams.
-- Why can't ELP be added for smaller datasets? because of hyperparams
-- run all evaluations on compiled models!
-- how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
-- MULTI: seems to use cifar10
-- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
-- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
-- instead of assert, change those statements to pause
 --------------------------------------------------------------------------
     6>DELETION
     - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
@@ -24,6 +16,15 @@
 - run everything vgg_bn?
 =======================================================================
 RECHECK
+- Why can't IGOS be added for smaller datasets? because of hyperparams.
+- Why can't ELP be added for smaller datasets? because of hyperparams
+- run all evaluations on compiled models!
+- how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
+- MULTI: seems to use cifar10
+- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+- MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
+- instead of assert, change those statements to pause
+
 - MULTI: add inegreted grad to torchray
 - resnet8 is working with 32 input
 - all resnet8
