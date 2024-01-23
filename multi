@@ -1,6 +1,6 @@
 running all methods on the smaller one, 
 --------------------------------------------------------------------------
-- run on imagenet 
+- run on imagenet: grad_cam, rise, groupcam, scorecam, guided_backprop, gradient, excitation_backprop * (vgg,resnet) --save_detailed_results true
 6>DELETION
 - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
 - fullgrad deletion curves
