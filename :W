@@ -1,25 +1,22 @@
-- run multi on smaller datasets
-- MULTI:sharpness annealing
-- run all imagenet evaluations on compiled models!
 running all methods on the smaller one, 
 run all mnist resnet8
 run all cifar-100 resnet8
 --------------------------------------------------------------------------
-Are the transforms for mnist correct? same for training as for torchray?
-- run everything vgg_bn? for imagenet maybe yes?
-- Why can't IGOS be added for smaller datasets? because of hyperparams.
-- Why can't ELP be added for smaller datasets? because of hyperparams
---------------------------------------------------------------------------
 6>DELETION
-- ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf ( see thepercentages in the curves)
+- ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf
 - fullgrad deletion curves
 - Akash what were the percentages for gpnn deletion evaluation, or do i run everything again?
 --------------------------------------------------------------------------
+- MULTI:sharpness annealing
 - svhn in torchray. run pointing. find pretrained
-- from igos paper: ebp, mp,ep, gradcam,rise, integrated grads
+- from igospape: ebp, mp,ep, gradcam,rise, integrated grads
 - ABLATIONS: number of thresholds, elp based masking, and my masking?
+- run everything vgg_bn? for imagenet maybe yes?
 =======================================================================
 RECHECK
+- Why can't IGOS be added for smaller datasets? because of hyperparams.
+- Why can't ELP be added for smaller datasets? because of hyperparams
+- run all evaluations on compiled models!
 - how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
 - MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
