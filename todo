@@ -1,23 +1,24 @@
 run all mnist resnet8
 run all cifar-100 resnet8
+====================================================================================
+- create TODO for SMY
 SMY todo:
-- confirm top 2 rows in table 3 are vgg
-- superscript * in pointing game table
-- second highest underlined, highest in bold
+- <<LOCAL>> confirm top 2 rows in table 3 are vgg
+- WR superscript * in pointing game table
+- WR second highest underlined, highest in bold
 ~~~~~~~~~~~~~
 - ICASSP travel grant
-- add the new images to the paper
-- create TODO for SMY
-- STAGE I and II uniform font
-- square to rounded edges on stage ii
-- font sizes are different in the left right of the pipeline
+- DRAW add the new images to the paper
+- DRAW fix the caption of qualitativeresults
+- DRAW network namein vertical
+- DRAW STAGE I and II uniform font
+- DRAW square to rounded edges on stage ii
+- DRAW font sizes are different in the left right of the pipeline
 - WR Appr pipeline, overlayed is the
-- SMY : move fiures to pages
 - WR(?) Appr: pixel visibility density/sampling density
 - WR full search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
-- LTX SRT/SMY (45min) SRT order of images
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
@@ -25,7 +26,6 @@ IMAGES:
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 ~~~~~~~~~~~~~~
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
-====================================================================================
 ====================================================================================
 PAPER LINKS
 - IJCNN
@@ -55,6 +55,8 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- LTX SRT/SMY (45min) SRT order of images
+- SMY : move figures to pages
 - figures 3,4,5 are coming after the conclusion, any way to have them be nearer to the qualitative comparison section in experiments?
 - in table 3, the top 2 rows are for vgg and the bottom 2 for resnet. add these network names as the leftmost column with vertical text
 - shift table 1,2,3 to be near the pointing game section
