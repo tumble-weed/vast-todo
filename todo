@@ -1,5 +1,4 @@
 ====================================================================================
-tmux save session output and error to a file
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
@@ -345,6 +344,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+tmux save session output and error to a file
 - WR Intro (?) where does a network look?
 - WR (?) Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
 - WR mention teaser in text
