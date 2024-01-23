@@ -1,4 +1,6 @@
 running all methods on the smaller one, 
+run all mnist resnet8
+run all cifar-100 resnet8
 --------------------------------------------------------------------------
 - run on imagenet: grad_cam, rise, groupcam, scorecam, guided_backprop, gradient, excitation_backprop * (vgg,resnet) --save_detailed_results true
 6>DELETION
