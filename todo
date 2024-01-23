@@ -1,5 +1,3 @@
-run all mnist resnet8
-run all cifar-100 resnet8
 ====================================================================================
 - create TODO for SMY
 SMY todo:
