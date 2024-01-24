@@ -5,6 +5,7 @@ instead of car its chair(wrong label)
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
+- axis tight on scatter and remove ticks
 - Add Ap to IJCNN paper
 - WR Experiments mention hyperparameters like budget etc
 - WR Appr pipeline, overlayed is the
