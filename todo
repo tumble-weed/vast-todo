@@ -1,12 +1,20 @@
+resnet50: 003434 - 6
+vgg16 000961 6
+instead of car its chair(wrong label)
 ====================================================================================
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
+- Add Ap to IJCNN paper
 - WR Experiments mention hyperparameters like budget etc
 - WR Appr pipeline, overlayed is the
 - WR(?) Appr: pixel visibility density/sampling density
 - WR full search for [?] and ?? and ? in paper
 ~~~~~~~~~~~~~
+- DRAW Qualit: car is worng
+- WR qual captionto zoom in 
+- DRAW qualbus is wong
+- DRAW qual potted plant is too small
 - DRAW give stage I and stage II different background colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - ICASSP registration
