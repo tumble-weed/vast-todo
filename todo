@@ -1,5 +1,6 @@
 - how to confirm if the files on drive are the same as those on disk. so i should copy?
-- making a chrome extension?
+- img_save img_save all? (with a flag)
+- triple softmax
 ====================================================================================
 - create TODO for SMY
 SMY todo:
@@ -48,6 +49,18 @@ PPR ELP: unlikely pixels differ in importances
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 - rerun sanity with xavier,
+-------------------------------------------------------------------------
+ERC CODING
+- ERC <<code>> validate path to dutils
+- ERC: <<code>> tight in dutils img_save
+- ERC <<code>> bash what does $* in bash
+- ERC <<code>> custom prinout like ic (inspect)
+- ERC <<code>> make google service account with eric
+- ERC <<code>> dutils numpy verbose mode
+- ERC <<code>> making a chrome extension?
+- ERC <<code>> marks in vim, macro in vim
+- ERC <<code>> code bash << notation in bash to feed input from file
+- ERC: <<code>> port forwarding
 -------------------------------------------------------------------------
 2>DONE:
 - WR <5_Experiments> mention hyperparameters like budget etc
@@ -296,24 +309,15 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- ERC class names in per-class table?
 >> scores of sampled crop centers.
 >> crops and their scores
-- ERC class names in per-class table?
-- custom prinout like ic
-- img_save img_save all? (with a flag)
-- dutils numpy verbose mode
-- validatepath to dutils
-- marks in vim, macro in vim
-- bash << notation in bash to feed input from file
-- in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 - runsess SESS is not showing high enough results. 
+- in 116 write code to pick up stragglers. unweighted resnet50, unweighted vgg16
 - instead of assert, change those statements to pause
-- Eric make google service account with eric
 - vast see balance from system
 - check bash courses on udemy
-- bash what does $* in bash
 - this paper has some stuff regarding my work: https://papers.nips.cc/paper/2020/file/9d94c8981a48d12adfeecfe1ae6e0ec1-Paper.pdf
-- ERC: port forwarding
 - aliases for pgrep
 - kata : find if done filelist has the same method as with --method
 - multiple json for generate
@@ -321,7 +325,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
     - separate insertion and deletion percentages
 - fuzzy https://stackoverflow.com/questions/9439121/fuzzy-file-search-in-linux-console
 - reload in dutils
-- tight in dutils img_save
 - run imagenet on elp paper methods (!might not be better than eelp)
 - cam-benchmark
 - visualize results for multiple methods ( cherry picking code?) (explore results) -- lowest sum of pointing
@@ -329,10 +332,8 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - wrappers for benchmark in torchray
 - training cifar and mnist, emnist networks
 - reading gpnn attribution files and running deletion metric on them 
-
 - window sampling density
 - mask history
-
 - write about spearman corr/read up on it
 - vim syntax highlighting
 - cifar and minst in torchray
