@@ -1,19 +1,17 @@
-- how to confirm if the files on drive are the same as those on disk. so i should copy?
-- img_save img_save all? (with a flag)
 - triple softmax
+- ERC how to confirm if the files on drive are the same as those on disk. so i should copy?
 ====================================================================================
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
+- figure sizes
 - WR SRT formatting again
-- pipeline: explain in caption? 
 - pipeline: does stage ii give the appearance of completing each attribution map beforemoving on tothe next stage?
 - WR ERC full search for [?] and ?? and ? in paper
 - WR ERC search for red and purple text
 ~~~~~~~~~~~~~
 - ICASSP registration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-- CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
@@ -51,6 +49,7 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 ERC CODING
+- img_save img_save all? (with a flag)
 - ERC <<code>> validate path to dutils
 - ERC: <<code>> tight in dutils img_save
 - ERC <<code>> bash what does $* in bash
@@ -309,6 +308,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
 - ERC class names in per-class table?
 >> scores of sampled crop centers.
 >> crops and their scores
@@ -352,6 +352,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- pipeline: explain in caption? 
 - WR Appr pipeline, overlayed is the (but where exactly), pixel visibility density/sampling density
 - DRAW (qualitative) fix the class labels of qualitativeresults
 - DRAW (qualitative) network namein vertical
