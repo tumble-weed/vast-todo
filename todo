@@ -1,4 +1,4 @@
-- triple softmax
+- ERC negative vspace
 - ERC how to confirm if the files on drive are the same as those on disk. so i should copy?
 ====================================================================================
 - create TODO for SMY
@@ -352,6 +352,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- triple softmax
 - pipeline: explain in caption? 
 - WR Appr pipeline, overlayed is the (but where exactly), pixel visibility density/sampling density
 - DRAW (qualitative) fix the class labels of qualitativeresults
