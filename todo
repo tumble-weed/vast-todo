@@ -1,23 +1,13 @@
-resnet50: 003434 - 6
-vgg16 000961 6
-instead of car its chair(wrong label)
 ====================================================================================
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
-- axis tight on scatter and remove ticks
-- Add Ap to IJCNN paper
-- WR Experiments mention hyperparameters like budget etc
-- WR Appr pipeline, overlayed is the
-- WR(?) Appr: pixel visibility density/sampling density
-- WR full search for [?] and ?? and ? in paper
+- WR SRT formatting again
+- pipeline: explain in caption? 
+- pipeline: does stage ii give the appearance of completing each attribution map beforemoving on tothe next stage?
+- WR ERC full search for [?] and ?? and ? in paper
+- WR ERC search for red and purple text
 ~~~~~~~~~~~~~
-- DRAW Qualit: car is worng
-- WR qual captionto zoom in 
-- DRAW qualbus is wong
-- DRAW qual potted plant is too small
-- DRAW give stage I and stage II different background colors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - ICASSP registration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
@@ -49,6 +39,7 @@ PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
 --------------------------------------------------------------------------
 <<DOING>>
+- axis tight on scatter and remove ticks
 <<LOCAL>> download flipped model
 - Approach,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
 - get scores of scale and crop
@@ -57,6 +48,16 @@ PPR ELP: unlikely pixels differ in importances
 - rerun sanity with xavier,
 -------------------------------------------------------------------------
 2>DONE:
+- WR <5_Experiments> mention hyperparameters like budget etc
+- Add Anoop(?) to IJCNN paper
+- WR qual captionto zoom in  "zoom in to see small objects"
+- DRAW give stage I and stage II different background colors
+- DRAW Qualit: car is worng
+resnet50: 003434 - 6
+vgg16 000961 6
+- DRAW qualbus is wong
+- DRAW qual potted plant is too small
+instead of car its chair(wrong label)
 - <<LOCAL>> cdpaper...,nautilius . &,for-elp-tbale, confirm top 2 rows in table 3 are vgg
 - WR second highest underlined, highest in bold
 - WR superscript * in pointing game table
@@ -348,6 +349,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- WR Appr pipeline, overlayed is the (but where exactly), pixel visibility density/sampling density
 - DRAW (qualitative) fix the class labels of qualitativeresults
 - DRAW (qualitative) network namein vertical
 - DRAW (Stage-i , stage-ii (v2?)) add the new images to the paper
