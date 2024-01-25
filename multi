@@ -1,4 +1,4 @@
-- results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation
+- results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation (100 images for each of imagenet-5000?)
 - run multi on smaller datasets
 - MULTI:sharpness annealing
 - run all imagenet evaluations on compiled models!
