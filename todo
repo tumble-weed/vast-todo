@@ -1,7 +1,4 @@
 - ERC negative vspace
-- ERC how to confirm if the files on drive are the same as those on disk. so i should copy?
-- ERC how to list files in gdrive
-- FOR_COMPILE
 ====================================================================================
 - create TODO for SMY
 SMY todo:
@@ -9,8 +6,6 @@ SMY todo:
 - figure sizes
 - WR SRT formatting again
 - pipeline: does stage ii give the appearance of completing each attribution map beforemoving on tothe next stage?
-- WR ERC full search for [?] and ?? and ? in paper
-- WR ERC search for red and purple text
 ~~~~~~~~~~~~~
 - ICASSP registration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,7 +13,6 @@ SMY todo:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 IMAGES:
 >> gaussian process model
-- PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 ~~~~~~~~~~~~~~
 >>> IJCNN time zone: Jan 30, 2024 17:29 Asia/Calcutta
 ====================================================================================
@@ -354,6 +348,12 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
+- WR ERC full search for [?] and ?? and ? in paper
+- WR ERC search for red and purple text
+- FOR_COMPILE
+- ERC how to list files in gdrive
+- ERC how to confirm if the files on drive are the same as those on disk. so i should copy?
 - triple softmax
 - pipeline: explain in caption? 
 - WR Appr pipeline, overlayed is the (but where exactly), pixel visibility density/sampling density
