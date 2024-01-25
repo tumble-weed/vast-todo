@@ -1,13 +1,11 @@
-- ERC negative vspace
 ====================================================================================
+- ICASSP registration 29th ( wait for travel grant)
 - create TODO for SMY
 SMY todo:
 ~~~~~~~~~~~~~
 - figure sizes
 - WR SRT formatting again
 - pipeline: does stage ii give the appearance of completing each attribution map beforemoving on tothe next stage?
-~~~~~~~~~~~~~
-- ICASSP registration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - LTX SRT/SMY (15 min) reduce height of figures while keeping the width constant
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -58,6 +56,7 @@ ERC CODING
 - ERC: <<code>> port forwarding
 -------------------------------------------------------------------------
 2>DONE:
+- ERC negative vspace
 - WR <5_Experiments> mention hyperparameters like budget etc
 - Add Anoop(?) to IJCNN paper
 - WR qual captionto zoom in  "zoom in to see small objects"
