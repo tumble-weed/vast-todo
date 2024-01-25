@@ -1,3 +1,5 @@
 - using aliases for directoies, for vim into directories and runningfiles
 - terminal tools for adhd: todo, whatsapp messages, email
 - terminal whatsapp
+- adding password protection for any bash command ( groups) in case you had a terminal whatsapp?
+- using autocomplete for any command ( vimtodo ..)
