@@ -1,7 +1,10 @@
 - results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation (100 images for each of imagenet-5000?)
+cdrunjson
+vim run_imagenet_for_multi.json
+{}
+generate... run_imagenet_for_multi.json
 - run multi on smaller datasets
 - MULTI:sharpness annealing
-- run all imagenet evaluations on compiled models!
 running all methods on the smaller one, 
 run all mnist resnet8
 run all cifar-100 resnet8
@@ -56,3 +59,5 @@ LATER:
 - we will have to rerun deletion on all methods on 2 datasets and 2 arch
 DOING
 - run on imagenet: grad_cam, rise, groupcam, scorecam, guided_backprop, gradient, excitation_backprop * (vgg,resnet) --save_detailed_results true
+NOT DOING
+- run all imagenet evaluations on compiled models! --> not possible because of grad_cam issues
