@@ -8,8 +8,7 @@ SMY todo:
 - vast: (i) wht if it is unreliable like the other instance (ii) 30 days is too close to limit. will i not be tranfering to another computerthen?
 - try different format for failure image ( completely horizontal)
 - replace the CNN predictions and modeled predictions in pipeline?
-- check rclone and add vast money
-- start gdrive back up of results
+- add vast money
 - mv download_rclone to vast-utils? 
 
 ====================================================================================
@@ -50,15 +49,16 @@ SRT arrows in tables ( higher better lower better)
 - ERC: make images on draw.io
 PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
+- rerun sanity with xavier,
 --------------------------------------------------------------------------
 <<DOING>>
+- start gdrive back up of results
 - axis tight on scatter and remove ticks
 <<LOCAL>> download flipped model
 - Approach,LOCAL (10 minutes) in gp inference/input image is left right of image corret? cdpaperimages. seems correct
 - get scores of scale and crop
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
-- rerun sanity with xavier,
 -------------------------------------------------------------------------
 ERC CODING
 - img_save img_save all? (with a flag)
@@ -74,6 +74,7 @@ ERC CODING
 - port forwarding
 -------------------------------------------------------------------------
 2>DONE:
+- check rclone and 
 - ERC negative vspace
 - WR <5_Experiments> mention hyperparameters like budget etc
 - Add Anoop(?) to IJCNN paper
