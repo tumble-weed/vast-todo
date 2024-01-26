@@ -1,7 +1,7 @@
-- runcifar with DBG_WRAPPER=1
 - results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation (100 images for each of imagenet-5000?)
 cdrunjson
 vim run_imagenet_for_multi.json
+- runcifar with DBG_WRAPPER=1
 {}
 generate... run_imagenet_for_multi.json
 - run multi on smaller datasets
