@@ -1,5 +1,9 @@
-
-While for the Insertion Test, a better method retains class information at masks of small areas, leading to higher scores across the sequence of binary`
+best trajectory of masks
+~~~~~~~~~~~~~
+- SRT: insert teaser
+- SRT: insert comparison
+- SRT: graphs
+- SRT: deletino table
 ~~~~~~~~~~~~~
 SMY todo:
 - do the block diagrams make sense
@@ -8,6 +12,7 @@ SMY todo:
 - intro and conclusion dont make any unsbtantiated claim : check experiments
 - related no typo.
 - confusion in "area" of mask and size of the image
+- failure cases ( change the figure from horizontal, back to normal, correct figure filename in failure, and change size of figure 3)
 ~~~~~~~~~~~~~
 - vast: (i) wht if it is unreliable like the other instance (ii) 30 days is too close to limit. will i not be tranfering to another computerthen?
 - try different format for failure image ( completely horizontal)

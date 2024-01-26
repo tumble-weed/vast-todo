@@ -4,3 +4,4 @@
 - adding password protection for any bash command ( groups) in case you had a terminal whatsapp?
 - using autocomplete for any command ( vimtodo ..)
 - mini bash gotchas and corrections
+- make python available from any where
