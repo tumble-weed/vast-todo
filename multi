@@ -1,9 +1,4 @@
 - results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation (100 images for each of imagenet-5000?)
-cdrunjson
-vim run_imagenet_for_multi.json
-- runcifar with DBG_WRAPPER=1
-{}
-generate... run_imagenet_for_multi.json
 - run multi on smaller datasets
 - MULTI:sharpness annealing
 running all methods on the smaller one, 
@@ -11,9 +6,6 @@ run all mnist resnet8
 run all cifar-100 resnet8
 --------------------------------------------------------------------------
 Are the transforms for mnist correct? same for training as for torchray?
-- run everything vgg_bn? for imagenet maybe yes?
-- Why can't IGOS be added for smaller datasets? because of hyperparams.
-- Why can't ELP be added for smaller datasets? because of hyperparams
 --------------------------------------------------------------------------
 6>DELETION
 - ijcai ROC curve https://www.ijcai.org/proceedings/2022/0442.pdf ( see thepercentages in the curves)
@@ -24,7 +16,16 @@ Are the transforms for mnist correct? same for training as for torchray?
 - from igos paper: ebp, mp,ep, gradcam,rise, integrated grads
 - ABLATIONS: number of thresholds, elp based masking, and my masking?
 =======================================================================
+- run everything vgg_bn? for imagenet maybe yes?
+- Why can't IGOS be added for smaller datasets? because of hyperparams.
+- Why can't ELP be added for smaller datasets? because of hyperparams
 RECHECK
+cdrunjson
+vim run_imagenet_for_multi.json
+- runcifar with DBG_WRAPPER=1
+{}
+generate... run_imagenet_for_multi.json
+
 - how to aggregate channels in integrated gradients -- i am just going to average and then take the absolute valu (absolute value?)
 - MULTI: seems to use cifar10
 - MULTI: IGOS methods: (RISE, GCAM,IG,Mask(Meaningful Per),IGOS,IGOS++). SESS: GroupCAM, GuidedBackprop, GradCAM -> :(RISE,GroupCAM,GuidedBackprop,GradCAM,),(Igospp,IG)
