@@ -1,3 +1,5 @@
+- approach sampling part is very dense. also smaller than the bilinear part
+- retaining information from the original image
 ? v2 of the experiments with bigger figures? maybe try to fit half of page 2.
 - i am confident icmr will be feb 14 ish
 best trajectory of masks
@@ -8,6 +10,7 @@ best trajectory of masks
 - SRT: deletino table
 ~~~~~~~~~~~~~
 SMY todo:
+- expreriments
 - approach is understandable, not irritating to read
 - EP+crops+w vs EP-crops-w
 - do the block diagrams make sense
