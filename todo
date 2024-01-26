@@ -44,16 +44,16 @@ PPR ELP: unlikely pixels differ in importances
 -------------------------------------------------------------------------
 ERC CODING
 - img_save img_save all? (with a flag)
-- ERC <<code>> validate path to dutils
-- ERC: <<code>> tight in dutils img_save
-- ERC <<code>> bash what does $* in bash
-- ERC <<code>> custom prinout like ic (inspect)
-- ERC <<code>> make google service account with eric
-- ERC <<code>> dutils numpy verbose mode
-- ERC <<code>> making a chrome extension?
-- ERC <<code>> marks in vim, macro in vim
-- ERC <<code>> code bash << notation in bash to feed input from file
-- ERC: <<code>> port forwarding
+- validate path to dutils
+- tight in dutils img_save
+- bash what does $* in bash
+- custom prinout like ic (inspect)
+- make google service account with eric
+- dutils numpy verbose mode .. for what?
+- making a chrome extension?
+- marks in vim, macro in vim
+- code bash << notation in bash to feed input from file
+- port forwarding
 -------------------------------------------------------------------------
 2>DONE:
 - ERC negative vspace
