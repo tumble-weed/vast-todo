@@ -1,3 +1,4 @@
+While for the Insertion Test, a better method retains class information at masks of small areas, leading to higher scores across the sequence of binary`
 ~~~~~~~~~~~~~
 SMY todo:
 - nothing in red
@@ -61,7 +62,6 @@ PPR ELP: unlikely pixels differ in importances
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 -------------------------------------------------------------------------
 ERC CODING
-- img_save img_save all? (with a flag)
 - validate path to dutils
 - tight in dutils img_save
 - bash what does $* in bash
@@ -74,6 +74,7 @@ ERC CODING
 - port forwarding
 -------------------------------------------------------------------------
 2>DONE:
+- img_save img_save all? (with a flag)
 - check rclone and 
 - ERC negative vspace
 - WR <5_Experiments> mention hyperparameters like budget etc
