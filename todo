@@ -1,3 +1,8 @@
+- try different format for failure image ( completely horizontal)
+- replace the CNN predictions and modeled predictions in pipeline?
+- check rclone and add vast money
+- start gdrive back up of results
+- mv download_rclone to vast-utils? 
 ====================================================================================
 - ICASSP registration 29th ( wait for travel grant)
 - create TODO for SMY
