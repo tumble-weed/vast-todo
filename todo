@@ -1,3 +1,11 @@
+- copy abstract to ijcnn site ( copy from tex and not from pdf)
+- add stochastic in experiments text
+- MSP vs EP in table
+- remove the para detailing auxiliary for igos etc
+- Heuristic to post hoc?
+- high quality dataset
+- sess general framework
+- INTRO and runs a single step of iterative...
 - space with the first figure caption is messed up now
 - approach sampling part is very dense. also smaller than the bilinear part
 - retaining information from the original image?
