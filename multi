@@ -1,5 +1,6 @@
 - PPR: modify table 1 for 3 datasets
-- PPR: insertion and deltion graphs for the dataset.
+- PPR: add ref for vgg16 and resnet8. in text add the models for smaller and larger datasets
+- PPR: insertion and deltion graphs for the datasets (will you add graphs for each dataset?)
 - PPR: sanity checks on imagenet
 - PPR: ablation with different # masks on (mnist,cifar-10,cifar-100) x (vgg16,resnet8)
 - visually compare mulit with competitors ( add alias) ~~ lots of debugging required!
