@@ -29,8 +29,8 @@ SMY todo:
 - failure cases ( change the figure from horizontal, back to normal, correct figure filename in failure, and change size of figure 3)
 ~~~~~~~~~~~~~
 How to use chatgptto create graphics
+vim with version control?
 ~~~~~~~~~~~~~
-- vast: (i) wht if it is unreliable like the other instance (ii) 30 days is too close to limit. will i not be tranfering to another computerthen?
 - try different format for failure image ( completely horizontal)
 - replace the CNN predictions and modeled predictions in pipeline?
 - add vast money
@@ -88,6 +88,7 @@ PPR ELP: unlikely pixels differ in importances
 ERC CODING
 -------------------------------------------------------------------------
 2>DONE:
+- vast: (i) wht if it is unreliable like the other instance (ii) 30 days is too close to limit. will i not be tranfering to another computerthen?
 ? v2 of the experiments with bigger figures? maybe try to fit half of page 2.
 - img_save img_save all? (with a flag)
 - check rclone and 
