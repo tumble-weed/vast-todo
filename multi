@@ -1,3 +1,4 @@
+PPR: rename multithresh saliency
 PPR: replace \cdot for function composition
 PPR: long tilde and long bar
 - results on imagenet compare agains scorecam, gradcam,igospp, extremal perturbation (100 images for each of imagenet-5000?)
