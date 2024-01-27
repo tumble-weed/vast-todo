@@ -1,4 +1,4 @@
-- PPR: modify table 1 for 3 datasets
+- collect_results will not work for deletion game,need to modify it to actually read the results...
 - PPR: add ref for vgg16 and resnet8. in text add the models for smaller and larger datasets
 - PPR: insertion and deltion graphs for the datasets (will you add graphs for each dataset?)
 - PPR: sanity checks on imagenet
@@ -51,6 +51,7 @@ generate... run_imagenet_for_multi.json
 - MULTI: smaller_datasets imported within datasets
 - MULTI: seems to use cifar10
 DONE
+- PPR: modify table 1 for 3 datasets
 - finish deletion
 - deletion and insertion game in optimization
 - mnist for detection or small datasets for detection. 
