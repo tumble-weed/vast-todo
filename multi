@@ -1,3 +1,7 @@
+- PPR: modify table 1 for 3 datasets
+- PPR: insertion and deltion graphs for the dataset.
+- PPR: sanity checks on imagenet
+- PPR: ablation with different # masks on (mnist,cifar-10,cifar-100) x (vgg16,resnet8)
 - visually compare mulit with competitors ( add alias) ~~ lots of debugging required!
 PPR: rename multithresh saliency
 PPR: replace \cdot for function composition
