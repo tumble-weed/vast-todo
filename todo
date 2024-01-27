@@ -1,14 +1,11 @@
 - place yellow circle around objects?
-- remove the para detailing auxiliary for igos etc
 - Heuristic to post hoc?
 - copy abstract to ijcnn site ( copy from tex and not from pdf)
-- add stochastic in experiments text
 - MSP vs EP in table
-- high quality dataset
-- sess general framework
+- PPR high quality dataset
+- PPR sess general framework
 - INTRO and runs a single step of iterative...
-- space with the first figure caption is messed up now
-- approach sampling part is very dense. also smaller than the bilinear part
+- PPR approach sampling part is very dense. also smaller than the bilinear part
 - retaining information from the original image?
 - i am confident icmr will be feb 14 ish
 best trajectory of masks
@@ -89,6 +86,9 @@ PPR ELP: unlikely pixels differ in importances
 ERC CODING
 -------------------------------------------------------------------------
 2>DONE:
+- space with the first figure caption is messed up now
+- add stochastic in experiments text . No --> leads to queries regarding ablation table
+- remove the para detailing auxiliary for igos etc
 - vast: (i) wht if it is unreliable like the other instance (ii) 30 days is too close to limit. will i not be tranfering to another computerthen?
 ? v2 of the experiments with bigger figures? maybe try to fit half of page 2.
 - img_save img_save all? (with a flag)
