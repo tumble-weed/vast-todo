@@ -16,6 +16,7 @@ NOT DOING
 1. spaces round varname="abc"
 2. spaces not in \[ \]
 3. when a variable is not assigned
+4. not using " around an array
 ###################################################################
 (( make python available from any where ))
 - setuptools install
