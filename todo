@@ -1,5 +1,4 @@
 - place yellow circle around objects?
-- Heuristic to post hoc?
 - copy abstract to ijcnn site ( copy from tex and not from pdf)
 - MSP vs EP in table
 - PPR high quality dataset
@@ -384,6 +383,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- Heuristic to post hoc?
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - WR ERC full search for [?] and ?? and ? in paper
 - WR ERC search for red and purple text
