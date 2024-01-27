@@ -1,16 +1,25 @@
-- using aliases for directories, for vim into directories and runningfiles
-- terminal tools for adhd: todo, whatsapp messages, email
-- terminal whatsapp
 - adding password protection for any bash command ( groups) in case you had a terminal whatsapp?
 - using autocomplete for any command ( vimtodo ..)
-- mini bash gotchas and corrections
-- make python available from any where
-
+NOT DOING
+- terminal tools for adhd: todo, whatsapp messages, email
+- terminal whatsapp
 ###################################################################
+(( using aliases for directories, for vim into directories and runningfiles ))
 4 ways to use aliases and functions:
-
 - Some directories you go to all time
 - make a todo list in your terminal. 
 - make a command out of a script.
 - Add even more aliases
 ###################################################################
+(( mini bash gotchas and corrections ))
+- Bahs! (Debug this bash command)
+1. spaces round varname="abc"
+2. spaces not in \[ \]
+3. when a variable is not assigned
+###################################################################
+(( make python available from any where ))
+- setuptools install
+- addpath
+###################################################################
+(( latex paper writing ))
+\newcommand \todo 
