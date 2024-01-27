@@ -1,3 +1,4 @@
+- IGOSpp didnt run for vgg16
 - ERC collect_results will not work for deletion game,need to modify it to actually read the results...
 - PPR: ERC add references for vgg16 and resnet8. in text add the models for smaller and larger datasets
 - PPR: ERC insertion and deltion graphs for the datasets (will you add graphs for each dataset?)
