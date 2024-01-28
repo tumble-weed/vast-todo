@@ -1,7 +1,3 @@
-- 2.5 importance sasmpling first mention then approach to do it. mention for added stochasticity? to encourage exploration
-LOCAL
-cdpaper..
-get...
 - MSP vs EP in table
 - INTRO and runs a single step of iterative...
 - PPR approach sampling part is very dense. also smaller than the bilinear part
@@ -386,6 +382,11 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- 2.5 importance sasmpling first mention then approach to do it. mention for added stochasticity? to encourage exploration
+LOCAL
+cdpaper..
+get...
+
 - copy abstract to ijcnn site ( copy from tex and not from pdf)
 - remove the crop sampling densit or revisualize it?
 - PPR intro/approach high quality dataset
