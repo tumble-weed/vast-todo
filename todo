@@ -1,12 +1,10 @@
-- place yellow circle around objects?
-- copy abstract to ijcnn site ( copy from tex and not from pdf)
+- 2.5 importance sasmpling first mention then approach to do it. mention for added stochasticity? to encourage exploration
+LOCAL
+cdpaper..
+get...
 - MSP vs EP in table
-- PPR high quality dataset
-- PPR sess general framework
 - INTRO and runs a single step of iterative...
 - PPR approach sampling part is very dense. also smaller than the bilinear part
-- retaining information from the original image?
-- i am confident icmr will be feb 14 ish
 best trajectory of masks
 ~~~~~~~~~~~~~
 - SRT: insert teaser
@@ -59,6 +57,8 @@ https://edas.info/N31614?c=31614
 https://edas.info/newPaper.php?c=31628&track=120748
 --------------------------------------------------------------------------
 <<NOT DOING>>
+- retaining information from the original image?
+- place yellow circle around objects?
 SRT arrows in tables ( higher better lower better)
 - elp with gp with mean scores
 %>> stochasticity of simple cropping
@@ -85,6 +85,8 @@ PPR ELP: unlikely pixels differ in importances
 ERC CODING
 -------------------------------------------------------------------------
 2>DONE:
+- underline algorithm parts in the approach
+- i am confident icmr will be feb 14 ish
 - space with the first figure caption is messed up now
 - add stochastic in experiments text . No --> leads to queries regarding ablation table
 - remove the para detailing auxiliary for igos etc
@@ -383,6 +385,10 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 
 -------------------------------------------------------------------------
 3>RECHECK:
+- copy abstract to ijcnn site ( copy from tex and not from pdf)
+- remove the crop sampling densit or revisualize it?
+- PPR intro/approach high quality dataset
+- PPR intro/related sess general framework
 - Heuristic to post hoc?
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
 - WR ERC full search for [?] and ?? and ? in paper
