@@ -22,5 +22,8 @@ NOT DOING
 - setuptools install
 - addpath
 ###################################################################
+(( mixing python with bash ))
+getting a filename from a json file
+###################################################################
 (( latex paper writing ))
 \newcommand \todo 
