@@ -341,6 +341,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 - multiple copy buffers in vim
 ------------------------------------------------------------------------
 4>LATER:
+- js extension to overwrite downloads
 - CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
 - ERC class names in per-class table?
 >> scores of sampled crop centers.
