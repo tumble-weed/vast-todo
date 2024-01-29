@@ -1,0 +1,8 @@
+NO CHANGE
+- no change in aggregation. no cange in gpnn?
+GPNNCAM:
+forward pass all images
+get gradients of layer of interest
+fit regresor to gradients?
+get first layer cam
+fit weights to later layer features to cam0
