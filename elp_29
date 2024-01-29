@@ -54,16 +54,24 @@ EXP:
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 EP:
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     forms the basis of our apporach?
     under this regime -> uner this setup
     however the CNN loss \ref.. seeks to maximize
     solve for he pre mask instead of the mask
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 APPR:
     havent read algo
     havent looked at image caption
+    has low uncertainty and high predicted mean ? vs high predicted mean
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     collect B random crops {\bar{I}}
     we textit{sample} the scores ... from the posterior predictive
-    has low uncertainty and high predicted mean ? vs high predicted mean
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RELATED:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     In that work, notion of zoom...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
