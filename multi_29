@@ -1,3 +1,5 @@
+check n_done for imagenet vgg16,resnet50 
+---------------------------------------------------------------------
 finish runs for all cifar stuff
 t-smaller
 runallsmaller
@@ -10,6 +12,7 @@ visualize for multi paper?
 ######################################################################
 ######################################################################
 DONE:
+Imagenet on competing is done i think
 we should be running pointing on all the imagenet runs
 ---------------------------------------------------------------------
 runallsmallervgg16:
