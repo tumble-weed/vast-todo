@@ -5,10 +5,6 @@ IGNORE_METHOD=multithresh_saliency runallsmaller vgg16 mnist
 run smaller:
     vgg16:
         cifar-10:
-            gradient
-            guided
-            grad_cam
-            integrated
             multi
         cifar-100:
              gradient
@@ -29,6 +25,12 @@ run smaller:
             guided
             grad_cam
             integrated
+        cifar-10:
+             gradient
+            guided
+            grad_cam
+            integrated
+       
 
 ######################################################################
 ######################################################################
