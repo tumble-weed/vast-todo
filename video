@@ -1,26 +1,36 @@
+------------------------------------------------------------------
 - adding password protection for any bash command ( groups) in case you had a terminal whatsapp?
 - using autocomplete for any command ( vimtodo ..)
-NOT DOING
-- terminal tools for adhd: todo, whatsapp messages, email
-- terminal whatsapp
-###################################################################
+------------------------------------------------------------------
 (( mini bash gotchas and corrections ))
 - Bahs! (Debug this bash command)
 1. spaces round varname="abc"
 2. spaces not in \[ \]
 3. when a variable is not assigned
 4. not using " around an array
-###################################################################
+------------------------------------------------------------------
 (( make python available from any where ))
 - setuptools install
 - addpath
-###################################################################
+------------------------------------------------------------------
 (( mixing python with bash ))
 getting a filename from a json file
-###################################################################
+------------------------------------------------------------------
 (( latex paper writing ))
 \newcommand \todo 
-###################################################################
+##################################################################
+LATER
+##################################################################
+
+##################################################################
+NOT DOING
+##################################################################
+- terminal tools for adhd: todo, whatsapp messages, email
+- terminal whatsapp
+##################################################################
+DONE
+##################################################################
+------------------------------------------------------------------
 (( using aliases for directories, for vim into directories and runningfiles ))
 > ways to use aliases and functions:
 1 Some directories you go to all time
