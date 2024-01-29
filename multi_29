@@ -1,6 +1,7 @@
 ---------------------------------------------------------------------
 run in tmux
 run multi imagenet  resnet50
+IGNORE_METHOD=multithresh_saliency runallsmaller vgg16 mnist
 run smaller:
     vgg16:
         cifar-10:
