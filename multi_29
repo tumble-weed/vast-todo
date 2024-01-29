@@ -1,13 +1,20 @@
 check n_done for imagenet vgg16,resnet50 
 ---------------------------------------------------------------------
-finish runs for all cifar stuff
-t-smaller
-runallsmaller
----------------------------------------------------------------------
 run in tmux
 ---------------------------------------------------------------------
 visualize for multi paper?
     visualize the trajectory of the images ... 
+    look at vimmulti (type vimmulti)
+    look at how elp_massking is used and how the areas have been used 
+    vim -O $multi -O $comparemasking
+
+######################################################################
+######################################################################
+DOING
+---------------------------------------------------------------------
+finish runs for all cifar stuff
+t-smaller
+runallsmaller
 
 ######################################################################
 ######################################################################
