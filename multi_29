@@ -1,19 +1,3 @@
-check n_done for imagenet vgg16,resnet50 
-- which methods ( copy from vimrunjson run_imagenet_vgg16.json)
-- loop overmethods and print
-- print out the methodnames
-
-methodnames=methodnames_for_imagenet_multi_paper
-for method in "${methodnames[@]}"; do
-    echo $method
-    check_ndone 
-    done
-
-methodnames_for_imagenet_multi_paper=("scorecam" "grad_cam" "groupcam" "IGOSpp" "extremal_perturbation" "multithresh_saliency")
-function getmethodnamesmultipaper(){
-    echo "methods for imagenet ${methodnames_for_imagenet_multi_paper[@]}"
-    echo "methods for smaller ${methodnames_for_smaller_multi_paper[@]}"
-}
 ---------------------------------------------------------------------
 
 run in tmux
@@ -42,6 +26,12 @@ visualize for multi paper?
     look at vimmulti (type vimmulti)
     look at how elp_massking is used and how the areas have been used 
     vim -O $multi -O $comparemasking
+check n_done for imagenet vgg16,resnet50 
+- which methods ( copy from vimrunjson run_imagenet_vgg16.json)
+- loop overmethods and print
+- print out the methodnames
+
+
 
 
 ######################################################################
