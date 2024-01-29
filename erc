@@ -1,16 +1,16 @@
-- tight in dutils img_save
 - how to make graphics using chatgpt like things
 - how to run whisper of audio
 - make google service account
 - custom prinout like ic (inspect)
-- dutils numpy verbose mode .. for what?
 - making a chrome extension?
 - marks in vim, macro in vim
 - code bash << notation in bash to feed input from file
-- port forwarding
+- reverse port forwarding
 DOING
 - how to send a webpage using fastapi
 NOT DOING
 - validate path to dutils
+- dutils numpy verbose mode .. for what?
 will need separate handlers for skimage.io and open. so might not work
 DONE
+- tight in dutils img_save
