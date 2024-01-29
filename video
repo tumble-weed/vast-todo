@@ -4,18 +4,6 @@ NOT DOING
 - terminal tools for adhd: todo, whatsapp messages, email
 - terminal whatsapp
 ###################################################################
-(( using aliases for directories, for vim into directories and runningfiles ))
-> ways to use aliases and functions:
-- Some directories you go to all time
-- make a todo list in your terminal. 
-- make a command out of a script.
-- scratch pad
-- Add even more aliases
-- unalias
-- how to enable it
-- how locally define it
-! how to use clean files
-###################################################################
 (( mini bash gotchas and corrections ))
 - Bahs! (Debug this bash command)
 1. spaces round varname="abc"
@@ -32,3 +20,23 @@ getting a filename from a json file
 ###################################################################
 (( latex paper writing ))
 \newcommand \todo 
+###################################################################
+(( using aliases for directories, for vim into directories and runningfiles ))
+> ways to use aliases and functions:
+1 Some directories you go to all time
+2 make a todo list in your terminal. 
+3 make a command out of a script.
+4 scratch pad
+5 Add even more aliases
+- unalias
+- how to enable it
+- how locally define it
+- how to see what is there in an alias
+
+alias merrychristmas="python /root/project1/christmas_lights.py"
+alias mytodo="vim /root/mytodo/todo.md"
+alias myscratchpy="vim /tmp/myscratch.py;python /tmp/myscratch.py"
+alias runpyandchristmas="myscratchpy && merrychristmas"
+alias myredobash="source ~/.bashrc"
+/tmp/myscratch.py
+
