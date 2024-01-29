@@ -1,0 +1,32 @@
+we should be running pointing on all the imagenet runs
+run in tmux
+---------------------------------------------------------------------
+visualize for multi paper?
+    visualize the trajectory of the images ... 
+    save  igos final saliency and then use this as in initializer for mulitthresh_saliency. "who runs it?" the visualizer should run it
+
+######################################################################
+######################################################################
+DONE:
+---------------------------------------------------------------------
+runallsmallervgg16:
+    type expand alias to another variable and run
+        in tmux
+runallsmallerresnet8:
+    in tmux
+
+######################################################################
+######################################################################
+RECHECK:
+---------------------------------------------------------------------
+create graphs for (12 graphs):
+     deletion & insertion (ig,gradcam,multi, scorecam):
+            resnet8,vgg16:
+                cifar,mnist,cifar-10
+
+---------------------------------------------------------------------
+runallimagenetformultipaper:
+    runtorchray run_vast_imagenet_vgg16.sh
+    runtorchray run_vast_imagenet_resnet50.sh
+---------------------------------------------------------------------
+
