@@ -16,10 +16,6 @@ run smaller:
             grad_cam
             multi
         mnist:
-            gradient
-            guided
-            grad_cam
-            integrated
             multi
      resnet8:
         cifar-10:
@@ -27,7 +23,12 @@ run smaller:
             multi
         mnist:
             multi
-         
+............................................         
+        mnist:
+            gradient
+            guided
+            grad_cam
+            integrated
 
 ######################################################################
 ######################################################################
