@@ -13,6 +13,15 @@
 - setuptools install
 - addpath
 ------------------------------------------------------------------
+((taking input arguments to bash functions ))
+- standard ${1}
+- dealing with arguments with spaces
+- passing all the input arguments to python?
+- shifting and popping arguments?
+- using environment variables:
+    - do they cascade to inner functions?
+    - do they influence the parent shell?
+------------------------------------------------------------------
 (( mixing python with bash ))
 getting a filename from a json file
 ------------------------------------------------------------------
