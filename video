@@ -5,11 +5,13 @@ NOT DOING
 - terminal whatsapp
 ###################################################################
 (( using aliases for directories, for vim into directories and runningfiles ))
-4 ways to use aliases and functions:
+> ways to use aliases and functions:
 - Some directories you go to all time
 - make a todo list in your terminal. 
 - make a command out of a script.
+- scratch pad
 - Add even more aliases
+! how to use clean files
 ###################################################################
 (( mini bash gotchas and corrections ))
 - Bahs! (Debug this bash command)
