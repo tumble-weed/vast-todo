@@ -1,4 +1,30 @@
-- intro+concl
     - experi
         -elp+appr
         -abs
+        - related
+..........................
+DONE
+- intro+concl
+INTRO:
+   it asks if the model's processing behaviour has properties that are common sense to humans.
+   or heat maps, highlighting regions that strongly influence the output
+   , but their independence
+   are combined -> are used
+   importance of using the imaeg at -> benefits of using
+   CAMERAS' tecnique -> the CAMERAS pipeline
+   image or its zoom -> zoomed version of the image
+   single step of iterative (like EP)
+   confidently high scoring crops. Further, we also utilize crops with high uncertainty, which mightbe badly represented by the data used to fit the regressor.
+   across multiple CNN -> across different CNN architectures
+CONC:
+    as we discuss
+    sess section i at end
+    such an technique -> iterative method
+    fits a lightweight regressor ... of the image
+    it to sample promising crops
+    base EP method
+    limit the amount of overhead it adds.
+    of our approach, Multiscale Perturbatin (MSP)
+    demonstratating improved
+    We perform ablation experiments against baselines to investigate the reason's for this improved performance
+    as well as its failure cases
