@@ -1,7 +1,33 @@
 ---------------------------------------------------------------------
 run in tmux
-run imagenet  resnet50
-run smaller cifar-10
+run multi imagenet  resnet50
+run smaller:
+    vgg16:
+        cifar-10:
+            gradient
+            guided
+            grad_cam
+            integrated
+            multi
+        cifar-100:
+             gradient
+            guided
+            grad_cam
+            multi
+        mnist:
+            gradient
+            guided
+            grad_cam
+            integrated
+            multi
+     resnet8:
+        cifar-10:
+        cifar-100:
+            multi
+        mnist:
+            multi
+         
+
 ######################################################################
 ######################################################################
 DOING
