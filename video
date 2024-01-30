@@ -29,6 +29,9 @@ forward: connect to your friends api
 reverse: have a friend connect to your api
 
 ------------------------------------------------------------------
+((arrays in bash))
+
+------------------------------------------------------------------
 ((taking input arguments to bash functions))
 - standard ${1}
 - dealing with arguments with spaces
