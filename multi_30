@@ -1,7 +1,7 @@
  - check_git
  - check_rclone
  - run in another vast instance:
-    !fix the issues with the vast-utils install
+    fix the issues with the vast-utils install
     setup an alias
     add money
     setup_instance
