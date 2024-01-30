@@ -1,11 +1,17 @@
+TEASER:
+    Fig 1: no a,b,c,d
+
+..........................
+..........................
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Fig 3: Top, In pink
+Table II: underlining is wrong
+Table I: add citation to methods
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 CONC:
-    for optimizatin based attribution (OA)
 EXP:
-    sample, and weigh in proportion to importanec: separate forward pass for the importance
     -(  see section)
-    - good as a feeder -> useful as a feeder
 APPR:
-    algo - collect B random crops {}={}
 ..........................
 DONE
 - intro+concl
@@ -38,6 +44,7 @@ CONC:
     base EP method
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    for optimizatin based attribution (OA)
     as we discuss
     sess section i at end
     such an technique -> iterative method
@@ -59,6 +66,10 @@ EXP:
     (i),(ii) for baselines
     refine g with EP --> refine g
       caputre importanes well -> capture importances completely
+
+
+    sample, and weigh in proportion to importanec: separate forward pass for the importance
+    - good as a feeder -> useful as a feeder
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     table 1: best in bold
@@ -80,6 +91,8 @@ APPR:
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
     collect B random crops {\bar{I}}
     we textit{sample} the scores ... from the posterior predictive
+
+    algo - collect B random crops {}={}
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
