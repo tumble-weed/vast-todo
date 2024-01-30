@@ -1,3 +1,4 @@
+ - save the ratios in summarize_deletion
  - DATASET=mnist summarize_all_deletion
  - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - collect results of all deletion scores ( summarize deletion? \& collect deletion)
