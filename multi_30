@@ -1,3 +1,11 @@
+ - check_git
+ - check_rclone
+ - run in another vast instance:
+    fix the issues with the vast-utils install
+    setup an alias
+    add money
+    setup_instance
+    run the program
  - save the ratios in summarize_deletion
  - DATASET=mnist summarize_all_deletion
  - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
