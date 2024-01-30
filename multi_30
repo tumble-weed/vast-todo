@@ -1,4 +1,4 @@
- - summarize all deletion
+ - DATASET=mnist summarize all deletion
  - collect results of all deletion scores ( summarize deletion? \& collect deletion)
 ---------------------------------------------------------------------
 run in tmux
