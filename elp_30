@@ -1,0 +1,89 @@
+CONC:
+    for optimizatin based attribution (OA)
+EXP:
+    sample, and weigh in proportion to importanec: separate forward pass for the importance
+    -(  see section)
+    - good as a feeder -> useful as a feeder
+APPR:
+    algo - collect B random crops {}={}
+..........................
+DONE
+- intro+concl
+    - experi
+        -elp+appr
+            -abs
+            - related
+..........................
+Auto complete for vim commands (vsp)
+SRT some work?
+..........................
+INTRO:
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   or heat maps, highlighting regions that strongly influence the output
+   , but their independence
+   are combined -> are used
+   importance of using the imaeg at -> benefits of using
+   CAMERAS' tecnique -> the CAMERAS pipeline
+   single step of iterative (like EP)
+   across multiple CNN -> across different CNN architectures
+   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   image or its zoom -> zoomed version of the image
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   it asks if the model's processing behaviour has properties that are common sense to humans.
+   confidently high scoring crops. Further, we also utilize crops with high uncertainty, which mightbe badly represented by the data used to fit the regressor.
+CONC:
+    it to sample promising crops
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    base EP method
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    as we discuss
+    sess section i at end
+    such an technique -> iterative method
+    fits a lightweight regressor ... of the image
+    limit the amount of overhead it adds.
+    of our approach, Multiscale Perturbatin (MSP)
+    demonstratating improved
+    We perform ablation experiments against baselines to investigate the reason's for this improved performance
+    as well as its failure cases
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+EXP:
+   importance sampling? -> (with uncertainty)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    with multiple: with 2 different 
+    scales 1-4
+    with sESS and CAMERAS -> SESS or CAMERAS
+    across most classes ->  across most categories
+    without consideration of their value -> without consideration of their potential value
+    (i),(ii) for baselines
+    refine g with EP --> refine g
+      caputre importanes well -> capture importances completely
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    table 1: best in bold
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+EP:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    forms the basis of our apporach?
+    under this regime -> uner this setup
+    however the CNN loss \ref.. seeks to maximize
+    solve for he pre mask instead of the mask
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+APPR:
+    havent read algo
+    havent looked at image caption
+    has low uncertainty and high predicted mean ? vs high predicted mean
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    collect B random crops {\bar{I}}
+    we textit{sample} the scores ... from the posterior predictive
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RELATED:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    In that work, notion of zoom...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

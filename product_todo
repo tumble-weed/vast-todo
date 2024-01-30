@@ -1,0 +1,4 @@
+ - any point must start with -
+ - parse lines which have tags in them like \todo
+ - git diff between 2 text files
+ - time stamp when a particular line was added ( file modify times)
