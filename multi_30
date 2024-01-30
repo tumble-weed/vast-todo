@@ -1,3 +1,4 @@
+ - collect results of all deletion scores ( summarize deletion? \& collect deletion)
 ---------------------------------------------------------------------
 run in tmux
 run multi imagenet  resnet50
