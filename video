@@ -33,6 +33,7 @@ reverse: have a friend connect to your api
 - standard ${1}
 - dealing with arguments with spaces
 - shifting and popping arguments?
+- sending arrays
 - using environment variables:
     - do they cascade to inner functions?
     - do they influence the parent shell?
