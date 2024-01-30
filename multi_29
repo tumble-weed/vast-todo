@@ -7,7 +7,6 @@ run smaller:
         cifar-10:
             multi
         cifar-100:
-             gradient
             guided
             grad_cam
             multi
