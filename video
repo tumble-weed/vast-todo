@@ -13,6 +13,11 @@
 - setuptools install
 - addpath
 ------------------------------------------------------------------
+((port forwarding))
+forward: connect to your friends api
+reverse: have a friend connect to your api
+
+------------------------------------------------------------------
 ((taking input arguments to bash functions))
 - standard ${1}
 - dealing with arguments with spaces
