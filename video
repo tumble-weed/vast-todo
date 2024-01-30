@@ -23,6 +23,7 @@
 - getting the name of the current function
 - todict
 - seeing the namespace of the caller
+- get the names of the input arguments to the function
 ------------------------------------------------------------------
 ((port forwarding))
 forward: connect to your friends api
