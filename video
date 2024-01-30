@@ -33,6 +33,10 @@ reverse: have a friend connect to your api
 ((arrays in bash))
 
 ------------------------------------------------------------------
+((strings in bash, create a command parser))
+remember -m "message"
+runall --methods method1 method2 --arch resnet50
+------------------------------------------------------------------
 ((taking input arguments to bash functions))
 - standard ${1}
 - dealing with arguments with spaces
