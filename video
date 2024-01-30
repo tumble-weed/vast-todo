@@ -5,7 +5,7 @@
 (( mini bash gotchas and corrections ))
 - Bahs! (Debug this bash command)
 1. spaces round varname="abc"
-2. spaces not in \[ \]
+2. spaces not in [ ]
 3. when a variable is not assigned
 4. not using " around an array
 ------------------------------------------------------------------
@@ -13,14 +13,14 @@
 - setuptools install
 - addpath
 ------------------------------------------------------------------
-((taking input arguments to bash functions ))
+((taking input arguments to bash functions))
 - standard ${1}
 - dealing with arguments with spaces
-- passing all the input arguments to python?
 - shifting and popping arguments?
 - using environment variables:
     - do they cascade to inner functions?
     - do they influence the parent shell?
+- passing all the input arguments to python?
 ------------------------------------------------------------------
 (( mixing python with bash ))
 getting a filename from a json file
