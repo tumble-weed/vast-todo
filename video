@@ -13,6 +13,17 @@
 - setuptools install
 - addpath
 ------------------------------------------------------------------
+((python pdb))
+- debugging using pdb
+- post mortem mode
+- using aliases to repeat code
+- gotchas and !
+------------------------------------------------------------------
+(( python inspect ))
+- getting the name of the current function
+- todict
+- seeing the namespace of the caller
+------------------------------------------------------------------
 ((port forwarding))
 forward: connect to your friends api
 reverse: have a friend connect to your api
