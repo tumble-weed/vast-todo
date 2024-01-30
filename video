@@ -9,6 +9,9 @@
 3. when a variable is not assigned
 4. not using " around an array
 ------------------------------------------------------------------
+(( workflow files ))
+edit and run
+------------------------------------------------------------------
 (( make python available from any where ))
 - setuptools install
 - addpath
