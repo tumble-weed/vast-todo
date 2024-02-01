@@ -1,18 +1,3 @@
- cdrunjson &&  cp run_imagenet_vgg16.json run_smaller_vgg16.json && vim run_smaller_vgg16.json && genrunscript run_smaller_vgg16.json
- tmux sessions:
-    - smaller: mnist resnet8
-    - ?: c100 resnet8
-    x smaller2: cifar-100 vgg16
-    - smaller-vgg16 mnist vgg16
-    - smaller-vgg16-c10 c10 vgg16
-    - smaller-vgg16-c100 c100 vgg16
- - run in another vast instance:
-    fix the issues with the vast-utils install
-    setup an alias
-    add money
-    setup_instance
-    run the program
- - see the ratios in collect
  - DATASET=mnist summarize_all_deletion
  - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - collect results of all deletion scores ( summarize deletion? \& collect deletion)
@@ -62,6 +47,23 @@ runallsmaller
 ######################################################################
 ######################################################################
 DONE:
+ tmux sessions:
+    - smaller: mnist resnet8
+    - ?: c100 resnet8
+    x smaller2: cifar-100 vgg16
+    - smaller-vgg16 mnist vgg16
+    - smaller-vgg16-c10 c10 vgg16
+    - smaller-vgg16-c100 c100 vgg16
+
+ - run in another vast instance:
+    fix the issues with the vast-utils install
+    setup an alias
+    add money
+    setup_instance
+    run the program
+ - see the ratios in collect
+
+ cdrunjson &&  cp run_imagenet_vgg16.json run_smaller_vgg16.json && vim run_smaller_vgg16.json && genrunscript run_smaller_vgg16.json
  - check_git
  - check_rclone
  - save the ratios in summarize_deletion
