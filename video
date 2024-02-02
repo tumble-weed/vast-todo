@@ -19,6 +19,7 @@
 ------------------------------------------------------------------
 ((bash strings ))
 - concatenating
+- adding a character to beginning or to the end if it does not exist ( e.g. / to a dirname or - in my todo list)
 - ' vs "
 - "substitution"
 - sed problem
