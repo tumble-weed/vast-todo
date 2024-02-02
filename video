@@ -17,6 +17,12 @@
 3. when a variable is not assigned
 4. not using " around an array
 ------------------------------------------------------------------
+((bash strings ))
+- concatenating
+- ' vs "
+- "substitution"
+- sed problem
+------------------------------------------------------------------
 (( python testing your apis))
 - testing the function
 - testing locally
