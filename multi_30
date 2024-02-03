@@ -1,3 +1,4 @@
+ - self saliency panel
  - qualitative for vgg16 and resnet50
  - self-saliency for vgg16 and resnet50
  - schedule of a randomly initialized mask vs a fully optimized one.
