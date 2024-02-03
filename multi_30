@@ -1,3 +1,4 @@
+ - ablation?
  - co-saliency, self-saliency?
  - measure the mask area across images?
  - DATASET=mnist summarize_all_deletion
