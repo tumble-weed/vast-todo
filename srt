@@ -1,0 +1,9 @@
+Hi,
+can you reformat the paper at:
+
+into these 2 formats:
+https://www.overleaf.com/project/65be57d1f99f4745c9b8a8fc 
+https://www.overleaf.com/project/65be5809ce75cfedde5aa004
+
+By reformatting I mean:
+1. copy the images, and the files from the project to this new one. 
