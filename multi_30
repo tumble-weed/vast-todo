@@ -1,6 +1,7 @@
+ - the max point seems to be on the top left corner
+ - self saliency panel
  - jet map without matplotlib axis for saving in saver
  - lr might be too high for self saliency on lower layers
- - self saliency panel
  - vimtmpalias visualize get images using pointing game ( cherry pick )
  - vimtmpalias visualize qualitative for vgg16 and resnet50
  - script in multithresh_saliency schedule of a randomly initialized mask vs a fully optimized one.
