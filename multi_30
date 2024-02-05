@@ -1,4 +1,4 @@
- - jet map without matplotlib for saving in saver
+ - jet map without matplotlib axis for saving in saver
  - lr might be too high for self saliency on lower layers
  - self saliency panel
  - vimtmpalias visualize get images using pointing game ( cherry pick )
