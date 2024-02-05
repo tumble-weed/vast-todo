@@ -1,3 +1,4 @@
+ - gradcam doesnt seem to have saliency
  - summarize all deletion for multithresh saliency
  - which image to run self saliency on 
  - self saliency panel
