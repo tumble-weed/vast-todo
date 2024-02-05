@@ -1,5 +1,8 @@
  - gradcam doesnt seem to have saliency
- - summarize all deletion for multithresh saliency
+ - summarize all deletion for multithresh saliency:
+    methods=multithresh_saliency summarize_all_deletion_small
+ - DATASET=mnist summarize_all_deletion
+ - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - which image to run self saliency on 
  - self saliency panel
  - the max point seems to be on the top left corner
@@ -10,8 +13,6 @@
  - visualize script in multithresh_saliency schedule of a randomly initialized mask vs a fully optimized one.
  - measure the mask area across images? -- why, this is not equivalent to elp area .. to show that elp's fixed area is not the way to go
  - final saliency as weighted sum of saliencies? (weighted by score?) --> why? this is similar to scorecam
- - DATASET=mnist summarize_all_deletion
- - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - collect results of all deletion scores ( summarize deletion? \& collect deletion)
 ---------------------------------------------------------------------
 run in tmux
