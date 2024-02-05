@@ -1,3 +1,6 @@
+- run ep with composition for journal
+- run multi on pascal for pointing game
+- run multi on imagenet for deletion
 - rerun ep for per class 2 more times ( setting the torch rng)
 - rerun ep+crop, ep+unw 2 more times 
 tmn2 is not working
