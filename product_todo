@@ -2,3 +2,4 @@
  - parse lines which have tags in them like \todo
  - git diff between 2 text files
  - time stamp when a particular line was added ( file modify times)
+ - syntax for both when added and when it needs to be done by. add llm parsing of dates
