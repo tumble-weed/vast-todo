@@ -4,7 +4,7 @@
  - DATASET=mnist summarize_all_deletion
  - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - which image to run self saliency on 
- - self saliency panel
+ - self saliency panel: add imroot to savename
  - the max point seems to be on the top left corner
  - jet map without matplotlib axis for saving in saver
  - lr might be too high for self saliency on lower layers
