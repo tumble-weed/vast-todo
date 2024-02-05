@@ -1,3 +1,4 @@
+ - lr might be too high for self saliency on lower layers
  - self saliency panel
  - vimtmpalias visualize get images using pointing game ( cherry pick )
  - vimtmpalias visualize qualitative for vgg16 and resnet50
