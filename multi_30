@@ -1,4 +1,4 @@
- # guided resnet8 cifar-10
+# guided resnet8 cifar-10
 cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true
  - block diagram
  - plotdeletion
@@ -8,14 +8,12 @@ cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 
  - DATASET=cifar-10 IGNORE_METHOD=multithresh_saliency summarize_all_deletion
  - which image to run self saliency on 
  - self saliency panel: add imroot to savename
- - the max point seems to be on the top left corner
  - jet map without matplotlib axis for saving in saver
  - lr might be too high for self saliency on lower layers
  - vimtmpalias visualize get images using pointing game ( cherry pick )
  - vimtmpalias visualize qualitative for vgg16 and resnet50
  - visualize script in multithresh_saliency schedule of a randomly initialized mask vs a fully optimized one.
  - measure the mask area across images? -- why, this is not equivalent to elp area .. to show that elp's fixed area is not the way to go
- - final saliency as weighted sum of saliencies? (weighted by score?) --> why? this is similar to scorecam
  - collect results of all deletion scores ( summarize deletion? \& collect deletion)
 ---------------------------------------------------------------------
 run in tmux
@@ -63,6 +61,7 @@ runallsmaller
 ######################################################################
 ######################################################################
 DONE:
+ - the max point seems to be on the top left corner
  - gradcam doesnt seem to have saliency
  tmux sessions:
     - smaller: mnist resnet8
@@ -106,6 +105,7 @@ check n_done for imagenet vgg16,resnet50
 
 
 NOT DOING
+ - final saliency as weighted sum of saliencies? (weighted by score?) --> why? this is similar to scorecam
  co-saliency
  - ablation?
  - self-saliency for vgg16 and resnet50
