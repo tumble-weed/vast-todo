@@ -1,4 +1,4 @@
- # guided vgg16
+ # guided resnet8 cifar-10
 cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true
  - block diagram
  - plotdeletion
