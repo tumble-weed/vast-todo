@@ -1,3 +1,4 @@
+ - block diagram
  - plotdeletion
  - summarize all deletion for multithresh saliency:
     methods=multithresh_saliency summarize_all_deletion_small
