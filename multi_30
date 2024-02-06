@@ -1,4 +1,4 @@
- - gradcam doesnt seem to have saliency
+ - plotdeletion
  - summarize all deletion for multithresh saliency:
     methods=multithresh_saliency summarize_all_deletion_small
  - DATASET=mnist summarize_all_deletion
@@ -60,6 +60,7 @@ runallsmaller
 ######################################################################
 ######################################################################
 DONE:
+ - gradcam doesnt seem to have saliency
  tmux sessions:
     - smaller: mnist resnet8
     - ?: c100 resnet8
