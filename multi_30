@@ -1,6 +1,5 @@
 # guided resnet8 cifar-10
 cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true
- - block diagram
  - plotdeletion
  - summarize all deletion for multithresh saliency:
     methods=multithresh_saliency summarize_all_deletion_small
@@ -105,6 +104,7 @@ check n_done for imagenet vgg16,resnet50
 
 
 NOT DOING
+ - block diagram
  - final saliency as weighted sum of saliencies? (weighted by score?) --> why? this is similar to scorecam
  co-saliency
  - ablation?
