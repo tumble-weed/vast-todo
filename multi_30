@@ -1,4 +1,6 @@
 # guided resnet8 cifar-10
+- run just insertion
+- staggered and "both" mode
 - continue and use_landataloader
 cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true
  - just insertion game?
