@@ -1,3 +1,4 @@
+- instead of imagenet-5000 mention imagenet
 - the figures for the paper
 vim /root/bigfiles/other/metrics-torchray/where_elp_gp_beter_anchor_extremal_perturbation_with_simple_scale_and_crop_with_gp_gp_y_modelog_prob_gp_ncrops1100_gp_sample1_freq1_arch_vgg16_imroots_and_class_ids
 # guided resnet8 cifar-10
