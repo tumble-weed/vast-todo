@@ -1,5 +1,22 @@
 # guided resnet8 cifar-10
 # cifar-10-guided_backprop-resnet8
+# Traceback (most recent call last):                                                                                                              
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 715, in urlopen                                    
+    httplib_response = self._make_request(                                                                                                      
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 467, in _make_request                              
+    six.raise_from(e, None)                                             
+  File "<string>", line 3, in raise_from                                                                                                        
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/site-packages/urllib3/connectionpool.py", line 462, in _make_request                              
+    httplib_response = conn.getresponse()                                                                                                       
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/http/client.py", line 1348, in getresponse                                                        
+    response.begin()                                                                                                                            
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/http/client.py", line 316, in begin                                            
+    version, status, reason = self._read_status()                                                                                                 File "/opt/conda/envs/gpnnenv/lib/python3.8/http/client.py", line 277, in _read_status                                                        
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/opt/conda/envs/gpnnenv/lib/python3.8/socket.py", line 669, in readinto                                                                 
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer              
+
 - run just insertion
 - staggered and "both" mode
 - continue and use_landataloader
