@@ -1,4 +1,5 @@
 # guided resnet8 cifar-10
+# cifar-10-guided_backprop-resnet8
 - run just insertion
 - staggered and "both" mode
 - continue and use_landataloader
