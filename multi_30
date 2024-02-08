@@ -7,7 +7,7 @@ vim /root/bigfiles/other/metrics-torchray/where_elp_gp_beter_anchor_extremal_per
 # cifar-10-guided_backprop-resnet8
   0%|                                                                                                                 | 0/10000 [00:00<?, ?it/s]
 - run just insertion
-cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true
+cdelp; python examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader true --method multithresh_saliency --window_size 3
  - just insertion game?
  - plotdeletion
  - summarize all deletion for multithresh saliency:
