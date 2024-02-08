@@ -1,15 +1,20 @@
 #======================================================== 
 - make table in the paper
+    summarize_all_deletion_smaller
+    /root/evaluate-saliency-4/elp_with_scales/torchray/helpers/summarize_deletion.py
+- make images for the paper:
+    comparison on imagenet
+    masking
+    graphs + legend
+#======================================================== 
+# DONE
 - find the accuracies of the networks involved collect deletion?
     validate ...?
         workonvalidatevgg16
         workonvalidateresnet8
         /root/bigfiles/other/metrics-torchray/resnet8_performance
         /root/bigfiles/other/metrics-torchray/vgg16_performance
-- make images for the paper:
-    comparison on imagenet
-    masking
-    graphs + legend
+
 #======================================================== 
 RUN JUST MULTI
  cdelp; python -m ipdb -c c examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader false --method multithresh_saliency --window_size 11 --save_results false
