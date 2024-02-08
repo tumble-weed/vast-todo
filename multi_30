@@ -1,7 +1,5 @@
 #======================================================== 
-- make table in the paper
-    summarize_all_deletion_smaller
-    /root/evaluate-saliency-4/elp_with_scales/torchray/helpers/summarize_deletion.py
+- self-saliency iamges + section
 - make images for the paper:
     comparison on imagenet
     masking
@@ -14,6 +12,9 @@
         workonvalidateresnet8
         /root/bigfiles/other/metrics-torchray/resnet8_performance
         /root/bigfiles/other/metrics-torchray/vgg16_performance
+- make table in the paper
+    summarize_all_deletion_smaller
+    /root/evaluate-saliency-4/elp_with_scales/torchray/helpers/summarize_deletion.py
 
 #======================================================== 
 RUN JUST MULTI
