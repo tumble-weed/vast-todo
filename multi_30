@@ -1,3 +1,8 @@
+- make table in the paper
+- find the accuracies of the networks involved
+- make images for the paper
+
+RUN JUST MULTI
  cdelp; python -m ipdb -c c examples/attribution_benchmark.py --arch vgg16 --dataset cifar-10 --save_detailed_results true --metrics deletion_game $continue_ --use_landataloader false --method multithresh_saliency --window_size 11 --save_results false
 - erc upwork
 workoncomparemasking
