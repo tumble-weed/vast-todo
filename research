@@ -16,5 +16,6 @@
 - separating multiple objects vs general objectness
 - is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) what about feature differences? ref_feat - fg_feat = bg_feat?
 - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
+- accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
 READ:
     the wavelet method forexplanation
