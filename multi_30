@@ -1,5 +1,6 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 #======================================================== 
+- remove mention of deletion
 - self-saliency iamges + section
 - make images for the paper:
     comparison on imagenet
