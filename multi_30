@@ -1,9 +1,19 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 #======================================================== 
+- push multi paper to github and then pull into overleaf
 - remove mention of deletion
 - self-saliency iamges + section
 - make images for the paper:
     comparison on imagenet
+        . local cdpaper..
+        . get classnames
+        . how many? (3 or 4?)
+        soup bowl: 809
+        carton:478
+        abacus 398
+        cradle 516
+        pitcher 725
+        PICKUP TRUCK 717
     masking
     graphs + legend
 #======================================================== 
