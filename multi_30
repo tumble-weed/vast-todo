@@ -1,12 +1,21 @@
+
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 #======================================================== 
-- push multi paper to github and then pull into overleaf
+- plot all thicker lines, 
+    larger font sizes
+    dont draw axis, 
+    background color
+
+- references
+- qualitative add green borderfor MTS
+- mention MTS
 - remove mention of deletion
 - self-saliency iamges + section
 - make images for the paper:
     masking
 #======================================================== 
 # DONE
+- push multi paper to github and then pull into overleaf
     graphs + legend
     comparison on imagenet
         . local cdpaper..
