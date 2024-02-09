@@ -2,8 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric
 #======================================================== 
-- get names of layers from undederstanding...sanity check
-fc8 fc7 fc6
+- title
 - references
 - qualitative add green borderfor MTS
 - mention MTS
@@ -11,6 +10,9 @@ fc8 fc7 fc6
 - self-saliency iamges + section
 #======================================================== 
 # DONE
+- restructure masking figure
+- get names of layers from undederstanding...sanity check
+fc8 fc7 fc6
 - plot all thicker lines, 
     larger font sizes
     dont draw axis, 
