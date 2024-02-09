@@ -1,20 +1,22 @@
 
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 #======================================================== 
-- plot all thicker lines, 
-    larger font sizes
-    dont draw axis, 
-    background color
-
+- get names of layers from undederstanding...sanity check
+fc8 fc7 fc6
 - references
 - qualitative add green borderfor MTS
 - mention MTS
 - remove mention of deletion
 - self-saliency iamges + section
-- make images for the paper:
-    masking
 #======================================================== 
 # DONE
+- plot all thicker lines, 
+    larger font sizes
+    dont draw axis, 
+    background color
+
+- make images for the paper:
+    masking
 - push multi paper to github and then pull into overleaf
     graphs + legend
     comparison on imagenet
