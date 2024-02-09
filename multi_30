@@ -4,6 +4,10 @@
 - remove mention of deletion
 - self-saliency iamges + section
 - make images for the paper:
+    masking
+#======================================================== 
+# DONE
+    graphs + legend
     comparison on imagenet
         . local cdpaper..
         . get classnames
@@ -14,10 +18,6 @@
         cradle 516
         pitcher 725
         PICKUP TRUCK 717
-    masking
-    graphs + legend
-#======================================================== 
-# DONE
 - find the accuracies of the networks involved collect deletion?
     validate ...?
         workonvalidatevgg16
