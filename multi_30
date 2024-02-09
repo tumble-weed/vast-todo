@@ -1,15 +1,23 @@
 
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
-- run road metric
+- run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- MTS (ours)
+- captions
+- deletion game reference
 - title
-- references
-- qualitative add green borderfor MTS
 - mention MTS
 - remove mention of deletion
 - self-saliency iamges + section
+- change table to resnet | vgg
+#======================================================== 
+# MAYBE
+- qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+- references
+- table names
+- MST to MTS
 - restructure masking figure
 - get names of layers from undederstanding...sanity check
 fc8 fc7 fc6
