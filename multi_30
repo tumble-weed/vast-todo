@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+tma t-summarizedeletion
 - run road on all multi methods
 - MTS (ours)
 - captions
