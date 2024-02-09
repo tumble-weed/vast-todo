@@ -1,5 +1,6 @@
 
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
+- run road metric
 #======================================================== 
 - get names of layers from undederstanding...sanity check
 fc8 fc7 fc6
