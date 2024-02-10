@@ -1,8 +1,13 @@
+- crossing the divide between explanation and segmentation
+    - superpixel based saliency
+        . different from igos as it will use cluster centers
+        . different from igos as uses features
+        . look at XAI?
 - relation between attribution and visualization
 - relation between attribution and gradient descent
 - why does singan collapse
-- bending wires into shapes
 - 3d inversion
+    - bending wires into shapes
 - why did point cloud inversion fail
 - gaussian processes with a multi scale kernel 
 - class transitions
@@ -10,16 +15,20 @@
     . how do lstms induce stop signal
     . use gan for image quality
     . a model that converts lstm bits to an image
-- learning to interpolate
+- adversarial phenomenon
 - gan duck sliding
-- crossing the divide between explanation and segmentation
 - generative  attribution method
 - interpolating between faces using a single mask
-- cosaliency of the same object between 2 images
 - separating multiple objects vs general objectness
-- is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) what about feature differences? ref_feat - fg_feat = bg_feat?
-- 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
-- accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
-- longitudnal visualization ( across the training run)
+- invariant noise
+Multithresholded Saliency
+    - cosaliency of the same object between 2 images
+    - is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) 
+        what about feature differences? ref_feat - fg_feat = bg_feat?
+    - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
+    - accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
+    - longitudnal visualization ( across the training run)
+FLUKE:
+    - learning to interpolate
 READ:
     the wavelet method forexplanation
