@@ -32,6 +32,7 @@ Multithresholded Saliency
     - longitudnal visualization ( across the training run)
     - can you improve the performance of vgg16 by masking its images by the attribution of resnet50?
     - ranking based loss
+    - gan discriminator longitudnal saliency
 FLUKE:
     - learning to interpolate
 READ:
