@@ -1,10 +1,10 @@
-- make windows installation for 
+- make a vpn through my computer
+- make windows installation for the ip, ssh key stuff
 - live streaming 
 - multi_30 stuff
 - download a wav file from copilot and convert itintoto a blob
 - copilot images
 - paper
-- self saliency
 - python tests
 - low energy coding channel
 ......
@@ -23,6 +23,7 @@
 - code bash << notation in bash to feed input from file
 - reverse port forwarding
 DOING
+- self saliency
 - how to send a webpage using fastapi
 NOT DOING
 - validate path to dutils
