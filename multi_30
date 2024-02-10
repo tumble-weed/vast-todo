@@ -2,9 +2,9 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+gradient is still the same as guided backprop. why?
 tma t-summarizedeletion
-- run road on all multi methods
-- MTS (ours)
+summarize road all multi
 - captions
 - deletion game reference
 - title
@@ -17,6 +17,8 @@ tma t-summarizedeletion
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+- MTS (ours)
+- run road on all multi methods
 - references
 - table names
 - MST to MTS
