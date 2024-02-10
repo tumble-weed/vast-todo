@@ -4,6 +4,7 @@
         . different from igos as uses features
         . look at XAI?
         . why do it insitu with the optimization when you can pre-create superpixels?
+- class agnostic saliency. if you didnt know which classes were in the image.
 - relation between attribution and visualization
 - relation between attribution and gradient descent
 - why does singan collapse
