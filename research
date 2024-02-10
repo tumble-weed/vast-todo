@@ -3,6 +3,7 @@
         . different from igos as it will use cluster centers
         . different from igos as uses features
         . look at XAI?
+        . why do it insitu with the optimization when you can pre-create superpixels?
 - relation between attribution and visualization
 - relation between attribution and gradient descent
 - why does singan collapse
