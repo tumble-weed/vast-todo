@@ -7,6 +7,9 @@
 - gaussian processes with a multi scale kernel 
 - class transitions
 - information theoretic clustering
+    . how do lstms induce stop signal
+    . use gan for image quality
+    . a model that converts lstm bits to an image
 - learning to interpolate
 - gan duck sliding
 - crossing the divide between explanation and segmentation
