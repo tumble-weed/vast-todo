@@ -2,6 +2,8 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+a,b,c,d in figures
+multithresholded saliency to multi-thresholded
 masking comparison example is bad
 PPR how tofind the threshold
 mention difference between deletion game during eval and opt
