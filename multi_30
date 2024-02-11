@@ -2,24 +2,27 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
-a,b,c,d in figures
-multithresholded saliency to multi-thresholded
-masking comparison example is bad
+- number of masks?
+- masking operator
+- mention that there is no auxiliary term
 PPR how tofind the threshold
 mention difference between deletion game during eval and opt
 gradient is still the same as guided backprop. why?
 - captions
-- deletion game reference
 - title
-- mention MTS
-- remove mention of deletion
-- self-saliency iamges + section
-- change table to resnet | vgg
 #======================================================== 
 # MAYBE
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+- self-saliency iamges + section
+- change table to resnet | vgg
+- mention MTS
+- remove mention of deletion
+- deletion game reference
+a,b,c,d in figures
+multithresholded saliency to multi-thresholded
+masking comparison example is bad
 tma t-summarizedeletion
     summarize road all multi
     plotallroaddeletion
