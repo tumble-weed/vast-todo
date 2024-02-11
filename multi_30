@@ -2,10 +2,9 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+PPR how tofind the threshold
+mention difference between deletion game during eval and opt
 gradient is still the same as guided backprop. why?
-tma t-summarizedeletion
-summarize road all multi
-plotallroaddeletion
 - captions
 - deletion game reference
 - title
@@ -18,6 +17,9 @@ plotallroaddeletion
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+tma t-summarizedeletion
+    summarize road all multi
+    plotallroaddeletion
 - MTS (ours)
 - run road on all multi methods
 - references
