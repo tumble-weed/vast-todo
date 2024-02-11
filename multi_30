@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+masking comparison example is bad
 PPR how tofind the threshold
 mention difference between deletion game during eval and opt
 gradient is still the same as guided backprop. why?
