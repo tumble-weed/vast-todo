@@ -27,7 +27,12 @@ Feature Inversion:
         Understanding deep representations through random weights
         A Powerful Generative Model Using Random Weights for the Deep Image Representation
     inpainting using CNN?
-    inversion till a feature layer. how do you measure distances?    
+    inversion till a feature layer. 
+        how do you measure distances? is a simple l2 distance between the features enough. but if a layer has more dimensions should it not lead to a larger distances on average?
+
+    maximally different at layer l-1 while the same at layer l
+        will give the boundaries of a representation?
+- inverting to learn important patches that can be arranged in the manner of GPNN
 - generative attribution method
 - separating multiple objects vs general objectness
 - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
