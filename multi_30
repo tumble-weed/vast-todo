@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- locations of images
 - typos, figure captions again, look at figures
 -mention no auxiliary loss in aprroach
 - mask operator as Mask
