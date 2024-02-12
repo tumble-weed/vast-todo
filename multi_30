@@ -2,6 +2,15 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- mask operator as Mask
+- spaces under equations
+- figure igos
+- lots of repetition involving insertion game
+- softmax operator details?
+- margin ofthe deletion table
+- conclusion
+- approach is lucid?
+- softmax window, kernel size, blurring sigma
 - number of masks?
 - masking operator
 - mention that there is no auxiliary term
