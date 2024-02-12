@@ -17,23 +17,31 @@
     . use gan for image quality
     . a model that converts lstm bits to an image
 Adversarial Examples
-    - adversarial phenomenon
-    - innocuous noise
+    - adversarial phenomenon (huh? what is this about?)
+    - innocuous noise:
+        keep adding noise to the network, then bring the features back to the reference. what remains in the noise will be innocuous. iteratively do this till a certain l2 distance away from the reference feature. 
+            it might just add values to the edges to enhance them.
+                non noisy areas will be important, i.e. it can give attribution
 GANS:
     - gan duck sliding
+        is this even needed? why cant i just visualize the discriminator output on the entire input? the minima of it will be the locations where the points slide to.
+            but if you give points according to their probabilities, then you can get the props of the input space, someting that we normally dont associate with GANs
     - why does singan collapse
 Feature Inversion:
     inverting random networks to observe effect of initialization
-        Understanding deep representations through random weights
-        A Powerful Generative Model Using Random Weights for the Deep Image Representation
+        PPR: Understanding deep representations through random weights
+        PPR: A Powerful Generative Model Using Random Weights for the Deep Image Representation
     inpainting using CNN?
     inversion till a feature layer. 
         how do you measure distances? is a simple l2 distance between the features enough. but if a layer has more dimensions should it not lead to a larger distances on average?
-
+        can a later layer have larger difference in L2 distance when an earlier layer has reduced its distance?
     maximally different at layer l-1 while the same at layer l
-        will give the boundaries of a representation?
-- inverting to learn important patches that can be arranged in the manner of GPNN
+        will give the boundaries of a representation? --> how much can you tax the network before it goes out of the bucket
+
+- inverting to learn important patches that can be arranged in the manner of GPNN: this is like positive factorization. why would such patches be useful at all? would they give class indicative terms, or would they make the images less realistic? 
+
 - generative attribution method
+    why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in
 - separating multiple objects vs general objectness
 - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
     - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
