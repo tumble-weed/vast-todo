@@ -23,6 +23,10 @@
 - interpolating between faces using a single mask
 - separating multiple objects vs general objectness
 - invariant noise
+- "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
+    - where does this loss attend to ? ( e.g. focal loss)
+    - for a GAN which part of the image is important to the Discriminator early on, later on in the training?
+
 Multithresholded Saliency
     - cosaliency of the same object between 2 images
     - is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) 
