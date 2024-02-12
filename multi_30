@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+-mention no auxiliary loss in aprroach
 - mask operator as Mask
 - spaces under equations
 - figure igos
