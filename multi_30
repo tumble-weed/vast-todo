@@ -2,32 +2,34 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
-- fig:enter-label
+- some more lines in applying the mask ( blur levels)
+- spaces under equations
+- mention no auxiliary loss in aprroach
 - locations of images
 - typos, figure captions again, look at figures
--mention no auxiliary loss in aprroach
-- mask operator as Mask
-- spaces under equations
 - figure igos
-- lots of repetition involving insertion game
 - softmax operator details?
-- margin ofthe deletion table
-- conclusion
-- approach is lucid?
 - softmax window, kernel size, blurring sigma
 - number of masks?
-- masking operator
-- mention that there is no auxiliary term
-PPR how tofind the threshold
-mention difference between deletion game during eval and opt
 gradient is still the same as guided backprop. why?
 - captions
 - title
+#========================================================
+# RECHECK
+- lots of repetition involving insertion game
+- margin of the deletion table
+- approach is lucid?
+- masking operator
+PPR how tofind the threshold
 #======================================================== 
 # MAYBE
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+mention difference between deletion game during eval and opt
+- conclusion
+- mask operator as Mask
+- fig:enter-label
 - self-saliency iamges + section
 - change table to resnet | vgg
 - mention MTS

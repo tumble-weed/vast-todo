@@ -24,6 +24,10 @@ GANS:
     - why does singan collapse
 Feature Inversion:
     inverting random networks to observe effect of initialization
+        Understanding deep representations through random weights
+        A Powerful Generative Model Using Random Weights for the Deep Image Representation
+    inpainting using CNN?
+    inversion till a feature layer
     
 - generative attribution method
 - separating multiple objects vs general objectness
