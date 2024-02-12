@@ -1,32 +1,30 @@
-- crossing the divide between explanation and segmentation
-    - superpixel based saliency
-        . different from igos as it will use cluster centers
-        . different from igos as uses features
-        . look at XAI?
-        . why do it insitu with the optimization when you can pre-create superpixels?
-- class agnostic saliency. if you didnt know which classes were in the image.
-- relation between attribution and visualization
-- relation between attribution and gradient descent
+=========================================
+- why did point cloud inversion fail
+=========================================
+- gaussian processes with a multi scale kernel 
+=========================================
+- class transitions
 - 3d inversion
     - bending wires into shapes: use the spherical harmonics to model the contours of mnist digits. ( like 1,5. those with holes will not work)
-- why did point cloud inversion fail
-- gaussian processes with a multi scale kernel 
-- class transitions
+=========================================
 - information theoretic clustering
     . how do lstms induce stop signal
     . use gan for image quality
     . a model that converts lstm bits to an image
+=========================================
 Adversarial Examples
-    - adversarial phenomenon (huh? what is this about?)
+    - adversarial phenomenon: where i create adversarial examples from random noise
     - innocuous noise:
         keep adding noise to the network, then bring the features back to the reference. what remains in the noise will be innocuous. iteratively do this till a certain l2 distance away from the reference feature. 
             it might just add values to the edges to enhance them.
                 non noisy areas will be important, i.e. it can give attribution
+=========================================
 GANS:
     - gan duck sliding
         is this even needed? why cant i just visualize the discriminator output on the entire input? the minima of it will be the locations where the points slide to.
             but if you give points according to their probabilities, then you can get the probs of the input space, someting that we normally dont associate with GANs --> its like prb(gt) * disc(importance)
     - why does singan collapse
+=========================================
 Feature Inversion:
     inverting random networks to observe effect of initialization
         PPR: Understanding deep representations through random weights
@@ -38,13 +36,19 @@ Feature Inversion:
     maximally different at layer l-1 while the same at layer l
         will give the boundaries of a representation? --> how much can you tax the network before it goes out of the bucket
 
+=========================================
 - inverting to learn important patches that can be arranged in the manner of GPNN: this is like positive factorization. why would such patches be useful at all? would they give class indicative terms, or would they make the images less realistic? 
-
+- relation between attribution and visualization
+- relation between attribution and gradient descent
+=========================================
 - generative attribution method
     why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in. like a verification.
         so is it like a focused learning? will you learn the features of the place you are looking at?
+=========================================
 - separating multiple objects vs general objectness
 - inverting random cnns and transformers to observe inductive biases
+- class agnostic saliency. if you didnt know which classes were in the image.
+=========================================
 Multithresholded Saliency
     - cosaliency of the same object between 2 images
     - interpolating between faces using a single mask
@@ -62,7 +66,16 @@ Multithresholded Saliency
     - can you improve the performance of vgg16 by masking its images by the attribution of resnet50?
         - has this been done?
     - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
+- crossing the divide between explanation and segmentation
+    - superpixel based saliency
+        . different from igos as it will use cluster centers
+        . different from igos as uses features
+        . look at XAI?
+        . why do it insitu with the optimization when you can pre-create superpixels?
+=========================================
 FLUKE:
     - learning to interpolate
+=========================================
 READ:
     the wavelet method forexplanation
+=========================================
