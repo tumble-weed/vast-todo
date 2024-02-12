@@ -25,7 +25,7 @@ Adversarial Examples
 GANS:
     - gan duck sliding
         is this even needed? why cant i just visualize the discriminator output on the entire input? the minima of it will be the locations where the points slide to.
-            but if you give points according to their probabilities, then you can get the props of the input space, someting that we normally dont associate with GANs
+            but if you give points according to their probabilities, then you can get the probs of the input space, someting that we normally dont associate with GANs --> its like prb(gt) * disc(importance)
     - why does singan collapse
 Feature Inversion:
     inverting random networks to observe effect of initialization
@@ -44,21 +44,24 @@ Feature Inversion:
     why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in. like a verification.
         so is it like a focused learning? will you learn the features of the place you are looking at?
 - separating multiple objects vs general objectness
-- "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
-    - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
-    - for a GAN which part of the image is important to the Discriminator early on, later on in the training?
 - inverting random cnns and transformers to observe inductive biases
 Multithresholded Saliency
     - cosaliency of the same object between 2 images
+    - interpolating between faces using a single mask
+    - ranking based loss
+    - accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
+    ...............................
+    - gan discriminator longitudnal saliency, for a GAN which part of the image is important to the Discriminator early on, later on in the training?
+    ...............................
+    - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
+        - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
     - is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) 
         what about feature differences? ref_feat - fg_feat = bg_feat?
-    - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
-    - accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
     - longitudnal visualization ( across the training run)
+        - think this has already been done
     - can you improve the performance of vgg16 by masking its images by the attribution of resnet50?
-    - ranking based loss
-    - gan discriminator longitudnal saliency
-    - interpolating between faces using a single mask
+        - has this been done?
+    - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
 FLUKE:
     - learning to interpolate
 READ:
