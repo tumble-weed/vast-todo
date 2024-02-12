@@ -7,7 +7,6 @@
 - class agnostic saliency. if you didnt know which classes were in the image.
 - relation between attribution and visualization
 - relation between attribution and gradient descent
-- why does singan collapse
 - 3d inversion
     - bending wires into shapes
 - why did point cloud inversion fail
@@ -17,14 +16,19 @@
     . how do lstms induce stop signal
     . use gan for image quality
     . a model that converts lstm bits to an image
-- adversarial phenomenon
-- gan duck sliding
-- generative  attribution method
-- interpolating between faces using a single mask
+Adversarial Examples
+    - adversarial phenomenon
+    - innocuous noise
+GANS:
+    - gan duck sliding
+    - why does singan collapse
+Feature Inversion:
+    inverting random networks to observe effect of initialization
+    
+- generative attribution method
 - separating multiple objects vs general objectness
-- invariant noise
 - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
-    - where does this loss attend to ? ( e.g. focal loss)
+    - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
     - for a GAN which part of the image is important to the Discriminator early on, later on in the training?
 - inverting random cnns and transformers to observe inductive biases
 Multithresholded Saliency
@@ -37,6 +41,7 @@ Multithresholded Saliency
     - can you improve the performance of vgg16 by masking its images by the attribution of resnet50?
     - ranking based loss
     - gan discriminator longitudnal saliency
+    - interpolating between faces using a single mask
 FLUKE:
     - learning to interpolate
 READ:
