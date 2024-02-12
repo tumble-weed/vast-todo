@@ -8,7 +8,7 @@
 - relation between attribution and visualization
 - relation between attribution and gradient descent
 - 3d inversion
-    - bending wires into shapes
+    - bending wires into shapes: use the spherical harmonics to model the contours of mnist digits. ( like 1,5. those with holes will not work)
 - why did point cloud inversion fail
 - gaussian processes with a multi scale kernel 
 - class transitions
@@ -41,7 +41,8 @@ Feature Inversion:
 - inverting to learn important patches that can be arranged in the manner of GPNN: this is like positive factorization. why would such patches be useful at all? would they give class indicative terms, or would they make the images less realistic? 
 
 - generative attribution method
-    why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in
+    why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in. like a verification.
+        so is it like a focused learning? will you learn the features of the place you are looking at?
 - separating multiple objects vs general objectness
 - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
     - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
