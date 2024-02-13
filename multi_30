@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- both sided imagenet-5000 on the 2 networsk
 - convert the graphs from single line to 2 line
 - overlay concave graph beside text
 - better example for igos vs multi masking ( more detailed i think)
