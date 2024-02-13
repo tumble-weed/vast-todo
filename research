@@ -76,6 +76,7 @@ Multithresholded Saliency
         . different from igos as uses features
         . look at XAI?
         . why do it insitu with the optimization when you can pre-create superpixels?
+    - what is the implication of the insertion and deletion game?
 =========================================
 FLUKE:
     - learning to interpolate
