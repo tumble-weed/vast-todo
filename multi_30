@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- formalize compositional paths etc. create diagram for those
 - some more lines in applying the mask ( blur levels)
 - spaces under equations
 - mention no auxiliary loss in aprroach
