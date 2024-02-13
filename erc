@@ -1,9 +1,12 @@
+- get bibtex from terminal
+- make a master bib file
+- find word in master bib file
 - locallm for writing
 - tikz exercises
 - watchfiles for renaming Download
 - Download manager
 - hardlink files from folders to multipaper
-- latex compiler
+- install latex compiler
 - making a custom syntaxhighlighter in vim
 - how do we local folder to gdrive
 - make a vpn through my computer
