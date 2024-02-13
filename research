@@ -61,13 +61,15 @@ Multithresholded Saliency
     ...............................
     - "gradient based saliency is more flexible allowing for measuring saliency of arbitary losses"
         - where does this loss attend to ? ( e.g. focal loss), do we need ||dloss/dx|| ?
+            the gradients of the loss are most influenced with "this" area in the image. gradvit
     - is the network seeing that object or some other object? --> feature deviation (fg --> fg +bg) 
         what about feature differences? ref_feat - fg_feat = bg_feat?
     - longitudnal visualization ( across the training run)
         - think this has already been done
     - can you improve the performance of vgg16 by masking its images by the attribution of resnet50?
         - has this been done?
-    - 2 sided masks with imposition that fg_feat + bg_feat = ref_feat?
+    - both games with imposition that fg_feat + bg_feat = ref_feat?
+    - maximizing the norm of the features? 
 - crossing the divide between explanation and segmentation
     - superpixel based saliency
         . different from igos as it will use cluster centers
