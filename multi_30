@@ -2,6 +2,8 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- better example for igos vs multi masking ( more detailed i think)
+- better example for a concave graph
 - show self saliency comparion with elp
 - formalize compositional paths etc. create diagram for those
 - some more lines in applying the mask ( blur levels)
