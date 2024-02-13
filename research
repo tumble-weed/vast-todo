@@ -35,6 +35,7 @@ Feature Inversion:
         can a later layer have larger difference in L2 distance when an earlier layer has reduced its distance?
     maximally different at layer l-1 while the same at layer l
         will give the boundaries of a representation? --> how much can you tax the network before it goes out of the bucket
+    "objects are liquid" look at the design of yolo to see how it learns location
 =========================================
 - inverting to learn important patches that can be arranged in the manner of GPNN: this is like positive factorization. why would such patches be useful at all? would they give class indicative terms, or would they make the images less realistic? 
     probably would make then unrealistic, the patches could be hierarchical which are resized at various scales? is this a better way of doing what i wanted to do in the gaussian pyramid paper? is this a way to reduce the adversarial phenomenon without having to resort to smoothness?
