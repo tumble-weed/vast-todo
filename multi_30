@@ -2,6 +2,8 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- convert the graphs from single line to 2 line
+- overlay concave graph beside text
 - better example for igos vs multi masking ( more detailed i think)
 - better example for a concave graph
 - show self saliency comparion with elp
