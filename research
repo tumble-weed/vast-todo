@@ -52,9 +52,7 @@ Feature Inversion:
 - class agnostic saliency. if you didnt know which classes were in the image.
 =========================================
 Multithresholded Saliency
-    - cosaliency of the same object between 2 images
     - interpolating between faces using a single mask
-    - ranking based loss
     - accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
     ...............................
     - gan discriminator longitudnal saliency, for a GAN which part of the image is important to the Discriminator early on, later on in the training?
@@ -78,6 +76,9 @@ Multithresholded Saliency
         . look at XAI?
         . why do it insitu with the optimization when you can pre-create superpixels?
     - what is the implication of the insertion and deletion game?
+    .................................
+    - ranking based loss
+    - cosaliency of the same object between 2 images
     
 =========================================
 FLUKE:
