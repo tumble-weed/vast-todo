@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- evolution of the masks along side the concavity graph?
 - fix small dataset table to fit into area
 - why does it fail with mnist
 - add accuracy of small networks to the headings inthe table?o
