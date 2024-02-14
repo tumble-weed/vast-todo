@@ -2,7 +2,9 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- gradcam on compiled model (torchray)
 - mask sharpnes as a function of the threshold ( should be hump like as well i believe )
+    - should we reintroduce the sharpness loss?
 - cosaliency save and cosaliency panel
 - run cosaliency on an image and its flip
 - add hash of the saliencies to the results
