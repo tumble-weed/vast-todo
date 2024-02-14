@@ -70,6 +70,7 @@ Multithresholded Saliency
         - has this been done?
     - both games with imposition that fg_feat + bg_feat = ref_feat?
     - maximizing the norm of the features? 
+    - longitudnal between vgg with batch norm and without
 - crossing the divide between explanation and segmentation
     - superpixel based saliency
         . different from igos as it will use cluster centers
@@ -77,6 +78,7 @@ Multithresholded Saliency
         . look at XAI?
         . why do it insitu with the optimization when you can pre-create superpixels?
     - what is the implication of the insertion and deletion game?
+    
 =========================================
 FLUKE:
     - learning to interpolate
