@@ -3,6 +3,7 @@
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
 - gradcam on compiled model (torchray)
+    . currently  backward "second time" error
 - mask sharpness as a function of the threshold ( should be hump like as well i believe )
     - should we reintroduce the sharpness loss?
 - cosaliency save and cosaliency panel
