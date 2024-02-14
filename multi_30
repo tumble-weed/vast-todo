@@ -2,6 +2,13 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- fix small dataset table to fit into area
+- why does it fail with mnist
+- add accuracy of small networks to the headings inthe table?o
+- argmin
+- cifar-resnet implementation
+- why are the references not loading
+- use tikz to recreate diagrams
 - both sided imagenet-5000 on the 2 networsk
 - convert the graphs from single line to 2 line
 - overlay concave graph beside text
