@@ -52,6 +52,7 @@ Feature Inversion:
 - class agnostic saliency. if you didnt know which classes were in the image.
 =========================================
 Multithresholded Saliency
+    - gradcam of arbitrary losses( like self saliency)
     - interpolating between faces using a single mask
     - accentuating the difference between 2 neural networks ( 1 mask, start from where they disagree the most )
     - how does the saliency change with dropout
