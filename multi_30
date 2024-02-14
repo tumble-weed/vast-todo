@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- add hash of the saliencies to the results
 - evolution of the masks along side the concavity graph?
 - fix small dataset table to fit into area
 - why does it fail with mnist
