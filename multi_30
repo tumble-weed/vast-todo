@@ -2,13 +2,14 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
+- run cosaliency on an image and its flip
 - add hash of the saliencies to the results
 - evolution of the masks along side the concavity graph?
 - fix small dataset table to fit into area
 - why does it fail with mnist
-- add accuracy of small networks to the headings inthe table?o
+- add accuracy of small networks to the headings in the table?o
 - argmin
-- cifar-resnet implementation
+- reference for cifar-resnet implementation
 - why are the references not loading
 - use tikz to recreate diagrams
 - both sided imagenet-5000 on the 2 networsk
