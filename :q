@@ -3,10 +3,7 @@
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
 - cnn utils fixed drop out mask
-    PYTHON replace Dropout with FixedDropout. it has a sample_mask,unset mask setting. in eval it keeps this mask. in train it keeps sampling masks.
-        run for 3 dropouts on each layer
-            run across the layers
-- relatoin to "Xrai: region importance" and guided backprop
+- relatoin to Xrai: region importance and guided backprop
 - add hash of the saliencies to the results
     CHATGPT, ERC: howto get hash of a numpy array in python 
 - imagenet-both failed due to syntax error.
@@ -25,7 +22,7 @@
 - why are the references not loading LATEX ERC
 - convert the graphs from single line to 2 lines LATEX ERC
 - show self saliency comparion with elp:
-    PYTHON look at elp code to add the feature layer.
+    look at elp code to add the feature layer.
         get the results out and save it with your chosen folder
 - why does it fail with mnist insertion
 - both sided imagenet-5000 on the 2 network
@@ -34,24 +31,19 @@
     make the links between images from folder to the paper folder
 - better example for a concave graph
 - formalize compositional paths etc. create diagram for those
-    WRITE
+- spaces under equations
 - mention no auxiliary loss in aprroach
-    PPR: approach
 - locations of images
 - typos, figure captions again, look at figures
-- figure igos?
-- PPR: softmax operator details?
-    psuedocode/python
-- PPR: softmax window, kernel size, blurring sigma
-- ABLATION number of masks?
-    add inner parser arguments
-    run on cifar-10,cifar-100,mnist with 40,10 masks
+- figure igos
+- softmax operator details?
+- softmax window, kernel size, blurring sigma
+- ablation number of masks?
 gradient is still the same as guided backprop. why?
 - captions
 - title
 #========================================================
 # RECHECK
-- spaces under equations
 - lots of repetition involving insertion game
 - margin of the deletion table
 - approach is lucid?
