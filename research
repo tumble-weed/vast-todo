@@ -27,6 +27,8 @@ GANS:
 =========================================
 Feature Inversion:
     if you invert a classifier, it will give something that scores highly on a detector'sclassification but the bounding box will too big
+        - you have previously put a loss on gradcam's attribution, but this has led to images without all the parts
+            is there a way to find out which parts are there in an image?
     inverting random networks to observe effect of initialization
         PPR: Understanding deep representations through random weights
         PPR: A Powerful Generative Model Using Random Weights for the Deep Image Representation
