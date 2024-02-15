@@ -3,6 +3,7 @@
 - run road metric (summarize all road, out filename, plot )
 #======================================================== 
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
+- automatic object sizes by a concave approximation?
 - cnn utils fixed drop out mask
     PYTHON replace Dropout with FixedDropout. it has a sample_mask,unset mask setting. in eval it keeps this mask. in train it keeps sampling masks.
         run for 3 dropouts on each layer
