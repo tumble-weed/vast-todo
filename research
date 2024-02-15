@@ -55,6 +55,7 @@ Feature Inversion:
 - class agnostic saliency. if you didnt know which classes were in the image.
 =========================================
 Multithresholded Saliency
+    - what are the things you cannot answer using attribution
     - https://distill.pub/2020/attribution-baselines/?utm_source=researcher_app&utm_medium=referral&utm_campaign=RESR_MRKT_Researcher_inbound
     - gradcam of arbitrary losses( like self saliency)
     - interpolating between faces using a single mask
