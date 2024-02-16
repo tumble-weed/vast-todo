@@ -11,11 +11,35 @@
         . could be the starting mask where the object is just detected.
             . need a paired data loader that combines the masks and image
                 . then also load the deletion data. use the percentage where the class is maximum?
+<<EXPERIMENT/CODE>>
+- summarize rise
+    summarize... in vimtmpalias
+
+- run all methods on imagenet:
+    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
+        how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
+            cdrunjson, cp file, genrunscript, cdrunscript ; runtorchray 
+
+- add hash of the saliencies to the results
+    CHATGPT, ERC: howto get hash of a numpy array in python 
+- DROPOUT run for 3 dropouts on each layer
+    run across the layers
+- show self saliency comparion with elp:
+    PYTHON look at elp code to add the feature layer.
+        get the results out and save it with your chosen folder
+
+- see both sided imagenet-5000 on the 2 network
+- ABLATION number of masks?
+    add inner parser arguments
+    run on cifar-10,cifar-100,mnist with 40,10 masks
 <<READ/BROWSER>>
 gradient is still the same as guided backprop. why?
     it is different for resnet 50 in elp paper. so should be different for us as well. its odd it 
     https://www.codingninjas.com/studio/library/guided-backpropagation
     https://arxiv.org/abs/1412.6806
+    
+    run readpkl on guided and grad which have the same number in the table. compare what the saliencies look like:
+        errors could be in arguments to saliency,running saliency, saving results, calculating metric, saving metric, running collect, making json from collect
 Guided IG
 - relation to "Xrai: region importance" and guided backprop
 <<TIKZ>>
@@ -39,26 +63,6 @@ a why does it fail with mnist insertion
 - better example for a concave graph
 - better example for igos vs multi masking ( more detailed i think)
     make the links between images from folder to the paper folder
-<<EXPERIMENT/CODE>>
-- summarize rise
-    summarize... in vimtmpalias
-
-- run all methods on imagenet:
-    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
-        how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
-
-- add hash of the saliencies to the results
-    CHATGPT, ERC: howto get hash of a numpy array in python 
-- DROPOUT run for 3 dropouts on each layer
-    run across the layers
-- show self saliency comparion with elp:
-    PYTHON look at elp code to add the feature layer.
-        get the results out and save it with your chosen folder
-
-- see both sided imagenet-5000 on the 2 network
-- ABLATION number of masks?
-    add inner parser arguments
-    run on cifar-10,cifar-100,mnist with 40,10 masks
 <<<WRITE>>>
 - title
 Approach
