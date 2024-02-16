@@ -14,7 +14,9 @@
 <<EXPERIMENT/CODE>>
 - show self saliency comparion with elp:
     PYTHON look at elp code to add the feature layer.
+        vimelp
         get the results out and save it with your chosen folder
+        run_self_saliency
 
 - see both sided imagenet-5000 on the 2 network
 - ABLATION number of masks?
