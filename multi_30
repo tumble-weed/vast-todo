@@ -13,6 +13,7 @@
                 . then also load the deletion data. use the percentage where the class is maximum?
 <<READ/BROWSER>>
 gradient is still the same as guided backprop. why?
+    it is different for resnet 50 in elp paper. so should be different for us as well. its odd it 
 Guided IG
 - relation to "Xrai: region importance" and guided backprop
 <<TIKZ>>
@@ -32,7 +33,7 @@ Guided IG
     - should we reintroduce the sharpness loss?
 - automatic object sizes by finding peak of concave approximation?
     - try this without the approximation? 
-- why does it fail with mnist insertion
+a why does it fail with mnist insertion
 - better example for a concave graph
 - better example for igos vs multi masking ( more detailed i think)
     make the links between images from folder to the paper folder
