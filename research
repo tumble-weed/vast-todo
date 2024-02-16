@@ -45,6 +45,7 @@ Feature Inversion:
 
 - relation between attribution and visualization
 - relation between attribution and gradient descent
+    - simplest thing to consider is guided backpropogation (just a rule for relu (and for max pool as well?))
 =========================================
 - generative attribution method
     why are you trying to connect attribution and generation. generation is the next step, if you ask where then you can also ask about what exactly is there that you are interested in. like a verification.
