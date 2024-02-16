@@ -12,16 +12,6 @@
             . need a paired data loader that combines the masks and image
                 . then also load the deletion data. use the percentage where the class is maximum?
 <<EXPERIMENT/CODE>>
-- summarize rise
-    summarize... in vimtmpalias
-    python torchray/helpers/summary2.py --start --method rise_use_compiled_model --dataset voc_2007 --arch vgg16
-- run all methods on imagenet:
-    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
-        how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
-            cdrunjson, cp file, genrunscript, cdrunscript ; runtorchray 
-
-- add hash of the saliencies to the results
-    CHATGPT, ERC: howto get hash of a numpy array in python 
 - show self saliency comparion with elp:
     PYTHON look at elp code to add the feature layer.
         get the results out and save it with your chosen folder
@@ -30,6 +20,17 @@
 - ABLATION number of masks?
     add inner parser arguments
     run on cifar-10,cifar-100,mnist with 40,10 masks
+    ......................................................
+    - summarize rise
+        summarize... in vimtmpalias
+        python torchray/helpers/summary2.py --start --method rise_use_compiled_model --dataset voc_2007 --arch vgg16
+    - run all methods on imagenet:
+        scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
+            how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
+                cdrunjson, cp file, genrunscript, cdrunscript ; runtorchray 
+
+    - add hash of the saliencies to the results
+    CHATGPT, ERC: howto get hash of a numpy array in python 
 <<READ/BROWSER>>
 gradient is still the same as guided backprop. why?
     it is different for resnet 50 in elp paper. so should be different for us as well. its odd it 
