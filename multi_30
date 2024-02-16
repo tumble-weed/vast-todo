@@ -14,7 +14,7 @@
 <<EXPERIMENT/CODE>>
 - summarize rise
     summarize... in vimtmpalias
-
+    python torchray/helpers/summary2.py --start --method rise_use_compiled_model --dataset voc_2007 --arch vgg16
 - run all methods on imagenet:
     scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
         how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
