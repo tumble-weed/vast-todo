@@ -2,57 +2,70 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
-- see results of imagenet-5000 on both
+- run all methods on imagenet:
+    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
+- see results of imagenet-5000 on game_type both
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
     - run the knowledge-distillation-pytorch code
     - check how to create a curriculum
         . could be the starting mask where the object is just detected.
             . need a paired data loader that combines the masks and image
                 . then also load the deletion data. use the percentage where the class is maximum?
-- automatic object sizes by finding peak of concave approximation?
-- DROPOUT run for 3 dropouts on each layer
-    run across the layers
-- add hash of the saliencies to the results
-    CHATGPT, ERC: howto get hash of a numpy array in python 
+<<READ/BROWSER>>
+gradient is still the same as guided backprop. why?
+Guided IG
 - relation to "Xrai: region importance" and guided backprop
-- mask sharpness as a function of the threshold ( should be hump like as well i believe )
-    - should we reintroduce the sharpness loss?
+<<TIKZ>>
 - evolution of the masks along side the concavity graph? TIKZ, ERC
-- fix small dataset table to fit into area LATEX, ERC
-- add accuracy of small networks to the headings in the table? LATEX,ERC
-- argmin LATEX,ERC
+- convert the graphs from single line to 2 lines LATEX ERC
 - use tikz to recreate diagrams TIKZ,ERC
     the arrangement of the masks of ig vs multi
     the qualitative results
+<<LATEX>>
+- fix small dataset table to fit into area LATEX, ERC
+- add accuracy of small networks to the headings in the table? LATEX,ERC
+- argmin LATEX,ERC
+- overlay concave graph beside text
 - why are the references not loading LATEX ERC
-- convert the graphs from single line to 2 lines LATEX ERC
+<<DIAGNOSE>>
+- mask sharpness as a function of the threshold ( should be hump like as well i believe )
+    - should we reintroduce the sharpness loss?
+- automatic object sizes by finding peak of concave approximation?
+    - try this without the approximation? 
+- why does it fail with mnist insertion
+- better example for a concave graph
+- better example for igos vs multi masking ( more detailed i think)
+    make the links between images from folder to the paper folder
+<<EXPERIMENT/CODE>>
+- add hash of the saliencies to the results
+    CHATGPT, ERC: howto get hash of a numpy array in python 
+- DROPOUT run for 3 dropouts on each layer
+    run across the layers
 - show self saliency comparion with elp:
     PYTHON look at elp code to add the feature layer.
         get the results out and save it with your chosen folder
-- why does it fail with mnist insertion
-- both sided imagenet-5000 on the 2 network
-- overlay concave graph beside text
-- better example for igos vs multi masking ( more detailed i think)
-    make the links between images from folder to the paper folder
-- better example for a concave graph
-- formalize compositional paths etc. create diagram for those
-    WRITE
-- mention no auxiliary loss in aprroach
-    PPR: approach
-- locations of images
-- typos, figure captions again, look at figures
-- figure igos?
-- PPR: softmax operator details?
-    psuedocode/python
-- PPR: softmax window, kernel size, blurring sigma
+
+- see both sided imagenet-5000 on the 2 network
 - ABLATION number of masks?
     add inner parser arguments
     run on cifar-10,cifar-100,mnist with 40,10 masks
-gradient is still the same as guided backprop. why?
-- captions
+<<<WRITE>>>
 - title
+Approach
+    - PPR: softmax operator details?
+        psuedocode/python
+    - PPR: softmax window, kernel size, blurring sigma
+    - mention no auxiliary loss in aprroach
+        PPR: approach
+    - formalize compositional paths etc. create diagram for those
+        WRITE
+# NOT DOING
+- figure igos?
 #========================================================
 # RECHECK
+- captions
+- locations of images
+- typos, figure captions again, look at figures
 - spaces under equations
 - lots of repetition involving insertion game
 - margin of the deletion table
