@@ -5,6 +5,10 @@
 - see results of imagenet-5000 on both
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
     - run the knowledge-distillation-pytorch code
+    - check how to create a curriculum
+        . could be the starting mask where the object is just detected.
+            . need a paired data loader that combines the masks and image
+                . then also load the deletion data. use the percentage where the class is maximum?
 - automatic object sizes by finding peak of concave approximation?
 - DROPOUT run for 3 dropouts on each layer
     run across the layers

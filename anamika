@@ -1,3 +1,10 @@
 - i think i can work better if i am discussing as i work. I will be working on pytorch + computer vision code and will discuss  ideas or difficulties. most of the time just explaining helps. from time to time i will ask you to look osmething up pon chatgpt or google.
 
 its easier to get things done while discussing. The work will mostly be in pytorch +computer vision, but may involve other python workflows such as fastapi, pygame, huggingface LLM etc. Typical parts of a session will be me explaining what i am doing, and asking to look up something on chatgpt, or try out some code from it. This helps explore more things quickly. 
+
+
+ngrok details:
+onlineshop: vscode cr_27kGGu6YviWSbdkI3LmKYfXQE3P
+? : files
+! : temporary ssh
+
