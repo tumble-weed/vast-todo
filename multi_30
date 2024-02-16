@@ -2,9 +2,9 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
-- run all methods on imagenet:
-    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
 - see results of imagenet-5000 on game_type both
+    both seems to give diffuse results as opposed to insertion, which gives sharper results. 
+        issue with implementation or loss convergence?
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
     - run the knowledge-distillation-pytorch code
     - check how to create a curriculum
@@ -40,6 +40,13 @@ a why does it fail with mnist insertion
 - better example for igos vs multi masking ( more detailed i think)
     make the links between images from folder to the paper folder
 <<EXPERIMENT/CODE>>
+- summarize rise
+    summarize... in vimtmpalias
+
+- run all methods on imagenet:
+    scorecam, groupcam, grad_cam, elp, igospp, multi !guided-Ig
+        how do you want to run this, using genrunscript? yeah wecan create genrunscripts for these
+
 - add hash of the saliencies to the results
     CHATGPT, ERC: howto get hash of a numpy array in python 
 - DROPOUT run for 3 dropouts on each layer
