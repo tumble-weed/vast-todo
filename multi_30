@@ -14,6 +14,8 @@
 <<READ/BROWSER>>
 gradient is still the same as guided backprop. why?
     it is different for resnet 50 in elp paper. so should be different for us as well. its odd it 
+    https://www.codingninjas.com/studio/library/guided-backpropagation
+    https://arxiv.org/abs/1412.6806
 Guided IG
 - relation to "Xrai: region importance" and guided backprop
 <<TIKZ>>
