@@ -12,17 +12,15 @@
             . need a paired data loader that combines the masks and image
                 . then also load the deletion data. use the percentage where the class is maximum?
 <<EXPERIMENT/CODE>>
-- show self saliency comparion with elp:
-    PYTHON look at elp code to add the feature layer. --> you can show it with a single area that doesnt change at all ( for imagenet)
-        vimelp
-        get the results out and save it with your chosen folder
-        run_self_saliency
-- see both sided imagenet-5000 on the 2 network
-    seems a little more blurred out...
 - ABLATION number of masks?
     add inner parser arguments
     run on cifar-10,cifar-100,mnist with 40,10 masks
     ......................................................
+    - show self saliency comparion with elp:
+        PYTHON look at elp code to add the feature layer. --> you can show it with a single area that doesnt change at all ( for imagenet)
+            vimelp
+            get the results out and save it with your chosen folder
+            run_self_saliency
     - summarize rise
         summarize... in vimtmpalias
         python torchray/helpers/summary2.py --start --method rise_use_compiled_model --dataset voc_2007 --arch vgg16
