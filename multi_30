@@ -1,20 +1,16 @@
 
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
-#======================================================== 
+#======================================================
+- see results of imagenet-5000 on both
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
-- automatic object sizes by a concave approximation?
-- cnn utils fixed drop out mask
-    PYTHON replace Dropout with FixedDropout. it has a sample_mask,unset mask setting. in eval it keeps this mask. in train it keeps sampling masks.
-        run for 3 dropouts on each layer
-            run across the layers
-- relatoin to "Xrai: region importance" and guided backprop
+    - run the knowledge-distillation-pytorch code
+- automatic object sizes by finding peak of concave approximation?
+- DROPOUT run for 3 dropouts on each layer
+    run across the layers
 - add hash of the saliencies to the results
     CHATGPT, ERC: howto get hash of a numpy array in python 
-- imagenet-both failed due to syntax error.
-    change the run_json
-- gradcam on compiled model (torchray)
-    . currently  backward "second time" error
+- relation to "Xrai: region importance" and guided backprop
 - mask sharpness as a function of the threshold ( should be hump like as well i believe )
     - should we reintroduce the sharpness loss?
 - evolution of the masks along side the concavity graph? TIKZ, ERC
@@ -64,6 +60,14 @@ PPR how tofind the threshold
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+- cnn utils fixed drop out mask
+    PYTHON replace Dropout with FixedDropout. it has a sample_mask,unset mask setting. in eval it keeps this mask. in train it keeps sampling masks.
+- gradcam on compiled model (torchray)
+    . currently  backward "second time" error
+
+- imagenet-both failed due to syntax error.
+    change the run_json
+
 - some more lines in applying the mask ( blur levels)
 - reference for cifar-resnet implementation
 - run cosaliency on an image and its flip
