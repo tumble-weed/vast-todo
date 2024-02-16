@@ -22,8 +22,6 @@
 
 - add hash of the saliencies to the results
     CHATGPT, ERC: howto get hash of a numpy array in python 
-- DROPOUT run for 3 dropouts on each layer
-    run across the layers
 - show self saliency comparion with elp:
     PYTHON look at elp code to add the feature layer.
         get the results out and save it with your chosen folder
@@ -221,6 +219,8 @@ run smaller:
 ######################################################################
 ######################################################################
 DOING
+- DROPOUT run for 3 dropouts on each layer
+    run across the layers
 ---------------------------------------------------------------------
 finish runs for all cifar stuff
 t-smaller
