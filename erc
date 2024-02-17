@@ -3,11 +3,11 @@
 - write intern post
 - tak about audio recorder for the mobiel
 - encrypting a file in linux
-- check laplacian blending
 - run face alignment code
 - run facenet code
 - rerun imagenet code
 - connect resnet8 pretrained to the distillation code
+    - check laplacian blending
 --------------------------------------------------------------------
 - basics of vim funtion
 - tikz
