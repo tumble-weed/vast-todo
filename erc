@@ -4,9 +4,9 @@
 - tak about audio recorder for the mobiel
 - encrypting a file in linux
 - run face alignment code
+- connect resnet8 pretrained to the distillation code
 0 run facenet code
 0 rerun imagenet code
-- connect resnet8 pretrained to the distillation code
 0 check laplacian blending
 --------------------------------------------------------------------
 - basics of vim funtion
