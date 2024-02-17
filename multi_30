@@ -2,6 +2,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
+#FACE TRANSITION
 - face alignment and walking:
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
     transforming the aligned faces:
@@ -11,10 +12,11 @@
         from elp_masking import get_masked_input,DELETE_VARIANT,PRESERVE_VARIANT,laplacian_pyramid_blending
         masked = laplacian_pyramid_blending(x_, ref, multi_mask.detach() + 0*multi_mask, num_levels=6)
     facenet pytorch for identity
-
+# BOTH
 - see results of imagenet-5000 on game_type both
     both seems to give diffuse results as opposed to insertion, which gives sharper results. 
         issue with implementation or loss convergence?
+# DISTILLATION
 - faster convergence of distillation when using saliency? (compare yours with gradcam and maybe guided backprop)
     - run the knowledge-distillation-pytorch code
     - check how to create a curriculum
