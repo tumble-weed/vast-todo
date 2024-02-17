@@ -1,5 +1,6 @@
 --------------------------------------------------------------------
 0 encrypting a file in linux
+    once you "login" to the decrypter, it can show all files with decryption, else it cannot. it can also add to those files
 https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
 - write intern post
 - connect resnet8 pretrained to the distillation code
