@@ -1,13 +1,14 @@
 --------------------------------------------------------------------
-- encrypting a file in linux
+0 encrypting a file in linux
+https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
 - write intern post
+- connect resnet8 pretrained to the distillation code
 0 tak about audio recorder for the mobiel
 0 see the results of guided and gradient to see why they are the same
 0 run face alignment code
 https://learnopencv.com/face-swap-using-opencv-c-python/
 https://learnopencv.com/face-morph-using-opencv-cpp-python/
 https://pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
-- connect resnet8 pretrained to the distillation code
 0 run facenet code
 0 rerun imagenet code
 0 check laplacian blending
