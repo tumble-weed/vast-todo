@@ -8,6 +8,8 @@
         https://www.perplexity.ai/search/how-do-i-6c0YUKmxSYyuXBvzuJWUPQ?s=c#0a5f3c9a-ce0d-452a-8102-5d1f04b1a3d4
     laplacian blending? 
         is it in cnn_utils? use FINDPY
+        from elp_masking import get_masked_input,DELETE_VARIANT,PRESERVE_VARIANT,laplacian_pyramid_blending
+        masked = laplacian_pyramid_blending(x_, ref, multi_mask.detach() + 0*multi_mask, num_levels=6)
     facenet pytorch for identity
 
 - see results of imagenet-5000 on game_type both
