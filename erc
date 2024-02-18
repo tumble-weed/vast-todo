@@ -1,3 +1,14 @@
+- check the impact on linkedin following
+- send completed 
+- send icassp mail
+- write job post for data science helper
+- recheck the guided and gradient results
+- read pyimge search alignment document, and try aligning 2 images.
+- check the results ofcompiled model
+    run on groupcam or scorecam?
+- find two frontal face images
+- load the facenet model in facetransition
+- fastapi for phon emic
 --------------------------------------------------------------------
 0 encrypting a file in linux
     once you "login" to the decrypter, it can show all files with decryption, else it cannot. it can also add to those files
