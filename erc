@@ -1,6 +1,5 @@
-- malli b'day
 - check the impact on linkedin following
-- send completed 
+https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
 - send icassp mail
 - write job post for data science helper
 - recheck the guided and gradient results
@@ -10,18 +9,18 @@
 - find two frontal face images
 - load the facenet model in facetransition
 - fastapi for phon emic
+- face alignment code:
+    https://learnopencv.com/face-swap-using-opencv-c-python/
+    https://learnopencv.com/face-morph-using-opencv-cpp-python/
+    https://pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
 --------------------------------------------------------------------
 0 encrypting a file in linux
     once you "login" to the decrypter, it can show all files with decryption, else it cannot. it can also add to those files
-https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
 - write intern post
 - connect resnet8 pretrained to the distillation code
 0 tak about audio recorder for the mobiel
 0 see the results of guided and gradient to see why they are the same
 0 run face alignment code
-https://learnopencv.com/face-swap-using-opencv-c-python/
-https://learnopencv.com/face-morph-using-opencv-cpp-python/
-https://pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
 0 run facenet code
 0 rerun imagenet code
 0 check laplacian blending
@@ -83,6 +82,8 @@ NOT DOING
 - dutils numpy verbose mode .. for what?
 will need separate handlers for skimage.io and open. so might not work
 DONE
+- send completed 
+- malli b'day
 - tight in dutils img_save
 - fastapi
 - \erc mail icmr2024@gmail.com asking "hello when will the submisson portal for ICMR 2024 be opened? The deadline says its for Feb 1,2024 but it is not yet accessible. As another conference, IJCNN, submission is around the corner (in a day), I wanted to enquire on ICMR's plan, and if there is any uncertainty regarding that,  if I should be considering other conferences? "
