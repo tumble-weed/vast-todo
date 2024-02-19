@@ -1,6 +1,4 @@
-- check the impact on linkedin following
 https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
-- send icassp mail
 - write job post for data science helper
 - recheck the guided and gradient results
 - read pyimge search alignment document, and try aligning 2 images.
@@ -13,6 +11,8 @@ https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-li
     https://learnopencv.com/face-swap-using-opencv-c-python/
     https://learnopencv.com/face-morph-using-opencv-cpp-python/
     https://pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
+0 job post on contact, follow, and outside
+0 check the impact on linkedin following
 --------------------------------------------------------------------
 0 encrypting a file in linux
     once you "login" to the decrypter, it can show all files with decryption, else it cannot. it can also add to those files
@@ -82,6 +82,7 @@ NOT DOING
 - dutils numpy verbose mode .. for what?
 will need separate handlers for skimage.io and open. so might not work
 DONE
+- send icassp mail
 - send completed 
 - malli b'day
 - tight in dutils img_save
