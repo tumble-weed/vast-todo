@@ -1,6 +1,8 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
+#GUIDED and GRAD
+all guided experiments are wrong due to CELU units. we need to rerun on resnet8-relu by replacing CELU with RELU
 #FACE TRANSITION
 - face alignment and walking:
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
