@@ -1,6 +1,3 @@
-- run guided and gradient on cifar10 resnet8
-https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
-- write job post for data science helper
 - read pyimge search alignment document, and try aligning 2 images.
 - check the results ofcompiled model
     run on groupcam or scorecam?
@@ -10,6 +7,9 @@ https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-li
     https://learnopencv.com/face-swap-using-opencv-c-python/
     https://learnopencv.com/face-morph-using-opencv-cpp-python/
     https://pyimagesearch.com/2017/05/22/face-alignment-with-opencv-and-python/
+0 run guided and gradient on cifar10 resnet8
+0 https://www.howtogeek.com/427982/how-to-encrypt-and-decrypt-files-with-gpg-on-linux/
+0 write job post for data science helper
 0 recheck the guided and gradient results
 0 fastapi for phon emic
 0 job post on contact, follow, and outside
