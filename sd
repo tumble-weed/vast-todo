@@ -6,3 +6,11 @@ model
 what does controlnet segmentation do to the generation?
 
 txt2img can be used with controlnet to add the effect of an image
+
+CFG scale: Classifier Free Guidance scale is a parameter to control how much the model should respect your prompt.
+
+1 – Mostly ignore your prompt.
+3 – Be more creative.
+7 – A good balance between following the prompt and freedom.
+15 – Adhere more to the prompt.
+30 – Strictly follow the prompt.
