@@ -25,3 +25,12 @@ can i use depth segmentation to acquire the text area?
 controlnet tiling to replicate the diamond area?
 controlnet outpainting to replicate the diamond area?
 better textual inversion for the given image?
+
+use this idea:
+get the bgsubtraction of the styled image
+get the style from it
+somehow tile the style
+get the mask from the text image
+multiply it by the style...
+pass it to the refinement module
+https://medium.com/the-research-nest/how-to-create-fancy-artistic-text-effects-using-stable-diffusion-1857169f8c5d
