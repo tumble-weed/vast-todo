@@ -18,3 +18,10 @@ CFG scale: Classifier Free Guidance scale is a parameter to control how much the
 
 what is the mask in controlnet
 https://github.com/Mikubill/sd-webui-controlnet/discussions/434
+
+
+can i use reference or adain to multiply the gem area?
+can i use depth segmentation to acquire the text area?
+controlnet tiling to replicate the diamond area?
+controlnet outpainting to replicate the diamond area?
+better textual inversion for the given image?
