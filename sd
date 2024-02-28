@@ -14,3 +14,7 @@ CFG scale: Classifier Free Guidance scale is a parameter to control how much the
 7 – A good balance between following the prompt and freedom.
 15 – Adhere more to the prompt.
 30 – Strictly follow the prompt.
+
+
+what is the mask in controlnet
+https://github.com/Mikubill/sd-webui-controlnet/discussions/434
