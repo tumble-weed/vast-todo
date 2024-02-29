@@ -27,9 +27,11 @@ controlnet outpainting to replicate the diamond area?
 better textual inversion for the given image?
 
 use this idea:
-get the bgsubtraction of the styled image
+- get the bgsubtraction of the styled image
+    not very reliable. use the depth model?
 get the style from it
 somehow tile the style
+- GPNN? or this? https://github.com/YuanTingHsieh/Image_Completion
 get the mask from the text image
 multiply it by the style...
 pass it to the refinement module
