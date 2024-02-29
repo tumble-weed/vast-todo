@@ -34,7 +34,16 @@ get the mask from the text image
 multiply it by the style...
 pass it to the refinement module
 
+USEFUL LINKS:
 https://medium.com/the-research-nest/how-to-create-fancy-artistic-text-effects-using-stable-diffusion-1857169f8c5d
+https://stable-diffusion-art.com/text-effect/
+>3 methods to upscale images in Stable Diffusion (ControlNet tile upscale, SD upscale, AI upscale)
+    COntrolnet tile upscale
 
+TO SEARCH:
+how torun interrogator ( so that you can upscale)
 
+CONCEPTS:
 what is deepspeed, bitsandbytes, accelerate, safetensors
+
+
