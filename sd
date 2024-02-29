@@ -45,6 +45,7 @@ how torun interrogator ( so that you can upscale)
 
 CONCEPTS:
 what is deepspeed, bitsandbytes, accelerate, safetensors
-
+torch autocast
 CONTROLNET MODELS
 https://huggingface.co/lllyasviel/sd_control_collection/tree/main
+
