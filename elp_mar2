@@ -11,3 +11,4 @@
 - check if the seeds are actually getting communicated ( make some dbg flags)
 -per class table in latex?
     compare_pointing-per_class-voc_2007-resnet50.txt
+    ./scripts/collect_results.py:144:
