@@ -12,3 +12,4 @@
 -per class table in latex?
     compare_pointing-per_class-voc_2007-resnet50.txt
     ./scripts/collect_results.py:144:
+        make a function to read the per-class of all chosen methods and a calling function that averages the per-class scores
