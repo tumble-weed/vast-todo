@@ -1,3 +1,8 @@
 - elp with seeds
+- rename run jsons and instance in run json to rng
 - unweighted and simple with seeds
-
+    extremal_perturbation_with_simple_scale_and_crop_normalized
+    extremal_perturbation_with_unweighted_scale_and_crop
+        runsmaller
+        vimrunjson
+        cdrunjson
