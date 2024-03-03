@@ -7,3 +7,5 @@
         vimrunjson
         cdrunjson
     gp_saliency? (with multiple seeds?)
+- average tables while getting class scores
+- check if the seeds are actually getting communicated ( make some dbg flags)
