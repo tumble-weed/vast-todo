@@ -1,8 +1,17 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
+- mnist insertion resnet8-relu road
 - for road deletion, not all results might be in results2.. in that case to rerun it will need to combine them
     seems integrated gradients is not it results2
+    all the resnet8_relu results will be inresults2, which is correct
+    check if any overlap of directories between results2 and results
+    in results/old_multi_results and results keep the latest of the files
+        rsync changes the time stamp of the copy! because of probably the -ru and not the archive mode
+    what does multithresh_saliency represent? is it the one whose results are in the paper or is it the previous version?
+        it should be gametype both and what is the window size?
+    if you visualize the saliencies ofboth vgg16 and resnet8_relu of the same image it can give an idea of the window size etc
+
 - move create_deletion_table from metrics to torchray/helpers or someplace else
 - generate all road scores with new deletino thresholding
 - after runrelu -> runroad (workondeletionroad8relu (run on mnist)) -> collectresults (summarize_all_deletion_road_small,summarize_all_deletion_road_resnet8relu) -> create table (createtable?) -> create graph (plotallroaddeletionforpaper)-> copy table to latex, create image from graph -> delete other instances --> transfer friles from 3090 instance to new instnce
