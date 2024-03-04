@@ -1,6 +1,7 @@
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 #======================================================
+- for road deletion, not all results might be in results2.. in that case to rerun it will need to combine them
 - move create_deletion_table from metrics to torchray/helpers or someplace else
 - generate all road scores with new deletino thresholding
 - after runrelu -> runroad (workondeletionroad8relu (run on mnist)) -> collectresults (summarize_all_deletion_road_small,summarize_all_deletion_road_resnet8relu) -> create table (createtable?) -> create graph (plotallroaddeletionforpaper)-> copy table to latex, create image from graph -> delete other instances --> transfer friles from 3090 instance to new instnce
