@@ -11,15 +11,15 @@
     what does multithresh_saliency represent? is it the one whose results are in the paper or is it the previous version?
         it should be gametype both and what is the window size?
     if you visualize the saliencies ofboth vgg16 and resnet8_relu of the same image it can give an idea of the window size etc
+
         are the previous results wrong or are the metrics wrong or is the reading of the metrics wrong?
+            itseems that saliencies are different, so then the deletion metrics might be wrong
             metrics: collect can be wrong or createdeletion can be wrong
         vim debug grad_cam?
 - move create_deletion_table from metrics to torchray/helpers or someplace else
 - generate all road scores with new deletino thresholding
 - after runrelu -> runroad (workondeletionroad8relu (run on mnist)) -> collectresults (summarize_all_deletion_road_small,summarize_all_deletion_road_resnet8relu) -> create table (createtable?) -> create graph (plotallroaddeletionforpaper)-> copy table to latex, create image from graph -> delete other instances --> transfer friles from 3090 instance to new instnce
 - recheck experiments and conclusion
-#GUIDED and GRAD
-all guided experiments are wrong due to CELU units. we need to rerun on resnet8-relu by replacing CELU with RELU
 #FACE TRANSITION
 - face alignment and walking:
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
@@ -127,6 +127,8 @@ PPR how tofind the threshold
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+#GUIDED and GRAD
+all guided experiments are wrong due to CELU units. we need to rerun on resnet8-relu by replacing CELU with RELU
 - cnn utils fixed drop out mask
     PYTHON replace Dropout with FixedDropout. it has a sample_mask,unset mask setting. in eval it keeps this mask. in train it keeps sampling masks.
 - gradcam on compiled model (torchray)
