@@ -6,6 +6,7 @@
 - number of masks
 - window size for smoothing
 #.........................................................
+- move all methods from old_ ... to results
 - mnist insertion resnet8-relu road
 - move create_deletion_table from metrics to torchray/helpers or someplace else
 - after runrelu -> runroad (workondeletionroad8relu (run on mnist)) -> collectresults (summarize_all_deletion_road_small,summarize_all_deletion_road_resnet8relu) -> create table (createtable?) -> create graph (plotallroaddeletionforpaper)-> copy table to latex, create image from graph -> delete other instances --> transfer friles from 3090 instance to new instnce
