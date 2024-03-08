@@ -13,6 +13,8 @@
 - recheck experiments and conclusion
 #FACE TRANSITION
 - face alignment and walking:
+    some way of finding the tilt of the facefrom the image
+    ....................................
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
     transforming the aligned faces:
         https://www.perplexity.ai/search/how-do-i-6c0YUKmxSYyuXBvzuJWUPQ?s=c#0a5f3c9a-ce0d-452a-8102-5d1f04b1a3d4
