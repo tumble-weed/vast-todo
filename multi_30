@@ -3,6 +3,9 @@
 - insertion,deletion both
 - number of masks
 - window size for smoothing
+    wil you keep the blurring leve the same?
+- visual results of ablation:
+    how the nature of attribution changes
 #.........................................................
 - early stopping
 - move all methods from old_ ... to results
