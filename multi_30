@@ -1,11 +1,10 @@
-- run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
-- run road metric (summarize all road, out filename, plot )
 #======================================================
 # ABLATION
 - insertion,deletion both
 - number of masks
 - window size for smoothing
 #.........................................................
+- early stopping
 - move all methods from old_ ... to results
 - mnist insertion resnet8-relu road
 - move create_deletion_table from metrics to torchray/helpers or someplace else
@@ -120,6 +119,8 @@ PPR how tofind the threshold
 - qualitative add green borderfor MTS
 #======================================================== 
 # DONE
+- run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
+- run road metric (summarize all road, out filename, plot )
 - generate all road scores with new deletino thresholding
 # GradCAM deletion issue
 - for road deletion, not all results might be in results2.. in that case to rerun it will need to combine them
