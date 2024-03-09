@@ -1,11 +1,11 @@
 create a script to copy images from the directories to the paper directory (ERC)
+    (hard link or full copy?)
     graphs
     imagenet results
     the concavity graph
     feature saliency
     masks
     multi vs igos masking
-    
 #======================================================
 # ABLATION
 - insertion,deletion both
@@ -24,6 +24,7 @@ create a script to copy images from the directories to the paper directory (ERC)
 #FACE TRANSITION
 - face alignment and walking:
     some way of finding the tilt of the facefrom the image
+        https://github.com/thohemp/6drepnet
     ....................................
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
     transforming the aligned faces:
