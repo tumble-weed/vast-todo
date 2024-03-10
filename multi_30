@@ -25,8 +25,10 @@ create a script to copy images from the directories to the paper directory (ERC)
 - recheck experiments and conclusion
 #FACE TRANSITION
 - face alignment and walking:
-    some way of finding the tilt of the facefrom the image
+    some way of finding the tilt of the face from the image
         https://github.com/thohemp/6drepnet
+    age and gender classification network
+        https://github.com/wildchlamydia/mivolo
     ....................................
     https://github.com/1adrianb/face-alignment/blob/master/examples/demo.ipynb
     transforming the aligned faces:
