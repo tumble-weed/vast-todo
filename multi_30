@@ -6,6 +6,8 @@ create a script to copy images from the directories to the paper directory (ERC)
     feature saliency
     masks
     multi vs igos masking
+        does not work for copying directories, have to specify subpath, make directory and then hardlink the file
+            is this scalable? or is this more irritating?
 #======================================================
 # ABLATION
 - insertion,deletion both
