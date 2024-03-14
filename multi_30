@@ -9,6 +9,27 @@ create a script to copy images from the directories to the paper directory (ERC)
         does not work for copying directories, have to specify subpath, make directory and then hardlink the file
             is this scalable? or is this more irritating?
 #======================================================
+# IMAGENET
+run all methods on imagenet
+    start sync of instance to drive
+    TODO which methods?
+        TODO check which imagenet methods are done
+            cdresults; for d in `lsd *imagenet*`;do echo $d; ls $d | wc -l; done
+        cdresults 
+        lsd *imagenet*
+            CAM
+                scorecam
+                groupcam
+                grad_cam
+            Weak & Fast:
+                guided_backprop
+                gradient
+            Well Known
+                RISE
+            Directly Comparable (because of similarity):
+                IGOS_pp
+                ELP
+run road deletion on all imagenet methods
 # ABLATION
 - insertion,deletion both
 - number of masks
