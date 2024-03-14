@@ -34,6 +34,7 @@ run all methods on imagenet
             Directly Comparable (because of similarity):
                 IGOS_pp
                 ELP
+        save_detailed_results
 run road deletion on all imagenet methods
 
 # ABLATION
