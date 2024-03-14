@@ -30,6 +30,7 @@ run all methods on imagenet
                 gradient
             Well Known
                 RISE
+                    save_detailed_results
             Directly Comparable (because of similarity):
                 IGOS_pp
                 ELP
