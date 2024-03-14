@@ -10,6 +10,9 @@ create a script to copy images from the directories to the paper directory (ERC)
             is this scalable? or is this more irritating?
 #======================================================
 # IMAGENET
+check if results on compiled same as that on non compiled:
+    workoncomparecompiled
+    RISE is a good choice ( dont need to attach hooks)
 run all methods on imagenet
     start sync of instance to drive
     TODO which methods?
@@ -30,6 +33,7 @@ run all methods on imagenet
                 IGOS_pp
                 ELP
 run road deletion on all imagenet methods
+
 # ABLATION
 - insertion,deletion both
 - number of masks
