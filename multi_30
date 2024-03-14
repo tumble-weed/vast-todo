@@ -15,6 +15,7 @@ check if results on compiled same as that on non compiled:
     RISE is a good choice ( dont need to attach hooks)
 run all methods on imagenet
     start sync of instance to drive
+        create upload_instance_to_gdrive
     TODO which methods?
         TODO check which imagenet methods are done
             cdresults; for d in `lsd *imagenet*`;do echo $d; ls $d | wc -l; done
