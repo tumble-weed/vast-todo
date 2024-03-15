@@ -12,7 +12,7 @@ create a script to copy images from the directories to the paper directory (ERC)
 # IMAGENET
 check if results on compiled same as that on non compiled:
     workoncomparecompiled
-    RISE is a good choice ( dont need to attach hooks) methods=() runlarger
+    RISE is a good choice ( dont need to attach hooks) METHOD=rise SAVE_DETAILED_RESULTS=true runlarger
 run all methods on imagenet
     start sync of instance to drive
         create upload_instance_to_gdrive
