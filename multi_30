@@ -51,6 +51,7 @@ run road deletion on all imagenet methods
 - move create_deletion_table from metrics to torchray/helpers or someplace else
 - after runrelu -> runroad (workondeletionroad8relu (run on mnist)) -> collectresults (summarize_all_deletion_road_small,summarize_all_deletion_road_resnet8relu) -> create table (createtable?) -> create graph (plotallroaddeletionforpaper)-> copy table to latex, create image from graph -> delete other instances --> transfer friles from 3090 instance to new instnce
 - recheck experiments and conclusion
+
 #FACE TRANSITION
 - face alignment and walking:
     some way of finding the tilt of the face from the image
@@ -82,6 +83,7 @@ run road deletion on all imagenet methods
         . could be the starting mask where the object is just detected.
             . need a paired data loader that combines the masks and image
                 . then also load the deletion data. use the percentage where the class is maximum?
+
 <<EXPERIMENT/CODE>>
 - ABLATION number of masks?
     add inner parser arguments
