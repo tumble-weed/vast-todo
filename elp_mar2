@@ -8,6 +8,14 @@
         paper that has been submitted desnt have caption in red
     figure 4 size is too large
     figure 5 might be too big as well
+    5_experiments_nov18: vspace in Ablation Studies We now investigate these reasons
+    lots of empty space below table 1
+    experiments: move table 2 before table 3 ( because pointing game is referred to before ablation )
+        manually number table
+    what is the guideline regarding table caption for icpr
+    figure 4 and 1 convert into horizontal format
+    figure 2 vertical?
+    table 2(classes 0-9) classes10-19 in heading?
         
 - author list
 - contributions
