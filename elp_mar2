@@ -1,7 +1,12 @@
+images-for-elp-paper
+- author list
+    icip paper
 - which images need to be formatted and how?
+    figure 4 and 1 convert into horizontal format
+        elp-teaser.drawio.png              elp-teaser-mar17.drawio
+        elp-failure-v2.drawio(bold).png             elp-failure-v2-mar17.drawio
     figure 1 make smaller
     figure 2 seems small
-    tabl1 exceeding the margins
     table1, table 2 and table 3 caption is too close to the table
     figure 3 should be larger
     figure 4 size is too large
@@ -11,21 +16,17 @@
     experiments: move table 2 before table 3 ( because pointing game is referred to before ablation )
         manually number table
     what is the guideline regarding table caption for icpr
-    figure 4 and 1 convert into horizontal format
-        elp-teaser.drawio.png              elp-teaser-mar17.drawio
-        elp-failure-v2.drawio(bold).png             elp-failure-v2-mar17.drawio
     figure 2 vertical?
         elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
     table 2(classes 0-9) classes10-19 in heading?
     spaces:
         below table 2, table 3, qualitative comparion, table 1, fig 2, fig 1
         
-- author list
-    icip paper
 - contributions
 ..............................................................................
 DONE
 
+    table1 exceeding the margins
     figure 4 has caption in red
         paper that has been submitted desnt have caption in red
 ############################################################################################
