@@ -1,34 +1,33 @@
 images-for-elp-paper
-- author list
-    icip paper
-- which images need to be formatted and how?
-    figure 4 and 1 convert into horizontal format
-        elp-teaser.drawio.png              elp-teaser-mar17.drawio
-        elp-failure-v2.drawio(bold).png             elp-failure-v2-mar17.drawio
-    figure 1 make smaller
-    figure 2 seems small
-    table1, table 2 and table 3 caption is too close to the table
-    figure 3 should be larger
-    figure 4 size is too large
-    figure 5 might be too big as well
-    5_experiments_nov18: vspace in Ablation Studies We now investigate these reasons
-    lots of empty space below table 1
-    experiments: move table 2 before table 3 ( because pointing game is referred to before ablation )
-        manually number table
-    what is the guideline regarding table caption for icpr
-    figure 2 vertical?
-        elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
-    table 2(classes 0-9) classes10-19 in heading?
-    spaces:
-        below table 2, table 3, qualitative comparion, table 1, fig 2, fig 1
-        
 - contributions
+- which images need to be formatted and how?
+    - table1, table 2 and table 3 caption is too close to the table
+    - figure 5 might be too big as well
+        - manually number table
+    - what is the guideline regarding table caption for icpr
+    - figure 2 vertical?
+        elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
+    - table 2(classes 0-9) classes10-19 in heading?
+    spaces:
+        - below table 2, table 3, qualitative comparion, table 1, fig 2, fig 1
+    - figure 2 seems small
+    - keywords?
 ..............................................................................
 DONE
+    figure 4 and 1 convert into horizontal format
+        elp-teaser.drawio.png              elp-teaser-mar17.drawio
+        experiments elp-failure-v2.drawio(bold).png             elp-failure-v2-mar17.drawio
 
     table1 exceeding the margins
     figure 4 has caption in red
         paper that has been submitted desnt have caption in red
+    figure 1 make smaller
+    figure 3 should be larger
+    figure 4 size is too large
+    5_experiments_nov18: vspace in Ablation Studies We now investigate these reasons
+    experiments: move table 2 before table 3 ( because pointing game is referred to before ablation )
+    author list from icip paper
+- author list
 ############################################################################################
 - elp with seeds
 - rename run jsons and instance in run json to rng
