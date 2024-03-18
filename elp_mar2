@@ -1,6 +1,7 @@
 images-for-elp-paper
 - contributions
 - which images need to be formatted and how?
+    - make sanity checks flat: elp_with_scales_sanity_juco_imagenet_vgg16.drawio.png
     - pointing game table extend the line in the header
     - table1, table 2 and table 3 caption is too close to the table
     - figure 5 might be too big as well
