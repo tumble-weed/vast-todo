@@ -6,6 +6,17 @@ images-for-elp-paper
     spaces:
         - below table 2, table 3, qualitative comparion, table 1, fig 2, fig 1
     - keywords?
+
+1.	The novelty of the work is not clear.
+...... 2.	The entire manuscript needs to be improved in terms of grammar and style of expression.
+3.	The formatting of the manuscript needs improvement and must adhere with IEEE guidelines. 
+4.	The table headers must be at the top of the table instead at the bottom.
+
+1. The experimental results show that the proposed method works well. The motivations are good and the proposed Unit is also well devised. The writing is clear as well. Overall, I think this paper is acceptable.
+
+2. I think the introduction part should summarize the contributions.  After reading the introduction, I cannot understand the contributions of this work.
+
+...... 3. I think it is better to analyze the computation complexity of the proposed method and other competitors, such as the inference time. Because this method has 2 stages and multiple iterations. It is needed to analyze this for a more comprehensive comparison with other competitors.
 ..............................................................................
 DONE
     - reduce names of conferences
