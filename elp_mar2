@@ -1,5 +1,6 @@
 images-for-elp-paper
 - contributions
+- reduce names of conferences
 - which images need to be formatted and how?
     - make sanity checks flat: elp_with_scales_sanity_juco_imagenet_vgg16.drawio.png
     - pointing game table extend the line in the header
