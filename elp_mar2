@@ -2,12 +2,9 @@ images-for-elp-paper
 - contributions
 - reduce names of conferences
 - which images need to be formatted and how?
-    - make sanity checks flat: elp_with_scales_sanity_juco_imagenet_vgg16.drawio.png
     - pointing game table extend the line in the header
     - table1, table 2 and table 3 caption is too close to the table
-    - figure 5 might be too big as well
         - manually number table
-    - what is the guideline regarding table caption for icpr
     - figure 2 vertical?
         elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
     - table 2(classes 0-9) classes10-19 in heading?
@@ -17,6 +14,10 @@ images-for-elp-paper
     - keywords?
 ..............................................................................
 DONE
+    - what is the guideline regarding table caption for icpr
+        above th table
+    - make sanity checks flat: elp_with_scales_sanity_juco_imagenet_vgg16.drawio.png
+    - figure 5 might be too big as well
     figure 4 and 1 convert into horizontal format
         elp-teaser.drawio.png              elp-teaser-mar17.drawio
         experiments elp-failure-v2.drawio(bold).png             elp-failure-v2-mar17.drawio
