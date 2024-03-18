@@ -1,19 +1,15 @@
 images-for-elp-paper
 - contributions
-- reduce names of conferences
 - which images need to be formatted and how?
-    - pointing game table extend the line in the header
-    - table1, table 2 and table 3 caption is too close to the table
         - manually number table
-    - figure 2 vertical?
-        elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
     - table 2(classes 0-9) classes10-19 in heading?
     spaces:
         - below table 2, table 3, qualitative comparion, table 1, fig 2, fig 1
-    - figure 2 seems small
     - keywords?
 ..............................................................................
 DONE
+    - reduce names of conferences
+    - table1, table 2 and table 3 caption is too close to the table
     - what is the guideline regarding table caption for icpr
         above th table
     - make sanity checks flat: elp_with_scales_sanity_juco_imagenet_vgg16.drawio.png
@@ -32,6 +28,11 @@ DONE
     experiments: move table 2 before table 3 ( because pointing game is referred to before ablation )
     author list from icip paper
 - author list
+NOT DOING
+    - pointing game table extend the line in the header
+    - figure 2 seems small
+    - figure 2 vertical?
+        elp-block-diagram-stage-I-and-II-v2-jan24.drawio.png
 ############################################################################################
 - elp with seeds
 - rename run jsons and instance in run json to rng
