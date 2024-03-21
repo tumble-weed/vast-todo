@@ -1,3 +1,5 @@
+copy everything from results2 to results and deleted results2
+    copy everything from old_results in results to results
 create a script to copy images from the directories to the paper directory (ERC)
     (hard link or full copy?)
     graphs
