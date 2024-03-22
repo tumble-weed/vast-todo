@@ -150,6 +150,7 @@ a why does it fail with mnist insertion
 <<<WRITE>>>
 - title
 Approach
+    - PPR: add structure of the 2 small networks
     - PPR: softmax operator details?
         psuedocode/python
     - PPR: softmax window, kernel size, blurring sigma
