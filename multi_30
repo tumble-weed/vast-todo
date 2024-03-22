@@ -1,3 +1,10 @@
+dotenv file instead of vimtmpalias for torchrayresults etc?
+    another dotenv for testing?
+test for methodsavename:
+    while testing you can set flags like quit at a certain point, or invoke the tester at that point
+
+
+
 copy everything from results2 to results and deleted results2
     copy everything from old_results in results to results
 create a script to copy images from the directories to the paper directory (ERC)
