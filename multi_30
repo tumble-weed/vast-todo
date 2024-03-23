@@ -1,3 +1,11 @@
+
+SF try compiled with init hook
+SF work on scorecam + compiled model
+SF work on identity transition
+SF testing methodname_for_save
+SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
+SF how to modify the table making py file
+
 SF dotenv file instead of vimtmpalias for torchrayresults etc?
     another dotenv for testing?
 SF test for methodsavename:
