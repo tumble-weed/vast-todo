@@ -118,7 +118,7 @@ run road deletion on all imagenet methods
                 cdrunjson, cp file, genrunscript, cdrunscript ; runtorchray 
 
     - add hash of the saliencies to the results
-    CHATGPT, ERC: howto get hash of a numpy array in python 
+    CHATGPT, : howto get hash of a numpy array in python 
 <<READ/BROWSER>>
 weak paper that might be interesting on how to write:
 https://papers.bmvc2023.org/0188.pdf
