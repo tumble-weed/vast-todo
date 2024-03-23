@@ -1,5 +1,6 @@
-ER check icassp poster regulation
-ER run elp with compiled model
+ERC check icassp poster regulation
+ERC run elp with compiled model
+ERC class names in per-class table?
 - vimrc again
 - get a "saver" from dutils with a hardcoded directory
 - run ep with composition for journal
@@ -75,7 +76,7 @@ SRT arrows in tables ( higher better lower better)
 - run multiple rng of methods ( extremal +gp, extremal-unweighted, extremal-simple)
 - >>> Morning ICASSP: ask saumya to look over paper
 - code to average together diffferent rng results
-- ERC: make images on draw.io
+-  make images on draw.io
 PPR ELP: unlikely pixels differ in importances
 - mixed reset to f4b3e2c
 - rerun sanity with xavier,
@@ -89,8 +90,6 @@ PPR ELP: unlikely pixels differ in importances
 - summarize_elp might not work because $UNW is wrong (has - at the end)
 - run on other methods shown in the elp paper (grad_cam etc) 8 methods: EP
 -------------------------------------------------------------------------
-ERC CODING
--------------------------------------------------------------------------
 2>DONE:
 - underline algorithm parts in the approach
 - i am confident icmr will be feb 14 ish
@@ -101,7 +100,7 @@ ERC CODING
 ? v2 of the experiments with bigger figures? maybe try to fit half of page 2.
 - img_save img_save all? (with a flag)
 - check rclone and 
-- ERC negative vspace
+- negative vspace
 - WR <5_Experiments> mention hyperparameters like budget etc
 - Add Anoop(?) to IJCNN paper
 - WR qual captionto zoom in  "zoom in to see small objects"
@@ -123,10 +122,10 @@ instead of car its chair(wrong label)
 - reduce spaces to try and fit the paper within 8 pages ( which is the limit)
 - shift image 1 to page one top right hand side
 - erick pipeline diagram
-- DRAW:ERC (10 min) make backup of wrong crop images
+- DRAW: make backup of wrong crop images
 2nd way of taking crops? by actually marking density by considering crop center?
 
-- Exp ERC (20 min) confirm the numbers in table are correctly copied
+- Exp  confirm the numbers in table are correctly copied
 - PPR add EP,EP-GP tables
 - add arrows in stage diagrams as well as STAGE I and STAGE II markers
 - PPR: what if gradcam is better than elp-scales? (it probably is)
@@ -194,8 +193,8 @@ PPR Approach: unrelated to class of interest Sampling Promising Crops
 - run multiple commands in watch -n 
 - PPR check if we have all the images for the pipeline image
 - because of unweighted remaining we will not be able to run rng for gp
-- ERC: check_ndonde cameras, elp-gp, sess
-- ERC: filebrowser 
+-  check_ndonde cameras, elp-gp, sess
+-  filebrowser 
 - PPR Elp: does the smooth operator need its own equation?
 - run 116,117,118 again after the genrunscript part is done
 - make ijcnn paper in explainable track: https://edas.info/newPaper.php?c=31628&track=121739
@@ -350,7 +349,6 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvi
 4>LATER:
 - js extension to overwrite downloads
 - CODE add code for mean score for ELP-GP: in patch sampling, in 1st sample use mean, in second sample dont run multi? or subclass GPSampler?
-- ERC class names in per-class table?
 >> scores of sampled crop centers.
 >> crops and their scores
 - runsess SESS is not showing high enough results. 
@@ -404,11 +402,11 @@ get...
 - PPR intro/related sess general framework
 - Heuristic to post hoc?
 - PPR:RUN TODO (example of object/non-object) yak image: 000013.jpg. cow class, 9
-- WR ERC full search for [?] and ?? and ? in paper
-- WR ERC search for red and purple text
+- WR full search for [?] and ?? and ? in paper
+- WR search for red and purple text
 - FOR_COMPILE
-- ERC how to list files in gdrive
-- ERC how to confirm if the files on drive are the same as those on disk. so i should copy?
+- how to list files in gdrive
+- how to confirm if the files on drive are the same as those on disk. so i should copy?
 - triple softmax
 - pipeline: explain in caption? 
 - WR Appr pipeline, overlayed is the (but where exactly), pixel visibility density/sampling density
@@ -422,10 +420,10 @@ tmux save session output and error to a file
 - WR Intro (?) where does a network look?
 - WR (?) Intro (10 min recheck) crop density seems unintuitive, refine it in some way? PPR: active learning
 - WR mention teaser in text
-- WR Appr ERC how to mention the pipeline diagram in the text
-- WR ERC Intro beter name for multi-pass
-- DRAW:ERC (45 min) correct images
-- DRAW ERC (15 min) in the images some labels look like plain text, should have specialfont?
+- WR Appr how to mention the pipeline diagram in the text
+- WR Intro beter name for multi-pass
+- DRAW:(45 min) correct images
+- DRAW (15 min) in the images some labels look like plain text, should have specialfont?
 - PPR intro: red part of intro
 - WR Appr Remove "non-object" areas from the text
 - WR Exp (15 min) mention that in the plots/images you get the averaged saliency of the mask areas
@@ -483,7 +481,7 @@ dolist for all methods in the paper
 PPR ELP: high frequency edges
 TODO in experiment
 - PPR find TODO
-- ERC alias for quickly running method on particular imroot ( to generate results for images to visualize)
+- alias for quickly running method on particular imroot ( to generate results for images to visualize)
 - PPR:Search In Scale needs to be renamed: Multiscale Extremal Perturbation? (sounds delta) Multiscale Perturbations
   Multiscale Perturbations for Improved Optimization based Attribution
   Search-In-scale , SIS, Search In Scale
