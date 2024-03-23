@@ -1,5 +1,3 @@
-
-SF add custom captions to the tables
 SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 ----------------------------------------------------
 SF test for methodsavename:
@@ -183,6 +181,7 @@ PPR how tofind the threshold
 # RECHECK
 
 # DONE
+add custom captions to the tables
 work on scorecam + compiled model
     trygroupcamcompile
     workoncomparecompiled
