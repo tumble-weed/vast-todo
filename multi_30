@@ -1,3 +1,4 @@
+
 SF add custom captions to the tables
 SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 ----------------------------------------------------
@@ -6,6 +7,8 @@ SF test for methodsavename:
 SF work on identity transition
 SF dotenv file instead of vimtmpalias for torchrayresults etc?
     another dotenv for testing?
+since compiled_model works, lets run imagenet-5000 with mutithresh?
+    what settings do we need? game_type, n_areas
 ----------------------------------------------------
 copy everything from results2 to results and deleted results2
     copy everything from old_results in results to results
