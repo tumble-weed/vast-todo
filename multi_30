@@ -1,11 +1,6 @@
-SF how to modify the table making py file
+SF add custom captions to the tables
 SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 ----------------------------------------------------
-SF work on scorecam + compiled model
-    trygroupcamcompile
-    workoncomparecompiled
-        does previous groupcam have detailedresults?
-            Does seem to be working
 SF test for methodsavename:
     while testing you can set flags like quit at a certain point, or invoke the tester at that point
 SF work on identity transition
@@ -185,7 +180,14 @@ PPR how tofind the threshold
 # RECHECK
 
 # DONE
-SF try compiled with init hook
+work on scorecam + compiled model
+    trygroupcamcompile
+    workoncomparecompiled
+        does previous groupcam have detailedresults?
+            Does seem to be working
+
+how to modify the table making py file
+try compiled with init hook
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 - generate all road scores with new deletino thresholding
