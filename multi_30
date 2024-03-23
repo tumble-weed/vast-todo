@@ -1,18 +1,17 @@
-
-SF try compiled with init hook
-SF work on scorecam + compiled model
-SF work on identity transition
-SF testing methodname_for_save
-SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 SF how to modify the table making py file
-
-SF dotenv file instead of vimtmpalias for torchrayresults etc?
-    another dotenv for testing?
+SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
+----------------------------------------------------
+SF work on scorecam + compiled model
+    trygroupcamcompile
+    workoncomparecompiled
+        does previous groupcam have detailedresults?
+            Does seem to be working
 SF test for methodsavename:
     while testing you can set flags like quit at a certain point, or invoke the tester at that point
-
-
-
+SF work on identity transition
+SF dotenv file instead of vimtmpalias for torchrayresults etc?
+    another dotenv for testing?
+----------------------------------------------------
 copy everything from results2 to results and deleted results2
     copy everything from old_results in results to results
 create a script to copy images from the directories to the paper directory (ERC)
@@ -183,7 +182,10 @@ PPR how tofind the threshold
 # MAYBE
 - qualitative add green borderfor MTS
 #======================================================== 
+# RECHECK
+
 # DONE
+SF try compiled with init hook
 - run gradient and guided again (runallsmaller, summarize_all_deletion, plotalldeletion)
 - run road metric (summarize all road, out filename, plot )
 - generate all road scores with new deletino thresholding
