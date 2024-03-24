@@ -1,3 +1,7 @@
+PPR rebrand the method to Saliency as Schedule (SaS): `Intuitive Image Attribution
+PPR deletion graph layout
+PPR block diagram?
+PPR more details of the softmax etc?
 run multi on small datasets for 100 masks?
 SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 ----------------------------------------------------
