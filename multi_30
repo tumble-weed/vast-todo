@@ -1,9 +1,12 @@
+
 PPR the thresholding diagrams seem too small
 PPR rebrand the method to Saliency as Schedule (SaS): `Intuitive Image Attribution
 PPR deletion graph layout
 PPR block diagram?
 PPR more details of the softmax etc?
 run multi on small datasets for 100 masks?
+SF confirm imagenet results are available for lerger methods
+SF run road deletion on theimagenet methods
 SF partially parsing arguments ( e.g. game_type etc by wrapper for torchray)(harmlessly)
 ----------------------------------------------------
 SF test for methodsavename:
