@@ -26,6 +26,9 @@ images-for-elp-paper
 ...... 3. I think it is better to analyze the computation complexity of the proposed method and other competitors, such as the inference time. Because this method has 2 stages and multiple iterations. It is needed to analyze this for a more comprehensive comparison with other competitors.
 
 sanchit paper: https://cdn.iiit.ac.in/cdn/cvit.iiit.ac.in/images/ConferencePapers/2014/Sanchit2014Estimating.pdf
+
+..............................................................................
+- use the regressor with SESS?
 ..............................................................................
 DONE
     - reduce names of conferences
